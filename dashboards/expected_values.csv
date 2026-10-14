@@ -1,0 +1,86 @@
+page,visual,field,value_from_model_tables,sql_value,sql_source,status
+P1 Overview,Card,Total Accounts,1200,1200,q00,PASS
+P1 Overview,Card,Active Users,3575,3575,q00,PASS
+P1 Overview,Card,Avg DAU,169.0,169.0,q00,PASS
+P1 Overview,Card,MAU (Latest Month 2026-03),2470,2470,q00,PASS
+P1 Overview,Card,Activation Rate %,37.7,37.7,q00,PASS
+P1 Overview,MAU by month,2026-01,1849,1849,q02,PASS
+P1 Overview,DAU/MAU by month,2026-01,0.0751,0.0751,q03,PASS
+P1 Overview,MAU by month,2026-02,2062,2062,q02,PASS
+P1 Overview,DAU/MAU by month,2026-02,0.083,0.083,q03,PASS
+P1 Overview,MAU by month,2026-03,2470,2470,q02,PASS
+P1 Overview,DAU/MAU by month,2026-03,0.0798,0.0798,q03,PASS
+P1 Overview,Card,DAU/MAU (Latest Month),0.08,0.08,q03,PASS
+P1 Overview,DAU trend line,90 daily points (DAU and DAU 7D Avg),90,90,q01,PASS
+P2 Feature Adoption,Adoption bar,Contact Management - Account Adoption %,93.4,93.4,q05,PASS
+P2 Feature Adoption,Adoption bar,Contact Management - User Adoption %,82.4,82.4,q05,PASS
+P2 Feature Adoption,Adoption bar,Lead Management - Account Adoption %,89.8,89.8,q05,PASS
+P2 Feature Adoption,Adoption bar,Lead Management - User Adoption %,78.0,78.0,q05,PASS
+P2 Feature Adoption,Adoption bar,Deal Pipeline - Account Adoption %,78.0,78.0,q05,PASS
+P2 Feature Adoption,Adoption bar,Deal Pipeline - User Adoption %,67.4,67.4,q05,PASS
+P2 Feature Adoption,Adoption bar,Email Integration - Account Adoption %,55.4,55.4,q05,PASS
+P2 Feature Adoption,Adoption bar,Email Integration - User Adoption %,46.2,46.2,q05,PASS
+P2 Feature Adoption,Adoption bar,Reporting - Account Adoption %,44.8,44.8,q05,PASS
+P2 Feature Adoption,Adoption bar,Reporting - User Adoption %,35.0,35.0,q05,PASS
+P2 Feature Adoption,Adoption bar,Workflow Automation - Account Adoption %,26.8,26.8,q05,PASS
+P2 Feature Adoption,Adoption bar,Workflow Automation - User Adoption %,18.8,18.8,q05,PASS
+P2 Feature Adoption,Feature table,Contact Management - Total Events,21137,21137,q06,PASS
+P2 Feature Adoption,Feature table,Contact Management - Feature Event Share %,27.7,27.7,q06,PASS
+P2 Feature Adoption,Feature table,Lead Management - Total Events,19455,19455,q06,PASS
+P2 Feature Adoption,Feature table,Lead Management - Feature Event Share %,25.5,25.5,q06,PASS
+P2 Feature Adoption,Feature table,Deal Pipeline - Total Events,15627,15627,q06,PASS
+P2 Feature Adoption,Feature table,Deal Pipeline - Feature Event Share %,20.5,20.5,q06,PASS
+P2 Feature Adoption,Feature table,Email Integration - Total Events,9670,9670,q06,PASS
+P2 Feature Adoption,Feature table,Email Integration - Feature Event Share %,12.7,12.7,q06,PASS
+P2 Feature Adoption,Feature table,Reporting - Total Events,6754,6754,q06,PASS
+P2 Feature Adoption,Feature table,Reporting - Feature Event Share %,8.9,8.9,q06,PASS
+P2 Feature Adoption,Feature table,Workflow Automation - Total Events,3564,3564,q06,PASS
+P2 Feature Adoption,Feature table,Workflow Automation - Feature Event Share %,4.7,4.7,q06,PASS
+P2 Feature Adoption,Usage by plan,Starter / Contact Management Account Adoption %,91.2,91.2,q08b,PASS
+P2 Feature Adoption,Usage by plan,Starter / Deal Pipeline Account Adoption %,71.0,71.0,q08b,PASS
+P2 Feature Adoption,Usage by plan,Starter / Email Integration Account Adoption %,43.1,43.1,q08b,PASS
+P2 Feature Adoption,Usage by plan,Starter / Lead Management Account Adoption %,87.5,87.5,q08b,PASS
+P2 Feature Adoption,Usage by plan,Starter / Reporting Account Adoption %,21.8,21.8,q08b,PASS
+P2 Feature Adoption,Usage by plan,Starter / Workflow Automation Account Adoption %,6.8,6.8,q08b,PASS
+P2 Feature Adoption,Usage by plan,Professional / Contact Management Account Adoption %,95.6,95.6,q08b,PASS
+P2 Feature Adoption,Usage by plan,Professional / Deal Pipeline Account Adoption %,80.8,80.8,q08b,PASS
+P2 Feature Adoption,Usage by plan,Professional / Email Integration Account Adoption %,60.1,60.1,q08b,PASS
+P2 Feature Adoption,Usage by plan,Professional / Lead Management Account Adoption %,90.9,90.9,q08b,PASS
+P2 Feature Adoption,Usage by plan,Professional / Reporting Account Adoption %,53.1,53.1,q08b,PASS
+P2 Feature Adoption,Usage by plan,Professional / Workflow Automation Account Adoption %,31.6,31.6,q08b,PASS
+P2 Feature Adoption,Usage by plan,Enterprise / Contact Management Account Adoption %,94.0,94.0,q08b,PASS
+P2 Feature Adoption,Usage by plan,Enterprise / Deal Pipeline Account Adoption %,87.6,87.6,q08b,PASS
+P2 Feature Adoption,Usage by plan,Enterprise / Email Integration Account Adoption %,72.9,72.9,q08b,PASS
+P2 Feature Adoption,Usage by plan,Enterprise / Lead Management Account Adoption %,92.7,92.7,q08b,PASS
+P2 Feature Adoption,Usage by plan,Enterprise / Reporting Account Adoption %,78.0,78.0,q08b,PASS
+P2 Feature Adoption,Usage by plan,Enterprise / Workflow Automation Account Adoption %,60.1,60.1,q08b,PASS
+P2 Feature Adoption,New vs established (q07 table),Established (signed up before window) / Contact Management %,87.0,87.0,q07,PASS
+P2 Feature Adoption,New vs established (q07 table),New (signed up in window) / Contact Management %,90.9,90.9,q07,PASS
+P2 Feature Adoption,New vs established (q07 table),Established (signed up before window) / Deal Pipeline %,72.0,72.0,q07,PASS
+P2 Feature Adoption,New vs established (q07 table),New (signed up in window) / Deal Pipeline %,68.8,68.8,q07,PASS
+P2 Feature Adoption,New vs established (q07 table),Established (signed up before window) / Email Integration %,52.3,52.3,q07,PASS
+P2 Feature Adoption,New vs established (q07 table),New (signed up in window) / Email Integration %,45.5,45.5,q07,PASS
+P2 Feature Adoption,New vs established (q07 table),Established (signed up before window) / Lead Management %,82.5,82.5,q07,PASS
+P2 Feature Adoption,New vs established (q07 table),New (signed up in window) / Lead Management %,85.2,85.2,q07,PASS
+P2 Feature Adoption,New vs established (q07 table),Established (signed up before window) / Reporting %,40.6,40.6,q07,PASS
+P2 Feature Adoption,New vs established (q07 table),New (signed up in window) / Reporting %,18.8,18.8,q07,PASS
+P2 Feature Adoption,New vs established (q07 table),Established (signed up before window) / Workflow Automation %,25.9,25.9,q07,PASS
+P2 Feature Adoption,New vs established (q07 table),New (signed up in window) / Workflow Automation %,8.0,8.0,q07,PASS
+P3 Engagement,Card,Inactive Accounts,285,285,q10b,PASS
+P3 Engagement,Card,Inactive Account %,26.3,26.3,q10b,PASS
+P3 Engagement,Inactive % by plan,Enterprise,13.1,13.1,q10b,PASS
+P3 Engagement,Inactive % by plan,Professional,20.0,20.0,q10b,PASS
+P3 Engagement,Inactive % by plan,Starter,36.1,36.1,q10b,PASS
+P3 Engagement,Inactive % by company size,1-10,41.5,41.5,q10b,PASS
+P3 Engagement,Inactive % by company size,11-50,20.1,20.1,q10b,PASS
+P3 Engagement,Inactive % by company size,201+,9.2,9.2,q10b,PASS
+P3 Engagement,Inactive % by company size,51-200,13.9,13.9,q10b,PASS
+P3 Engagement,Inactive table (q10),row count,285,285,q10,PASS
+P3 Engagement,Industry engagement (q09),Manufacturing - accounts active %,83.3,83.3,q09,PASS
+P3 Engagement,Industry engagement (q09),Healthcare - accounts active %,87.3,87.3,q09,PASS
+P3 Engagement,Industry engagement (q09),Education - accounts active %,87.1,87.1,q09,PASS
+P3 Engagement,Industry engagement (q09),Financial Services - accounts active %,85.4,85.4,q09,PASS
+P3 Engagement,Industry engagement (q09),Technology - accounts active %,88.4,88.4,q09,PASS
+P3 Engagement,Industry engagement (q09),Retail & E-commerce - accounts active %,92.0,92.0,q09,PASS
+P3 Engagement,Industry engagement (q09),Real Estate - accounts active %,92.0,92.0,q09,PASS
+P3 Engagement,Industry engagement (q09),Professional Services - accounts active %,90.0,90.0,q09,PASS

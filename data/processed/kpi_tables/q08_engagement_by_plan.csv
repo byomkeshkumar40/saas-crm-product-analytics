@@ -1,0 +1,4 @@
+segment,accounts,active_accounts,pct_accounts_active,total_users,active_users,pct_users_active,events,events_per_account,events_per_account_30d,events_per_active_user,avg_features_per_active_account
+Starter,554,455,82.1,2180,1114,51.1,18190,32.8,12.43,16.3,3.21
+Professional,423,386,91.3,2342,1305,55.7,26409,62.4,25.09,20.2,4.12
+Enterprise,223,218,97.8,1809,1156,63.9,31608,141.7,52.84,27.3,4.85

@@ -1,0 +1,7 @@
+feature_name,feature_tier,sort_order
+Lead Management,Core,1
+Contact Management,Core,2
+Deal Pipeline,Core,3
+Email Integration,Core,4
+Reporting,Advanced,5
+Workflow Automation,Advanced,6

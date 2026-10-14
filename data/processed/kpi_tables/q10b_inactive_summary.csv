@@ -1,0 +1,17 @@
+dimension,segment,eligible_accounts,inactive_accounts,never_active_accounts,inactive_pct_of_eligible
+All,All eligible accounts,1083,285,113,26.3
+Plan,Enterprise,206,27,4,13.1
+Plan,Professional,365,73,23,20.0
+Plan,Starter,512,185,86,36.1
+Company size,1-10,431,179,83,41.5
+Company size,11-50,334,67,23,20.1
+Company size,201+,109,10,1,9.2
+Company size,51-200,209,29,6,13.9
+Industry,Education,93,28,11,30.1
+Industry,Financial Services,150,38,18,25.3
+Industry,Healthcare,125,29,12,23.2
+Industry,Manufacturing,114,39,15,34.2
+Industry,Professional Services,61,16,5,26.2
+Industry,Real Estate,103,23,6,22.3
+Industry,Retail & E-commerce,183,45,15,24.6
+Industry,Technology,254,67,31,26.4

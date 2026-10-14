@@ -1,0 +1,286 @@
+account_id,signup_date,subscription_plan,industry,company_size,region,n_users,events_in_window,last_event_date,inactivity_type,latest_subscription_status
+A0064,2025-08-09,Enterprise,Real Estate,1-10,North America,2,26,2026-02-21,"Lapsed (active earlier, none in last 30 days)",active
+A0101,2025-07-06,Enterprise,Education,51-200,APAC,9,102,2026-02-26,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0168,2026-01-11,Enterprise,Technology,51-200,Europe,10,52,2026-02-12,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0193,2024-03-19,Enterprise,Retail & E-commerce,51-200,Europe,10,4,2026-01-01,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0202,2024-01-04,Enterprise,Professional Services,201+,APAC,10,11,2026-01-28,"Lapsed (active earlier, none in last 30 days)",active
+A0223,2025-12-16,Enterprise,Healthcare,201+,North America,11,13,2026-01-16,"Lapsed (active earlier, none in last 30 days)",active
+A0254,2024-01-18,Enterprise,Healthcare,11-50,North America,4,0,,Never active in window,cancelled
+A0348,2025-12-25,Enterprise,Financial Services,11-50,APAC,3,5,2026-01-06,"Lapsed (active earlier, none in last 30 days)",active
+A0375,2024-11-14,Enterprise,Financial Services,51-200,Europe,7,0,,Never active in window,active
+A0418,2024-02-14,Enterprise,Technology,51-200,North America,6,0,,Never active in window,cancelled
+A0420,2025-01-26,Enterprise,Real Estate,201+,APAC,11,207,2026-02-11,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0422,2026-01-17,Enterprise,Retail & E-commerce,11-50,North America,7,77,2026-02-05,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0458,2025-12-19,Enterprise,Financial Services,11-50,Europe,7,42,2026-02-20,"Lapsed (active earlier, none in last 30 days)",active
+A0460,2024-04-16,Enterprise,Technology,51-200,APAC,8,166,2026-02-27,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0461,2025-03-24,Enterprise,Manufacturing,201+,Europe,9,0,,Never active in window,active
+A0498,2024-04-30,Enterprise,Technology,51-200,North America,8,20,2026-02-20,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0683,2024-09-16,Enterprise,Technology,51-200,North America,5,16,2026-02-24,"Lapsed (active earlier, none in last 30 days)",active
+A0743,2025-02-19,Enterprise,Retail & E-commerce,51-200,LATAM,5,2,2026-01-05,"Lapsed (active earlier, none in last 30 days)",active
+A0768,2025-07-27,Enterprise,Retail & E-commerce,51-200,North America,9,43,2026-02-17,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0793,2024-07-15,Enterprise,Retail & E-commerce,201+,North America,8,28,2026-02-12,"Lapsed (active earlier, none in last 30 days)",active
+A0801,2025-08-24,Enterprise,Technology,201+,North America,13,29,2026-01-14,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0870,2024-12-22,Enterprise,Retail & E-commerce,201+,APAC,11,19,2026-02-24,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0895,2025-09-14,Enterprise,Financial Services,51-200,Europe,7,5,2026-01-17,"Lapsed (active earlier, none in last 30 days)",active
+A0918,2025-03-23,Enterprise,Education,11-50,APAC,4,5,2026-01-08,"Lapsed (active earlier, none in last 30 days)",cancelled
+A1097,2026-01-18,Enterprise,Healthcare,1-10,Europe,2,14,2026-02-08,"Lapsed (active earlier, none in last 30 days)",active
+A1141,2025-06-29,Enterprise,Technology,11-50,LATAM,4,16,2026-02-24,"Lapsed (active earlier, none in last 30 days)",active
+A1163,2026-01-02,Enterprise,Manufacturing,51-200,North America,5,4,2026-01-31,"Lapsed (active earlier, none in last 30 days)",active
+A0006,2024-04-05,Professional,Real Estate,201+,North America,12,103,2026-02-16,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0037,2025-04-20,Professional,Healthcare,201+,APAC,10,17,2026-01-24,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0044,2024-12-10,Professional,Retail & E-commerce,11-50,North America,4,11,2026-01-09,"Lapsed (active earlier, none in last 30 days)",active
+A0066,2025-03-31,Professional,Manufacturing,1-10,Europe,4,6,2026-02-09,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0071,2025-04-14,Professional,Technology,201+,Europe,8,14,2026-01-26,"Lapsed (active earlier, none in last 30 days)",active
+A0074,2024-01-29,Professional,Financial Services,11-50,North America,4,13,2026-01-07,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0077,2024-07-10,Professional,Financial Services,11-50,North America,5,0,,Never active in window,active
+A0092,2025-12-27,Professional,Manufacturing,11-50,APAC,3,35,2026-02-25,"Lapsed (active earlier, none in last 30 days)",active
+A0094,2024-04-16,Professional,Real Estate,1-10,North America,2,12,2026-01-09,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0139,2025-06-19,Professional,Manufacturing,11-50,North America,4,6,2026-01-06,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0145,2024-08-02,Professional,Real Estate,51-200,APAC,10,60,2026-02-11,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0192,2025-04-01,Professional,Healthcare,1-10,North America,4,14,2026-02-04,"Lapsed (active earlier, none in last 30 days)",active
+A0212,2026-01-15,Professional,Manufacturing,1-10,North America,2,4,2026-01-20,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0213,2025-03-14,Professional,Retail & E-commerce,51-200,North America,8,13,2026-01-20,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0216,2024-02-12,Professional,Education,11-50,APAC,7,12,2026-02-13,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0251,2026-01-02,Professional,Manufacturing,1-10,Europe,2,61,2026-02-13,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0291,2026-01-24,Professional,Retail & E-commerce,1-10,North America,3,16,2026-02-26,"Lapsed (active earlier, none in last 30 days)",active
+A0334,2025-10-23,Professional,Retail & E-commerce,51-200,Europe,5,0,,Never active in window,active
+A0345,2025-11-09,Professional,Financial Services,1-10,North America,2,12,2026-02-05,"Lapsed (active earlier, none in last 30 days)",active
+A0370,2024-10-28,Professional,Retail & E-commerce,1-10,LATAM,4,0,,Never active in window,active
+A0373,2026-01-25,Professional,Real Estate,1-10,Europe,4,34,2026-02-24,"Lapsed (active earlier, none in last 30 days)",active
+A0403,2024-08-26,Professional,Manufacturing,1-10,North America,2,6,2026-01-03,"Lapsed (active earlier, none in last 30 days)",active
+A0430,2025-01-05,Professional,Retail & E-commerce,1-10,North America,3,0,,Never active in window,active
+A0439,2026-02-06,Professional,Technology,11-50,LATAM,7,4,2026-02-16,"Lapsed (active earlier, none in last 30 days)",active
+A0463,2026-01-22,Professional,Education,11-50,Europe,3,0,,Never active in window,active
+A0469,2025-07-27,Professional,Education,51-200,North America,7,0,,Never active in window,active
+A0499,2026-01-06,Professional,Real Estate,1-10,LATAM,4,8,2026-02-10,"Lapsed (active earlier, none in last 30 days)",active
+A0500,2026-01-21,Professional,Financial Services,1-10,APAC,2,19,2026-02-19,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0506,2024-08-16,Professional,Technology,11-50,North America,4,0,,Never active in window,active
+A0510,2025-06-08,Professional,Retail & E-commerce,11-50,Europe,4,6,2026-01-27,"Lapsed (active earlier, none in last 30 days)",past_due
+A0549,2024-12-01,Professional,Financial Services,1-10,North America,4,10,2026-02-05,"Lapsed (active earlier, none in last 30 days)",active
+A0578,2025-07-07,Professional,Technology,51-200,Europe,7,51,2026-01-27,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0595,2024-08-16,Professional,Retail & E-commerce,11-50,North America,5,4,2026-01-12,"Lapsed (active earlier, none in last 30 days)",active
+A0606,2024-09-06,Professional,Healthcare,1-10,APAC,3,6,2026-01-12,"Lapsed (active earlier, none in last 30 days)",active
+A0619,2024-07-31,Professional,Technology,11-50,Europe,7,111,2026-02-21,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0639,2024-05-05,Professional,Technology,11-50,North America,3,0,,Never active in window,cancelled
+A0640,2024-05-16,Professional,Technology,11-50,North America,3,24,2026-02-03,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0645,2026-02-05,Professional,Professional Services,1-10,Europe,4,22,2026-02-23,"Lapsed (active earlier, none in last 30 days)",active
+A0657,2025-05-02,Professional,Education,1-10,North America,2,0,,Never active in window,active
+A0664,2025-08-30,Professional,Technology,1-10,North America,2,0,,Never active in window,cancelled
+A0670,2026-01-10,Professional,Technology,1-10,APAC,3,0,,Never active in window,active
+A0680,2025-10-06,Professional,Manufacturing,11-50,APAC,4,44,2026-01-23,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0693,2025-03-24,Professional,Technology,51-200,APAC,8,69,2026-02-13,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0731,2025-10-30,Professional,Financial Services,11-50,Middle East & Africa,3,35,2026-02-20,"Lapsed (active earlier, none in last 30 days)",past_due
+A0732,2025-08-18,Professional,Healthcare,51-200,Europe,9,21,2026-02-10,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0736,2026-02-21,Professional,Retail & E-commerce,11-50,North America,4,0,,Never active in window,active
+A0738,2025-06-11,Professional,Manufacturing,1-10,APAC,4,0,,Never active in window,cancelled
+A0746,2025-05-08,Professional,Retail & E-commerce,11-50,Europe,5,0,,Never active in window,active
+A0750,2024-09-27,Professional,Education,11-50,North America,3,6,2026-03-01,"Lapsed (active earlier, none in last 30 days)",active
+A0751,2024-09-24,Professional,Technology,51-200,Europe,7,50,2026-02-05,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0764,2024-03-27,Professional,Healthcare,11-50,APAC,4,16,2026-02-18,"Lapsed (active earlier, none in last 30 days)",active
+A0775,2026-01-03,Professional,Financial Services,11-50,APAC,7,15,2026-02-23,"Lapsed (active earlier, none in last 30 days)",active
+A0798,2024-11-06,Professional,Manufacturing,1-10,APAC,4,18,2026-02-20,"Lapsed (active earlier, none in last 30 days)",active
+A0800,2024-07-14,Professional,Retail & E-commerce,51-200,Europe,5,12,2026-02-17,"Lapsed (active earlier, none in last 30 days)",active
+A0836,2025-06-06,Professional,Healthcare,51-200,APAC,6,0,,Never active in window,active
+A0837,2026-02-17,Professional,Education,51-200,APAC,7,7,2026-02-19,"Lapsed (active earlier, none in last 30 days)",active
+A0876,2024-10-23,Professional,Professional Services,11-50,North America,3,15,2026-01-29,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0929,2026-02-15,Professional,Education,1-10,North America,3,9,2026-02-17,"Lapsed (active earlier, none in last 30 days)",active
+A0956,2024-02-26,Professional,Financial Services,1-10,North America,2,4,2026-01-14,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0997,2024-08-09,Professional,Real Estate,11-50,Europe,6,6,2026-01-01,"Lapsed (active earlier, none in last 30 days)",cancelled
+A1006,2024-01-02,Professional,Professional Services,11-50,Europe,5,10,2026-01-01,"Lapsed (active earlier, none in last 30 days)",cancelled
+A1008,2026-01-23,Professional,Education,11-50,North America,6,0,,Never active in window,cancelled
+A1016,2024-04-19,Professional,Retail & E-commerce,1-10,Europe,2,0,,Never active in window,active
+A1038,2024-07-03,Professional,Manufacturing,1-10,APAC,2,0,,Never active in window,cancelled
+A1049,2025-10-28,Professional,Healthcare,1-10,APAC,3,0,,Never active in window,active
+A1067,2024-01-03,Professional,Professional Services,1-10,LATAM,2,9,2026-02-19,"Lapsed (active earlier, none in last 30 days)",active
+A1069,2024-02-14,Professional,Manufacturing,51-200,Europe,6,14,2026-01-29,"Lapsed (active earlier, none in last 30 days)",cancelled
+A1074,2024-07-31,Professional,Healthcare,11-50,North America,4,0,,Never active in window,active
+A1124,2024-12-03,Professional,Technology,51-200,Europe,5,0,,Never active in window,active
+A1144,2024-04-08,Professional,Financial Services,51-200,APAC,7,22,2026-02-13,"Lapsed (active earlier, none in last 30 days)",active
+A1149,2025-09-08,Professional,Financial Services,11-50,North America,5,10,2026-01-22,"Lapsed (active earlier, none in last 30 days)",past_due
+A1174,2025-12-09,Professional,Manufacturing,1-10,North America,2,0,,Never active in window,active
+A1185,2024-09-19,Professional,Technology,1-10,North America,2,0,,Never active in window,active
+A0009,2026-02-22,Starter,Manufacturing,1-10,LATAM,3,0,,Never active in window,active
+A0011,2025-11-05,Starter,Retail & E-commerce,1-10,APAC,4,23,2026-02-16,"Lapsed (active earlier, none in last 30 days)",active
+A0033,2026-01-13,Starter,Healthcare,11-50,North America,4,0,,Never active in window,active
+A0048,2025-06-11,Starter,Healthcare,1-10,North America,4,40,2026-02-09,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0055,2024-07-02,Starter,Technology,1-10,APAC,2,3,2026-02-23,"Lapsed (active earlier, none in last 30 days)",active
+A0058,2026-02-05,Starter,Healthcare,11-50,APAC,3,0,,Never active in window,active
+A0059,2025-07-12,Starter,Real Estate,1-10,Europe,3,0,,Never active in window,cancelled
+A0062,2025-08-27,Starter,Technology,1-10,Europe,4,16,2026-02-19,"Lapsed (active earlier, none in last 30 days)",active
+A0086,2024-02-16,Starter,Technology,1-10,Europe,2,0,,Never active in window,active
+A0088,2025-04-02,Starter,Professional Services,1-10,North America,3,0,,Never active in window,active
+A0096,2024-12-04,Starter,Manufacturing,1-10,APAC,3,0,,Never active in window,active
+A0099,2025-09-10,Starter,Education,1-10,Europe,4,0,,Never active in window,active
+A0113,2025-07-08,Starter,Technology,1-10,North America,2,0,,Never active in window,active
+A0123,2024-05-06,Starter,Manufacturing,1-10,Europe,2,2,2026-01-08,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0127,2024-11-11,Starter,Financial Services,11-50,Europe,3,3,2026-02-12,"Lapsed (active earlier, none in last 30 days)",active
+A0147,2025-03-27,Starter,Technology,1-10,Middle East & Africa,2,0,,Never active in window,active
+A0165,2026-03-02,Starter,Manufacturing,1-10,APAC,4,0,,Never active in window,active
+A0176,2024-06-15,Starter,Technology,1-10,North America,2,14,2026-02-11,"Lapsed (active earlier, none in last 30 days)",active
+A0178,2024-01-20,Starter,Professional Services,1-10,North America,2,0,,Never active in window,active
+A0181,2025-11-19,Starter,Retail & E-commerce,1-10,APAC,3,0,,Never active in window,active
+A0194,2025-10-18,Starter,Manufacturing,11-50,North America,6,30,2026-02-15,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0195,2024-06-26,Starter,Retail & E-commerce,1-10,LATAM,3,8,2026-01-22,"Lapsed (active earlier, none in last 30 days)",past_due
+A0196,2025-04-04,Starter,Retail & E-commerce,11-50,LATAM,3,0,,Never active in window,active
+A0201,2026-02-13,Starter,Technology,1-10,Europe,2,5,2026-02-16,"Lapsed (active earlier, none in last 30 days)",active
+A0206,2025-05-09,Starter,Technology,1-10,North America,3,0,,Never active in window,active
+A0211,2024-04-02,Starter,Technology,11-50,Europe,5,0,,Never active in window,active
+A0215,2026-01-15,Starter,Financial Services,1-10,Europe,4,0,,Never active in window,cancelled
+A0220,2026-02-07,Starter,Education,1-10,North America,3,6,2026-02-26,"Lapsed (active earlier, none in last 30 days)",active
+A0224,2024-10-03,Starter,Technology,1-10,APAC,2,0,,Never active in window,active
+A0228,2024-10-31,Starter,Financial Services,1-10,Middle East & Africa,2,9,2026-01-16,"Lapsed (active earlier, none in last 30 days)",active
+A0238,2025-02-13,Starter,Financial Services,1-10,LATAM,4,0,,Never active in window,active
+A0240,2024-01-14,Starter,Healthcare,11-50,APAC,7,0,,Never active in window,active
+A0241,2025-05-10,Starter,Manufacturing,1-10,APAC,2,0,,Never active in window,active
+A0258,2025-06-05,Starter,Education,1-10,APAC,3,0,,Never active in window,active
+A0270,2025-06-12,Starter,Manufacturing,1-10,North America,3,10,2026-02-18,"Lapsed (active earlier, none in last 30 days)",active
+A0275,2024-10-18,Starter,Manufacturing,1-10,North America,3,8,2026-01-16,"Lapsed (active earlier, none in last 30 days)",active
+A0278,2024-07-09,Starter,Manufacturing,1-10,APAC,4,0,,Never active in window,active
+A0279,2026-01-05,Starter,Retail & E-commerce,11-50,North America,4,0,,Never active in window,active
+A0283,2025-08-31,Starter,Technology,1-10,North America,3,25,2026-02-13,"Lapsed (active earlier, none in last 30 days)",active
+A0284,2025-10-25,Starter,Retail & E-commerce,1-10,APAC,2,4,2026-01-27,"Lapsed (active earlier, none in last 30 days)",active
+A0288,2024-09-19,Starter,Financial Services,1-10,North America,2,0,,Never active in window,active
+A0292,2025-09-11,Starter,Professional Services,1-10,Europe,2,0,,Never active in window,active
+A0303,2024-06-24,Starter,Healthcare,1-10,North America,4,25,2026-02-11,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0322,2024-01-12,Starter,Technology,1-10,Europe,3,26,2026-01-29,"Lapsed (active earlier, none in last 30 days)",active
+A0324,2025-05-19,Starter,Manufacturing,1-10,North America,3,0,,Never active in window,active
+A0328,2025-10-02,Starter,Financial Services,1-10,Europe,3,5,2026-01-30,"Lapsed (active earlier, none in last 30 days)",active
+A0338,2025-06-20,Starter,Technology,1-10,North America,4,0,,Never active in window,active
+A0340,2024-07-02,Starter,Professional Services,1-10,North America,4,13,2026-01-21,"Lapsed (active earlier, none in last 30 days)",active
+A0342,2024-07-28,Starter,Healthcare,11-50,North America,6,2,2026-01-28,"Lapsed (active earlier, none in last 30 days)",active
+A0343,2025-06-10,Starter,Real Estate,1-10,North America,4,0,,Never active in window,active
+A0347,2025-12-21,Starter,Technology,1-10,LATAM,4,0,,Never active in window,active
+A0351,2024-10-11,Starter,Financial Services,51-200,LATAM,10,8,2026-02-05,"Lapsed (active earlier, none in last 30 days)",active
+A0358,2025-10-04,Starter,Retail & E-commerce,11-50,Europe,5,5,2026-01-07,"Lapsed (active earlier, none in last 30 days)",active
+A0360,2025-08-08,Starter,Financial Services,1-10,North America,2,0,,Never active in window,active
+A0363,2024-02-01,Starter,Technology,1-10,North America,2,19,2026-02-26,"Lapsed (active earlier, none in last 30 days)",active
+A0367,2024-05-17,Starter,Real Estate,11-50,North America,3,17,2026-01-27,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0369,2025-09-02,Starter,Manufacturing,1-10,APAC,2,5,2026-02-09,"Lapsed (active earlier, none in last 30 days)",active
+A0385,2025-05-04,Starter,Financial Services,1-10,North America,2,0,,Never active in window,active
+A0397,2024-06-01,Starter,Retail & E-commerce,1-10,North America,4,16,2026-01-30,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0399,2025-11-07,Starter,Technology,1-10,Middle East & Africa,3,0,,Never active in window,active
+A0407,2025-02-14,Starter,Financial Services,1-10,North America,2,0,,Never active in window,active
+A0409,2024-07-30,Starter,Financial Services,1-10,North America,3,0,,Never active in window,active
+A0410,2024-01-13,Starter,Education,1-10,North America,3,0,,Never active in window,active
+A0427,2025-06-05,Starter,Professional Services,1-10,Europe,3,17,2026-02-02,"Lapsed (active earlier, none in last 30 days)",active
+A0441,2025-08-15,Starter,Technology,11-50,Europe,3,13,2026-01-22,"Lapsed (active earlier, none in last 30 days)",active
+A0442,2024-05-20,Starter,Healthcare,11-50,LATAM,5,22,2026-02-16,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0449,2024-03-06,Starter,Financial Services,1-10,North America,2,9,2026-02-06,"Lapsed (active earlier, none in last 30 days)",active
+A0462,2024-05-09,Starter,Education,1-10,North America,4,10,2026-02-04,"Lapsed (active earlier, none in last 30 days)",active
+A0467,2024-10-21,Starter,Financial Services,1-10,Europe,3,0,,Never active in window,past_due
+A0475,2024-09-02,Starter,Retail & E-commerce,51-200,Europe,6,14,2026-03-01,"Lapsed (active earlier, none in last 30 days)",active
+A0491,2025-05-30,Starter,Technology,1-10,North America,4,0,,Never active in window,cancelled
+A0508,2024-06-27,Starter,Manufacturing,1-10,North America,4,8,2026-01-21,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0514,2025-08-01,Starter,Retail & E-commerce,1-10,APAC,4,0,,Never active in window,active
+A0519,2025-01-27,Starter,Manufacturing,1-10,LATAM,4,0,,Never active in window,past_due
+A0520,2025-02-22,Starter,Retail & E-commerce,1-10,APAC,2,8,2026-01-15,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0521,2025-08-20,Starter,Technology,11-50,LATAM,5,0,,Never active in window,active
+A0522,2024-09-18,Starter,Real Estate,1-10,Europe,2,13,2026-02-02,"Lapsed (active earlier, none in last 30 days)",active
+A0537,2024-09-23,Starter,Retail & E-commerce,1-10,LATAM,4,22,2026-02-24,"Lapsed (active earlier, none in last 30 days)",active
+A0541,2026-01-22,Starter,Manufacturing,1-10,North America,2,13,2026-02-20,"Lapsed (active earlier, none in last 30 days)",active
+A0547,2025-09-16,Starter,Technology,1-10,APAC,4,0,,Never active in window,active
+A0552,2025-03-09,Starter,Financial Services,1-10,LATAM,4,2,2026-01-21,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0562,2024-10-20,Starter,Retail & E-commerce,1-10,North America,4,0,,Never active in window,active
+A0566,2025-10-05,Starter,Technology,1-10,Europe,2,5,2026-01-28,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0567,2025-08-08,Starter,Real Estate,1-10,North America,3,3,2026-01-20,"Lapsed (active earlier, none in last 30 days)",active
+A0573,2024-09-06,Starter,Technology,11-50,North America,4,12,2026-02-27,"Lapsed (active earlier, none in last 30 days)",active
+A0582,2024-10-12,Starter,Financial Services,1-10,North America,4,0,,Never active in window,active
+A0597,2025-11-04,Starter,Technology,1-10,Europe,4,0,,Never active in window,cancelled
+A0600,2024-05-29,Starter,Healthcare,1-10,North America,2,22,2026-02-02,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0604,2025-05-13,Starter,Education,11-50,North America,4,9,2026-01-05,"Lapsed (active earlier, none in last 30 days)",active
+A0607,2024-09-04,Starter,Retail & E-commerce,1-10,Europe,4,55,2026-02-24,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0610,2024-01-15,Starter,Retail & E-commerce,1-10,Europe,4,19,2026-02-25,"Lapsed (active earlier, none in last 30 days)",active
+A0614,2025-03-19,Starter,Technology,11-50,APAC,4,0,,Never active in window,active
+A0646,2024-09-16,Starter,Technology,1-10,Europe,2,7,2026-02-25,"Lapsed (active earlier, none in last 30 days)",active
+A0647,2024-05-12,Starter,Professional Services,1-10,APAC,4,16,2026-01-29,"Lapsed (active earlier, none in last 30 days)",active
+A0651,2024-07-14,Starter,Retail & E-commerce,1-10,North America,3,0,,Never active in window,active
+A0653,2025-04-27,Starter,Financial Services,1-10,Europe,4,0,,Never active in window,cancelled
+A0660,2025-10-18,Starter,Healthcare,1-10,APAC,3,0,,Never active in window,active
+A0661,2025-11-26,Starter,Technology,1-10,North America,4,0,,Never active in window,active
+A0662,2024-11-08,Starter,Retail & E-commerce,1-10,North America,4,17,2026-02-28,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0667,2026-02-23,Starter,Financial Services,1-10,Europe,4,0,,Never active in window,active
+A0668,2026-01-11,Starter,Financial Services,1-10,Europe,4,8,2026-01-30,"Lapsed (active earlier, none in last 30 days)",active
+A0671,2026-01-12,Starter,Technology,1-10,North America,2,0,,Never active in window,active
+A0675,2025-04-12,Starter,Professional Services,1-10,LATAM,2,0,,Never active in window,active
+A0679,2026-03-01,Starter,Technology,11-50,Europe,6,0,,Never active in window,active
+A0682,2025-07-22,Starter,Real Estate,1-10,LATAM,3,5,2026-02-16,"Lapsed (active earlier, none in last 30 days)",active
+A0685,2025-06-12,Starter,Technology,1-10,APAC,2,0,,Never active in window,active
+A0700,2025-12-10,Starter,Education,11-50,Europe,3,6,2026-01-26,"Lapsed (active earlier, none in last 30 days)",active
+A0713,2026-01-08,Starter,Manufacturing,1-10,North America,2,9,2026-02-19,"Lapsed (active earlier, none in last 30 days)",active
+A0716,2024-09-11,Starter,Real Estate,1-10,North America,2,0,,Never active in window,active
+A0719,2024-02-03,Starter,Technology,1-10,North America,4,4,2026-02-23,"Lapsed (active earlier, none in last 30 days)",active
+A0724,2025-10-17,Starter,Technology,1-10,North America,2,3,2026-01-24,"Lapsed (active earlier, none in last 30 days)",active
+A0728,2026-02-09,Starter,Technology,1-10,Middle East & Africa,2,2,2026-02-09,"Lapsed (active earlier, none in last 30 days)",active
+A0749,2025-04-06,Starter,Healthcare,1-10,Europe,2,2,2026-02-24,"Lapsed (active earlier, none in last 30 days)",active
+A0754,2024-09-13,Starter,Manufacturing,51-200,Europe,7,3,2026-01-29,"Lapsed (active earlier, none in last 30 days)",active
+A0756,2025-08-28,Starter,Technology,1-10,Europe,4,13,2026-02-19,"Lapsed (active earlier, none in last 30 days)",active
+A0757,2025-02-11,Starter,Technology,1-10,Europe,3,13,2026-02-24,"Lapsed (active earlier, none in last 30 days)",active
+A0772,2024-10-03,Starter,Healthcare,1-10,APAC,2,0,,Never active in window,active
+A0774,2025-10-02,Starter,Technology,1-10,Middle East & Africa,4,3,2026-02-11,"Lapsed (active earlier, none in last 30 days)",active
+A0778,2026-01-29,Starter,Healthcare,1-10,Europe,3,9,2026-02-17,"Lapsed (active earlier, none in last 30 days)",active
+A0780,2025-10-06,Starter,Professional Services,1-10,APAC,3,9,2026-02-19,"Lapsed (active earlier, none in last 30 days)",past_due
+A0791,2026-01-17,Starter,Manufacturing,1-10,Europe,3,12,2026-02-10,"Lapsed (active earlier, none in last 30 days)",active
+A0804,2024-11-18,Starter,Retail & E-commerce,1-10,North America,3,6,2026-01-14,"Lapsed (active earlier, none in last 30 days)",active
+A0806,2024-01-31,Starter,Education,1-10,North America,3,0,,Never active in window,active
+A0811,2025-05-23,Starter,Education,1-10,Middle East & Africa,2,0,,Never active in window,cancelled
+A0851,2024-05-25,Starter,Technology,1-10,APAC,2,0,,Never active in window,active
+A0859,2024-07-21,Starter,Healthcare,1-10,North America,4,0,,Never active in window,active
+A0860,2026-01-25,Starter,Technology,1-10,North America,2,0,,Never active in window,active
+A0863,2024-06-04,Starter,Real Estate,1-10,Europe,2,0,,Never active in window,active
+A0867,2024-11-19,Starter,Healthcare,1-10,LATAM,2,0,,Never active in window,active
+A0880,2024-05-19,Starter,Education,1-10,North America,2,2,2026-02-12,"Lapsed (active earlier, none in last 30 days)",active
+A0888,2025-09-05,Starter,Education,1-10,LATAM,4,4,2026-02-12,"Lapsed (active earlier, none in last 30 days)",active
+A0889,2026-01-21,Starter,Professional Services,1-10,Europe,2,3,2026-02-26,"Lapsed (active earlier, none in last 30 days)",active
+A0890,2024-02-05,Starter,Financial Services,1-10,North America,3,6,2026-02-20,"Lapsed (active earlier, none in last 30 days)",active
+A0892,2025-01-29,Starter,Financial Services,1-10,North America,4,0,,Never active in window,cancelled
+A0898,2025-08-13,Starter,Education,1-10,Europe,2,11,2026-02-26,"Lapsed (active earlier, none in last 30 days)",active
+A0904,2025-02-21,Starter,Retail & E-commerce,11-50,North America,3,2,2026-02-18,"Lapsed (active earlier, none in last 30 days)",active
+A0933,2024-01-19,Starter,Technology,1-10,Middle East & Africa,2,7,2026-02-20,"Lapsed (active earlier, none in last 30 days)",active
+A0942,2025-07-21,Starter,Real Estate,1-10,APAC,4,4,2026-02-14,"Lapsed (active earlier, none in last 30 days)",active
+A0944,2026-01-20,Starter,Financial Services,1-10,APAC,3,0,,Never active in window,active
+A0945,2024-04-17,Starter,Technology,1-10,Europe,2,13,2026-01-22,"Lapsed (active earlier, none in last 30 days)",active
+A0946,2025-07-10,Starter,Technology,1-10,Europe,2,6,2026-01-05,"Lapsed (active earlier, none in last 30 days)",active
+A0953,2025-06-01,Starter,Manufacturing,11-50,Europe,6,10,2026-01-11,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0955,2025-01-08,Starter,Real Estate,1-10,APAC,3,8,2026-01-09,"Lapsed (active earlier, none in last 30 days)",active
+A0979,2025-08-14,Starter,Manufacturing,11-50,Europe,4,11,2026-01-08,"Lapsed (active earlier, none in last 30 days)",active
+A0980,2024-09-15,Starter,Real Estate,1-10,North America,4,3,2026-01-25,"Lapsed (active earlier, none in last 30 days)",cancelled
+A0988,2024-07-05,Starter,Retail & E-commerce,11-50,Europe,3,17,2026-01-29,"Lapsed (active earlier, none in last 30 days)",active
+A0989,2025-06-21,Starter,Manufacturing,1-10,North America,3,14,2026-02-19,"Lapsed (active earlier, none in last 30 days)",active
+A0992,2024-07-10,Starter,Education,1-10,North America,2,0,,Never active in window,active
+A0994,2025-02-08,Starter,Healthcare,1-10,APAC,2,0,,Never active in window,active
+A0995,2026-01-26,Starter,Retail & E-commerce,1-10,APAC,4,0,,Never active in window,active
+A0998,2024-02-19,Starter,Manufacturing,1-10,Middle East & Africa,2,0,,Never active in window,active
+A0999,2025-02-02,Starter,Healthcare,1-10,Europe,3,6,2026-02-04,"Lapsed (active earlier, none in last 30 days)",cancelled
+A1001,2024-04-03,Starter,Retail & E-commerce,1-10,North America,3,4,2026-01-16,"Lapsed (active earlier, none in last 30 days)",active
+A1007,2024-11-07,Starter,Education,1-10,North America,4,0,,Never active in window,active
+A1010,2024-12-12,Starter,Technology,1-10,North America,4,0,,Never active in window,active
+A1018,2026-02-22,Starter,Manufacturing,1-10,Europe,3,0,,Never active in window,active
+A1021,2026-02-18,Starter,Professional Services,1-10,North America,3,0,,Never active in window,active
+A1028,2025-10-11,Starter,Technology,1-10,North America,4,77,2026-02-06,"Lapsed (active earlier, none in last 30 days)",cancelled
+A1035,2025-07-30,Starter,Financial Services,11-50,Europe,3,0,,Never active in window,active
+A1042,2025-04-03,Starter,Retail & E-commerce,1-10,Europe,4,13,2026-01-16,"Lapsed (active earlier, none in last 30 days)",cancelled
+A1043,2025-07-08,Starter,Manufacturing,11-50,North America,5,4,2026-01-15,"Lapsed (active earlier, none in last 30 days)",active
+A1044,2025-05-19,Starter,Real Estate,1-10,North America,2,9,2026-01-16,"Lapsed (active earlier, none in last 30 days)",cancelled
+A1063,2024-11-14,Starter,Financial Services,1-10,North America,4,0,,Never active in window,active
+A1065,2025-12-11,Starter,Retail & E-commerce,11-50,North America,3,0,,Never active in window,active
+A1077,2025-03-21,Starter,Retail & E-commerce,11-50,Europe,7,24,2026-02-16,"Lapsed (active earlier, none in last 30 days)",active
+A1086,2024-01-06,Starter,Real Estate,11-50,Europe,7,0,,Never active in window,active
+A1095,2025-12-06,Starter,Education,11-50,APAC,6,14,2026-02-20,"Lapsed (active earlier, none in last 30 days)",active
+A1100,2024-01-24,Starter,Education,1-10,North America,2,8,2026-02-15,"Lapsed (active earlier, none in last 30 days)",cancelled
+A1103,2025-11-01,Starter,Retail & E-commerce,1-10,Europe,2,6,2026-02-04,"Lapsed (active earlier, none in last 30 days)",active
+A1116,2026-01-07,Starter,Technology,1-10,North America,2,16,2026-01-29,"Lapsed (active earlier, none in last 30 days)",active
+A1118,2024-08-04,Starter,Technology,1-10,APAC,3,0,,Never active in window,active
+A1121,2026-01-24,Starter,Healthcare,11-50,North America,4,17,2026-02-17,"Lapsed (active earlier, none in last 30 days)",active
+A1126,2025-09-03,Starter,Real Estate,1-10,North America,2,0,,Never active in window,active
+A1127,2025-10-23,Starter,Manufacturing,1-10,North America,4,0,,Never active in window,active
+A1131,2025-03-20,Starter,Manufacturing,1-10,North America,2,0,,Never active in window,active
+A1146,2024-10-06,Starter,Technology,1-10,North America,3,5,2026-01-29,"Lapsed (active earlier, none in last 30 days)",active
+A1148,2025-07-29,Starter,Retail & E-commerce,1-10,Europe,2,0,,Never active in window,active
+A1150,2024-07-09,Starter,Technology,11-50,North America,7,0,,Never active in window,active
+A1157,2025-08-19,Starter,Technology,11-50,North America,3,0,,Never active in window,active
+A1158,2026-02-16,Starter,Education,11-50,APAC,3,3,2026-02-27,"Lapsed (active earlier, none in last 30 days)",active
+A1159,2025-02-06,Starter,Real Estate,1-10,North America,3,9,2026-02-04,"Lapsed (active earlier, none in last 30 days)",active
+A1164,2024-09-29,Starter,Professional Services,1-10,North America,2,14,2026-02-04,"Lapsed (active earlier, none in last 30 days)",active
+A1170,2025-07-30,Starter,Education,1-10,APAC,3,5,2026-02-11,"Lapsed (active earlier, none in last 30 days)",active
+A1189,2026-02-02,Starter,Financial Services,1-10,APAC,2,0,,Never active in window,active
+A1193,2024-09-16,Starter,Healthcare,11-50,Europe,5,3,2026-01-02,"Lapsed (active earlier, none in last 30 days)",cancelled

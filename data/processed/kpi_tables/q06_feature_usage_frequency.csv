@@ -1,0 +1,7 @@
+feature_name,events,pct_of_all_events,users_using,accounts_using,events_per_using_user,events_per_using_account,user_active_days,active_days_per_using_user
+Contact Management,21137,27.7,2945,989,7.2,21.4,8634,2.93
+Lead Management,19455,25.5,2788,951,7.0,20.5,8159,2.93
+Deal Pipeline,15627,20.5,2410,826,6.5,18.9,6876,2.85
+Email Integration,9670,12.7,1650,587,5.9,16.5,4535,2.75
+Reporting,6754,8.9,1252,474,5.4,14.2,3088,2.47
+Workflow Automation,3564,4.7,671,284,5.3,12.5,1593,2.37

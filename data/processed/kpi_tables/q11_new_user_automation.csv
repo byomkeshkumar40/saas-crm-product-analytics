@@ -1,0 +1,17 @@
+cohort,dimension,segment,cohort_users,active_users,automation_users,pct_of_all_cohort_users,pct_of_active_users
+New users (created in window),All,All users,2232,991,86,3.9,8.7
+New users (created in window),Plan,Enterprise,629,310,53,8.4,17.1
+New users (created in window),Plan,Professional,873,390,28,3.2,7.2
+New users (created in window),Plan,Starter,730,291,5,0.7,1.7
+New users (created in window),Role,admin,592,255,34,5.7,13.3
+New users (created in window),Role,analyst,203,72,10,4.9,13.9
+New users (created in window),Role,manager,396,157,17,4.3,10.8
+New users (created in window),Role,sales_rep,1041,507,25,2.4,4.9
+Established users (created before window),All,All users,3503,946,144,4.1,15.2
+Established users (created before window),Plan,Enterprise,1014,338,78,7.7,23.1
+Established users (created before window),Plan,Professional,1207,343,54,4.5,15.7
+Established users (created before window),Plan,Starter,1282,265,12,0.9,4.5
+Established users (created before window),Role,admin,1252,329,93,7.4,28.3
+Established users (created before window),Role,analyst,286,60,8,2.8,13.3
+Established users (created before window),Role,manager,545,136,11,2.0,8.1
+Established users (created before window),Role,sales_rep,1420,421,32,2.3,7.6

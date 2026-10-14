@@ -1,0 +1,5 @@
+segment,accounts,active_accounts,pct_accounts_active,total_users,active_users,pct_users_active,events,events_per_account,events_per_account_30d,events_per_active_user,avg_features_per_active_account
+1-10,464,370,79.7,1392,693,49.8,11286,24.3,9.21,16.3,3.29
+11-50,379,346,91.3,1886,1055,55.9,20293,53.5,21.05,19.2,3.9
+51-200,240,227,94.6,1798,1031,57.3,24252,101.0,40.2,23.5,4.26
+201+,117,116,99.1,1255,796,63.4,20376,174.2,63.46,25.6,4.94

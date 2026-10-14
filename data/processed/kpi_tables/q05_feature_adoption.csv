@@ -1,0 +1,7 @@
+feature_name,accounts_using,active_accounts,account_adoption_pct_of_active_accounts,all_accounts,account_adoption_pct_of_all_accounts,users_using,active_users,user_adoption_pct_of_active_users
+Contact Management,989,1059,93.4,1200,82.4,2945,3575,82.4
+Lead Management,951,1059,89.8,1200,79.3,2788,3575,78.0
+Deal Pipeline,826,1059,78.0,1200,68.8,2410,3575,67.4
+Email Integration,587,1059,55.4,1200,48.9,1650,3575,46.2
+Reporting,474,1059,44.8,1200,39.5,1252,3575,35.0
+Workflow Automation,284,1059,26.8,1200,23.7,671,3575,18.8

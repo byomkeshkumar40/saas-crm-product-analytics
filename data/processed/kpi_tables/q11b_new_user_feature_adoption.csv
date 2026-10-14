@@ -1,0 +1,13 @@
+cohort,feature_name,active_users,users_using,adoption_pct_of_active_users
+New users (created in window),Contact Management,991,768,77.5
+New users (created in window),Deal Pipeline,991,580,58.5
+New users (created in window),Email Integration,991,378,38.1
+New users (created in window),Lead Management,991,718,72.5
+New users (created in window),Reporting,991,190,19.2
+New users (created in window),Workflow Automation,991,86,8.7
+Established users (created before window),Contact Management,946,644,68.1
+Established users (created before window),Deal Pipeline,946,527,55.7
+Established users (created before window),Email Integration,946,340,35.9
+Established users (created before window),Lead Management,946,594,62.8
+Established users (created before window),Reporting,946,271,28.6
+Established users (created before window),Workflow Automation,946,144,15.2

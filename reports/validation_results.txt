@@ -1,0 +1,164 @@
+# validate_data.py
+== Part 1: raw data integrity
+[PASS] accounts >= 1,000 (target ~1,200)  (1200)
+[PASS] events >= 25,000  (76207)
+[PASS] accounts.account_id unique
+[PASS] users.user_id unique
+[PASS] events.event_id unique
+[PASS] subscriptions.subscription_id unique
+[PASS] users.account_id -> accounts
+[PASS] subscriptions.account_id -> accounts
+[PASS] events.user_id -> users
+[PASS] events.account_id -> accounts
+[PASS] events.account_id matches the user's account
+[PASS] every account has >= 2 users
+[PASS] event_timestamp format YYYY-MM-DD HH:MM:SS
+[PASS] event_timestamp inside 2026-01-01..2026-03-31
+[PASS] event_timestamp after user created_at
+[PASS] event_timestamp on/after account signup_date
+[PASS] users.created_at on/after account signup_date and <= window end
+[PASS] feature_name in the six CRM features
+[PASS] each event_name belongs to exactly one feature
+[PASS] each session_id belongs to a single user
+[PASS] latest subscription plan == accounts.subscription_plan
+[PASS] every account has a subscription
+[PASS] subscription_start on/after signup_date
+
+== Part 2: KPI cross-check (SQL output vs independent Python recomputation)
+[PASS] total_accounts
+[PASS] active_users_90d
+[PASS] active_accounts_90d
+[PASS] avg_dau (90-day mean, zero days included)  (169.0 vs 168.96)
+[PASS] mau_latest_month (2026-03)
+[PASS] MAU 2026-01
+[PASS] MAU 2026-02
+[PASS] MAU 2026-03
+[PASS] DAU table has 90 consecutive days
+[PASS] DAU values match
+[PASS] DAU/MAU 2026-01  (0.0751 vs 0.0751)
+[PASS] DAU/MAU 2026-01 within (0,1]
+[PASS] DAU/MAU 2026-02  (0.083 vs 0.0830)
+[PASS] DAU/MAU 2026-02 within (0,1]
+[PASS] DAU/MAU 2026-03  (0.0798 vs 0.0798)
+[PASS] DAU/MAU 2026-03 within (0,1]
+[PASS] activation cohort size  (273)
+[PASS] activated accounts  (103)
+[PASS] activation rate
+[PASS] activation denominator > 0 and activated <= cohort
+[PASS] adoption Contact Management (account, % of active accounts)
+[PASS] adoption Contact Management (user, % of active users)
+[PASS] adoption Lead Management (account, % of active accounts)
+[PASS] adoption Lead Management (user, % of active users)
+[PASS] adoption Deal Pipeline (account, % of active accounts)
+[PASS] adoption Deal Pipeline (user, % of active users)
+[PASS] adoption Email Integration (account, % of active accounts)
+[PASS] adoption Email Integration (user, % of active users)
+[PASS] adoption Reporting (account, % of active accounts)
+[PASS] adoption Reporting (user, % of active users)
+[PASS] adoption Workflow Automation (account, % of active accounts)
+[PASS] adoption Workflow Automation (user, % of active users)
+[PASS] feature event counts sum to total events
+[PASS] feature event counts match
+[PASS] q08_engagement_by_plan: accounts sum to total
+[PASS] q08_engagement_by_plan: events sum to total
+[PASS] q08_engagement_by_plan: active accounts sum to total
+[PASS] q09_engagement_by_industry: accounts sum to total
+[PASS] q09_engagement_by_industry: events sum to total
+[PASS] q09_engagement_by_industry: active accounts sum to total
+[PASS] q09b_engagement_by_company_size: accounts sum to total
+[PASS] q09b_engagement_by_company_size: events sum to total
+[PASS] q09b_engagement_by_company_size: active accounts sum to total
+[PASS] inactive accounts count  (285)
+[PASS] inactive summary eligible/inactive
+
+ALL CHECKS PASSED
+
+# validate_dashboard.py
+[PASS] P1 Overview | Card | Total Accounts: model=1200 sql=1200
+[PASS] P1 Overview | Card | Active Users: model=3575 sql=3575
+[PASS] P1 Overview | Card | Avg DAU: model=169.0 sql=169.0
+[PASS] P1 Overview | Card | MAU (Latest Month 2026-03): model=2470 sql=2470
+[PASS] P1 Overview | Card | Activation Rate %: model=37.7 sql=37.7
+[PASS] P1 Overview | MAU by month | 2026-01: model=1849 sql=1849
+[PASS] P1 Overview | DAU/MAU by month | 2026-01: model=0.0751 sql=0.0751
+[PASS] P1 Overview | MAU by month | 2026-02: model=2062 sql=2062
+[PASS] P1 Overview | DAU/MAU by month | 2026-02: model=0.083 sql=0.083
+[PASS] P1 Overview | MAU by month | 2026-03: model=2470 sql=2470
+[PASS] P1 Overview | DAU/MAU by month | 2026-03: model=0.0798 sql=0.0798
+[PASS] P1 Overview | Card | DAU/MAU (Latest Month): model=0.08 sql=0.08
+[PASS] P1 Overview | DAU trend line | 90 daily points (DAU and DAU 7D Avg): model=90 sql=90
+[PASS] P2 Feature Adoption | Adoption bar | Contact Management - Account Adoption %: model=93.4 sql=93.4
+[PASS] P2 Feature Adoption | Adoption bar | Contact Management - User Adoption %: model=82.4 sql=82.4
+[PASS] P2 Feature Adoption | Adoption bar | Lead Management - Account Adoption %: model=89.8 sql=89.8
+[PASS] P2 Feature Adoption | Adoption bar | Lead Management - User Adoption %: model=78.0 sql=78.0
+[PASS] P2 Feature Adoption | Adoption bar | Deal Pipeline - Account Adoption %: model=78.0 sql=78.0
+[PASS] P2 Feature Adoption | Adoption bar | Deal Pipeline - User Adoption %: model=67.4 sql=67.4
+[PASS] P2 Feature Adoption | Adoption bar | Email Integration - Account Adoption %: model=55.4 sql=55.4
+[PASS] P2 Feature Adoption | Adoption bar | Email Integration - User Adoption %: model=46.2 sql=46.2
+[PASS] P2 Feature Adoption | Adoption bar | Reporting - Account Adoption %: model=44.8 sql=44.8
+[PASS] P2 Feature Adoption | Adoption bar | Reporting - User Adoption %: model=35.0 sql=35.0
+[PASS] P2 Feature Adoption | Adoption bar | Workflow Automation - Account Adoption %: model=26.8 sql=26.8
+[PASS] P2 Feature Adoption | Adoption bar | Workflow Automation - User Adoption %: model=18.8 sql=18.8
+[PASS] P2 Feature Adoption | Feature table | Contact Management - Total Events: model=21137 sql=21137
+[PASS] P2 Feature Adoption | Feature table | Contact Management - Feature Event Share %: model=27.7 sql=27.7
+[PASS] P2 Feature Adoption | Feature table | Lead Management - Total Events: model=19455 sql=19455
+[PASS] P2 Feature Adoption | Feature table | Lead Management - Feature Event Share %: model=25.5 sql=25.5
+[PASS] P2 Feature Adoption | Feature table | Deal Pipeline - Total Events: model=15627 sql=15627
+[PASS] P2 Feature Adoption | Feature table | Deal Pipeline - Feature Event Share %: model=20.5 sql=20.5
+[PASS] P2 Feature Adoption | Feature table | Email Integration - Total Events: model=9670 sql=9670
+[PASS] P2 Feature Adoption | Feature table | Email Integration - Feature Event Share %: model=12.7 sql=12.7
+[PASS] P2 Feature Adoption | Feature table | Reporting - Total Events: model=6754 sql=6754
+[PASS] P2 Feature Adoption | Feature table | Reporting - Feature Event Share %: model=8.9 sql=8.9
+[PASS] P2 Feature Adoption | Feature table | Workflow Automation - Total Events: model=3564 sql=3564
+[PASS] P2 Feature Adoption | Feature table | Workflow Automation - Feature Event Share %: model=4.7 sql=4.7
+[PASS] P2 Feature Adoption | Usage by plan | Starter / Contact Management Account Adoption %: model=91.2 sql=91.2
+[PASS] P2 Feature Adoption | Usage by plan | Starter / Deal Pipeline Account Adoption %: model=71.0 sql=71.0
+[PASS] P2 Feature Adoption | Usage by plan | Starter / Email Integration Account Adoption %: model=43.1 sql=43.1
+[PASS] P2 Feature Adoption | Usage by plan | Starter / Lead Management Account Adoption %: model=87.5 sql=87.5
+[PASS] P2 Feature Adoption | Usage by plan | Starter / Reporting Account Adoption %: model=21.8 sql=21.8
+[PASS] P2 Feature Adoption | Usage by plan | Starter / Workflow Automation Account Adoption %: model=6.8 sql=6.8
+[PASS] P2 Feature Adoption | Usage by plan | Professional / Contact Management Account Adoption %: model=95.6 sql=95.6
+[PASS] P2 Feature Adoption | Usage by plan | Professional / Deal Pipeline Account Adoption %: model=80.8 sql=80.8
+[PASS] P2 Feature Adoption | Usage by plan | Professional / Email Integration Account Adoption %: model=60.1 sql=60.1
+[PASS] P2 Feature Adoption | Usage by plan | Professional / Lead Management Account Adoption %: model=90.9 sql=90.9
+[PASS] P2 Feature Adoption | Usage by plan | Professional / Reporting Account Adoption %: model=53.1 sql=53.1
+[PASS] P2 Feature Adoption | Usage by plan | Professional / Workflow Automation Account Adoption %: model=31.6 sql=31.6
+[PASS] P2 Feature Adoption | Usage by plan | Enterprise / Contact Management Account Adoption %: model=94.0 sql=94.0
+[PASS] P2 Feature Adoption | Usage by plan | Enterprise / Deal Pipeline Account Adoption %: model=87.6 sql=87.6
+[PASS] P2 Feature Adoption | Usage by plan | Enterprise / Email Integration Account Adoption %: model=72.9 sql=72.9
+[PASS] P2 Feature Adoption | Usage by plan | Enterprise / Lead Management Account Adoption %: model=92.7 sql=92.7
+[PASS] P2 Feature Adoption | Usage by plan | Enterprise / Reporting Account Adoption %: model=78.0 sql=78.0
+[PASS] P2 Feature Adoption | Usage by plan | Enterprise / Workflow Automation Account Adoption %: model=60.1 sql=60.1
+[PASS] P2 Feature Adoption | New vs established (q07 table) | Established (signed up before window) / Contact Management %: model=87.0 sql=87.0
+[PASS] P2 Feature Adoption | New vs established (q07 table) | New (signed up in window) / Contact Management %: model=90.9 sql=90.9
+[PASS] P2 Feature Adoption | New vs established (q07 table) | Established (signed up before window) / Deal Pipeline %: model=72.0 sql=72.0
+[PASS] P2 Feature Adoption | New vs established (q07 table) | New (signed up in window) / Deal Pipeline %: model=68.8 sql=68.8
+[PASS] P2 Feature Adoption | New vs established (q07 table) | Established (signed up before window) / Email Integration %: model=52.3 sql=52.3
+[PASS] P2 Feature Adoption | New vs established (q07 table) | New (signed up in window) / Email Integration %: model=45.5 sql=45.5
+[PASS] P2 Feature Adoption | New vs established (q07 table) | Established (signed up before window) / Lead Management %: model=82.5 sql=82.5
+[PASS] P2 Feature Adoption | New vs established (q07 table) | New (signed up in window) / Lead Management %: model=85.2 sql=85.2
+[PASS] P2 Feature Adoption | New vs established (q07 table) | Established (signed up before window) / Reporting %: model=40.6 sql=40.6
+[PASS] P2 Feature Adoption | New vs established (q07 table) | New (signed up in window) / Reporting %: model=18.8 sql=18.8
+[PASS] P2 Feature Adoption | New vs established (q07 table) | Established (signed up before window) / Workflow Automation %: model=25.9 sql=25.9
+[PASS] P2 Feature Adoption | New vs established (q07 table) | New (signed up in window) / Workflow Automation %: model=8.0 sql=8.0
+[PASS] P3 Engagement | Card | Inactive Accounts: model=285 sql=285
+[PASS] P3 Engagement | Card | Inactive Account %: model=26.3 sql=26.3
+[PASS] P3 Engagement | Inactive % by plan | Enterprise: model=13.1 sql=13.1
+[PASS] P3 Engagement | Inactive % by plan | Professional: model=20.0 sql=20.0
+[PASS] P3 Engagement | Inactive % by plan | Starter: model=36.1 sql=36.1
+[PASS] P3 Engagement | Inactive % by company size | 1-10: model=41.5 sql=41.5
+[PASS] P3 Engagement | Inactive % by company size | 11-50: model=20.1 sql=20.1
+[PASS] P3 Engagement | Inactive % by company size | 201+: model=9.2 sql=9.2
+[PASS] P3 Engagement | Inactive % by company size | 51-200: model=13.9 sql=13.9
+[PASS] P3 Engagement | Inactive table (q10) | row count: model=285 sql=285
+[PASS] P3 Engagement | Industry engagement (q09) | Manufacturing - accounts active %: model=83.3 sql=83.3
+[PASS] P3 Engagement | Industry engagement (q09) | Healthcare - accounts active %: model=87.3 sql=87.3
+[PASS] P3 Engagement | Industry engagement (q09) | Education - accounts active %: model=87.1 sql=87.1
+[PASS] P3 Engagement | Industry engagement (q09) | Financial Services - accounts active %: model=85.4 sql=85.4
+[PASS] P3 Engagement | Industry engagement (q09) | Technology - accounts active %: model=88.4 sql=88.4
+[PASS] P3 Engagement | Industry engagement (q09) | Retail & E-commerce - accounts active %: model=92.0 sql=92.0
+[PASS] P3 Engagement | Industry engagement (q09) | Real Estate - accounts active %: model=92.0 sql=92.0
+[PASS] P3 Engagement | Industry engagement (q09) | Professional Services - accounts active %: model=90.0 sql=90.0
+
+wrote dashboards/expected_values.csv (85 checks)
+ALL DASHBOARD VALUES MATCH SQL

@@ -1,0 +1,424 @@
+== A. Default filters vs SQL result tables
+[PASS] Total accounts (q00): dashboard=1200 reference=1200
+[PASS] Total users (q00): dashboard=6331 reference=6331
+[PASS] Active users (q00): dashboard=3575 reference=3575
+[PASS] Active accounts (q00): dashboard=1059 reference=1059
+[PASS] Average DAU (q00): dashboard=169.0 reference=169.0
+[PASS] MAU latest month (q00): dashboard=2470 reference=2470
+[PASS] Activation cohort (q00): dashboard=273 reference=273
+[PASS] Activated accounts (q00): dashboard=103 reference=103
+[PASS] Activation rate % (q00): dashboard=37.7 reference=37.7
+[PASS] MAU 2026-01 (q03): dashboard=1849 reference=1849
+[PASS] DAU/MAU 2026-01 (q03): dashboard=0.0751 reference=0.0751
+[PASS] MAU 2026-02 (q03): dashboard=2062 reference=2062
+[PASS] DAU/MAU 2026-02 (q03): dashboard=0.083 reference=0.083
+[PASS] MAU 2026-03 (q03): dashboard=2470 reference=2470
+[PASS] DAU/MAU 2026-03 (q03): dashboard=0.0798 reference=0.0798
+[PASS] DAU series: 90 days, values equal q01
+[PASS] DAU 7-day average equals q01
+[PASS] Activation Enterprise (q04): dashboard=60.0 reference=60.0
+[PASS] Activation Professional (q04): dashboard=42.6 reference=42.6
+[PASS] Activation Starter (q04): dashboard=23.9 reference=23.9
+[PASS] Account adoption Contact Management (q05): dashboard=93.4 reference=93.4
+[PASS] User adoption Contact Management (q05): dashboard=82.4 reference=82.4
+[PASS] Account adoption Lead Management (q05): dashboard=89.8 reference=89.8
+[PASS] User adoption Lead Management (q05): dashboard=78.0 reference=78.0
+[PASS] Account adoption Deal Pipeline (q05): dashboard=78.0 reference=78.0
+[PASS] User adoption Deal Pipeline (q05): dashboard=67.4 reference=67.4
+[PASS] Account adoption Email Integration (q05): dashboard=55.4 reference=55.4
+[PASS] User adoption Email Integration (q05): dashboard=46.2 reference=46.2
+[PASS] Account adoption Reporting (q05): dashboard=44.8 reference=44.8
+[PASS] User adoption Reporting (q05): dashboard=35.0 reference=35.0
+[PASS] Account adoption Workflow Automation (q05): dashboard=26.8 reference=26.8
+[PASS] User adoption Workflow Automation (q05): dashboard=18.8 reference=18.8
+[PASS] Events Contact Management (q06): dashboard=21137 reference=21137
+[PASS] Events/using user Contact Management (q06): dashboard=7.2 reference=7.2
+[PASS] Events Lead Management (q06): dashboard=19455 reference=19455
+[PASS] Events/using user Lead Management (q06): dashboard=7.0 reference=7.0
+[PASS] Events Deal Pipeline (q06): dashboard=15627 reference=15627
+[PASS] Events/using user Deal Pipeline (q06): dashboard=6.5 reference=6.5
+[PASS] Events Email Integration (q06): dashboard=9670 reference=9670
+[PASS] Events/using user Email Integration (q06): dashboard=5.9 reference=5.9
+[PASS] Events Reporting (q06): dashboard=6754 reference=6754
+[PASS] Events/using user Reporting (q06): dashboard=5.4 reference=5.4
+[PASS] Events Workflow Automation (q06): dashboard=3564 reference=3564
+[PASS] Events/using user Workflow Automation (q06): dashboard=5.3 reference=5.3
+[PASS] Contact Management | Established (q07): dashboard=87.0 reference=87.0
+[PASS] Contact Management | New (signed (q07): dashboard=90.9 reference=90.9
+[PASS] Deal Pipeline | Established (q07): dashboard=72.0 reference=72.0
+[PASS] Deal Pipeline | New (signed (q07): dashboard=68.8 reference=68.8
+[PASS] Email Integration | Established (q07): dashboard=52.3 reference=52.3
+[PASS] Email Integration | New (signed (q07): dashboard=45.5 reference=45.5
+[PASS] Lead Management | Established (q07): dashboard=82.5 reference=82.5
+[PASS] Lead Management | New (signed (q07): dashboard=85.2 reference=85.2
+[PASS] Reporting | Established (q07): dashboard=40.6 reference=40.6
+[PASS] Reporting | New (signed (q07): dashboard=18.8 reference=18.8
+[PASS] Workflow Automation | Established (q07): dashboard=25.9 reference=25.9
+[PASS] Workflow Automation | New (signed (q07): dashboard=8.0 reference=8.0
+[PASS] Starter | Contact Management adoption (q08b): dashboard=91.2 reference=91.2
+[PASS] Starter | Contact Management event mix (q08b): dashboard=35.0 reference=35.0
+[PASS] Starter | Deal Pipeline adoption (q08b): dashboard=71.0 reference=71.0
+[PASS] Starter | Deal Pipeline event mix (q08b): dashboard=20.5 reference=20.5
+[PASS] Starter | Email Integration adoption (q08b): dashboard=43.1 reference=43.1
+[PASS] Starter | Email Integration event mix (q08b): dashboard=11.6 reference=11.6
+[PASS] Starter | Lead Management adoption (q08b): dashboard=87.5 reference=87.5
+[PASS] Starter | Lead Management event mix (q08b): dashboard=28.9 reference=28.9
+[PASS] Starter | Reporting adoption (q08b): dashboard=21.8 reference=21.8
+[PASS] Starter | Reporting event mix (q08b): dashboard=3.2 reference=3.2
+[PASS] Starter | Workflow Automation adoption (q08b): dashboard=6.8 reference=6.8
+[PASS] Starter | Workflow Automation event mix (q08b): dashboard=0.8 reference=0.8
+[PASS] Professional | Contact Management adoption (q08b): dashboard=95.6 reference=95.6
+[PASS] Professional | Contact Management event mix (q08b): dashboard=27.7 reference=27.7
+[PASS] Professional | Deal Pipeline adoption (q08b): dashboard=80.8 reference=80.8
+[PASS] Professional | Deal Pipeline event mix (q08b): dashboard=22.0 reference=22.0
+[PASS] Professional | Email Integration adoption (q08b): dashboard=60.1 reference=60.1
+[PASS] Professional | Email Integration event mix (q08b): dashboard=12.2 reference=12.2
+[PASS] Professional | Lead Management adoption (q08b): dashboard=90.9 reference=90.9
+[PASS] Professional | Lead Management event mix (q08b): dashboard=25.8 reference=25.8
+[PASS] Professional | Reporting adoption (q08b): dashboard=53.1 reference=53.1
+[PASS] Professional | Reporting event mix (q08b): dashboard=8.6 reference=8.6
+[PASS] Professional | Workflow Automation adoption (q08b): dashboard=31.6 reference=31.6
+[PASS] Professional | Workflow Automation event mix (q08b): dashboard=3.7 reference=3.7
+[PASS] Enterprise | Contact Management adoption (q08b): dashboard=94.0 reference=94.0
+[PASS] Enterprise | Contact Management event mix (q08b): dashboard=23.6 reference=23.6
+[PASS] Enterprise | Deal Pipeline adoption (q08b): dashboard=87.6 reference=87.6
+[PASS] Enterprise | Deal Pipeline event mix (q08b): dashboard=19.3 reference=19.3
+[PASS] Enterprise | Email Integration adoption (q08b): dashboard=72.9 reference=72.9
+[PASS] Enterprise | Email Integration event mix (q08b): dashboard=13.7 reference=13.7
+[PASS] Enterprise | Lead Management adoption (q08b): dashboard=92.7 reference=92.7
+[PASS] Enterprise | Lead Management event mix (q08b): dashboard=23.3 reference=23.3
+[PASS] Enterprise | Reporting adoption (q08b): dashboard=78.0 reference=78.0
+[PASS] Enterprise | Reporting event mix (q08b): dashboard=12.3 reference=12.3
+[PASS] Enterprise | Workflow Automation adoption (q08b): dashboard=60.1 reference=60.1
+[PASS] Enterprise | Workflow Automation event mix (q08b): dashboard=7.8 reference=7.8
+[PASS] q08_engagement_by_plan Starter accounts: dashboard=554 reference=554
+[PASS] q08_engagement_by_plan Starter active_accounts: dashboard=455 reference=455
+[PASS] q08_engagement_by_plan Starter total_users: dashboard=2180 reference=2180
+[PASS] q08_engagement_by_plan Starter active_users: dashboard=1114.0 reference=1114
+[PASS] q08_engagement_by_plan Starter events: dashboard=18190.0 reference=18190
+[PASS] q08_engagement_by_plan Starter pct_accounts_active: dashboard=82.12996389891697 reference=82.1
+[PASS] q08_engagement_by_plan Starter pct_users_active: dashboard=51.10091743119266 reference=51.1
+[PASS] q08_engagement_by_plan Starter events_per_account_30d: dashboard=12.427976041358264 reference=12.43
+[PASS] q08_engagement_by_plan Starter events_per_active_user: dashboard=16.328545780969478 reference=16.3
+[PASS] q08_engagement_by_plan Professional accounts: dashboard=423 reference=423
+[PASS] q08_engagement_by_plan Professional active_accounts: dashboard=386 reference=386
+[PASS] q08_engagement_by_plan Professional total_users: dashboard=2342 reference=2342
+[PASS] q08_engagement_by_plan Professional active_users: dashboard=1305.0 reference=1305
+[PASS] q08_engagement_by_plan Professional events: dashboard=26409.0 reference=26409
+[PASS] q08_engagement_by_plan Professional pct_accounts_active: dashboard=91.25295508274232 reference=91.3
+[PASS] q08_engagement_by_plan Professional pct_users_active: dashboard=55.72160546541418 reference=55.7
+[PASS] q08_engagement_by_plan Professional events_per_account_30d: dashboard=25.0916864608076 reference=25.09
+[PASS] q08_engagement_by_plan Professional events_per_active_user: dashboard=20.236781609195404 reference=20.2
+[PASS] q08_engagement_by_plan Enterprise accounts: dashboard=223 reference=223
+[PASS] q08_engagement_by_plan Enterprise active_accounts: dashboard=218 reference=218
+[PASS] q08_engagement_by_plan Enterprise total_users: dashboard=1809 reference=1809
+[PASS] q08_engagement_by_plan Enterprise active_users: dashboard=1156.0 reference=1156
+[PASS] q08_engagement_by_plan Enterprise events: dashboard=31608.0 reference=31608
+[PASS] q08_engagement_by_plan Enterprise pct_accounts_active: dashboard=97.75784753363229 reference=97.8
+[PASS] q08_engagement_by_plan Enterprise pct_users_active: dashboard=63.902708678828084 reference=63.9
+[PASS] q08_engagement_by_plan Enterprise events_per_account_30d: dashboard=52.83851554663992 reference=52.84
+[PASS] q08_engagement_by_plan Enterprise events_per_active_user: dashboard=27.342560553633216 reference=27.3
+[PASS] q09_engagement_by_industry Manufacturing accounts: dashboard=126 reference=126
+[PASS] q09_engagement_by_industry Manufacturing active_accounts: dashboard=105 reference=105
+[PASS] q09_engagement_by_industry Manufacturing total_users: dashboard=628 reference=628
+[PASS] q09_engagement_by_industry Manufacturing active_users: dashboard=342.0 reference=342
+[PASS] q09_engagement_by_industry Manufacturing events: dashboard=5635.0 reference=5635
+[PASS] q09_engagement_by_industry Manufacturing pct_accounts_active: dashboard=83.33333333333333 reference=83.3
+[PASS] q09_engagement_by_industry Manufacturing pct_users_active: dashboard=54.45859872611465 reference=54.5
+[PASS] q09_engagement_by_industry Manufacturing events_per_account_30d: dashboard=17.211362248014662 reference=17.21
+[PASS] q09_engagement_by_industry Manufacturing events_per_active_user: dashboard=16.476608187134502 reference=16.5
+[PASS] q09_engagement_by_industry Healthcare accounts: dashboard=142 reference=142
+[PASS] q09_engagement_by_industry Healthcare active_accounts: dashboard=124 reference=124
+[PASS] q09_engagement_by_industry Healthcare total_users: dashboard=781 reference=781
+[PASS] q09_engagement_by_industry Healthcare active_users: dashboard=399.0 reference=399
+[PASS] q09_engagement_by_industry Healthcare events: dashboard=6384.0 reference=6384
+[PASS] q09_engagement_by_industry Healthcare pct_accounts_active: dashboard=87.32394366197182 reference=87.3
+[PASS] q09_engagement_by_industry Healthcare pct_users_active: dashboard=51.08834827144686 reference=51.1
+[PASS] q09_engagement_by_industry Healthcare events_per_account_30d: dashboard=17.643482266236756 reference=17.64
+[PASS] q09_engagement_by_industry Healthcare events_per_active_user: dashboard=16.0 reference=16.0
+[PASS] q09_engagement_by_industry Education accounts: dashboard=101 reference=101
+[PASS] q09_engagement_by_industry Education active_accounts: dashboard=88 reference=88
+[PASS] q09_engagement_by_industry Education total_users: dashboard=548 reference=548
+[PASS] q09_engagement_by_industry Education active_users: dashboard=286.0 reference=286
+[PASS] q09_engagement_by_industry Education events: dashboard=4828.0 reference=4828
+[PASS] q09_engagement_by_industry Education pct_accounts_active: dashboard=87.12871287128714 reference=87.1
+[PASS] q09_engagement_by_industry Education pct_users_active: dashboard=52.18978102189781 reference=52.2
+[PASS] q09_engagement_by_industry Education events_per_account_30d: dashboard=18.2441113490364 reference=18.24
+[PASS] q09_engagement_by_industry Education events_per_active_user: dashboard=16.88111888111888 reference=16.9
+[PASS] q09_engagement_by_industry Financial Services accounts: dashboard=164 reference=164
+[PASS] q09_engagement_by_industry Financial Services active_accounts: dashboard=140 reference=140
+[PASS] q09_engagement_by_industry Financial Services total_users: dashboard=862 reference=862
+[PASS] q09_engagement_by_industry Financial Services active_users: dashboard=482.0 reference=482
+[PASS] q09_engagement_by_industry Financial Services events: dashboard=10506.0 reference=10506
+[PASS] q09_engagement_by_industry Financial Services pct_accounts_active: dashboard=85.36585365853658 reference=85.4
+[PASS] q09_engagement_by_industry Financial Services pct_users_active: dashboard=55.91647331786543 reference=55.9
+[PASS] q09_engagement_by_industry Financial Services events_per_account_30d: dashboard=24.421199442119946 reference=24.42
+[PASS] q09_engagement_by_industry Financial Services events_per_active_user: dashboard=21.796680497925312 reference=21.8
+[PASS] q09_engagement_by_industry Technology accounts: dashboard=285 reference=285
+[PASS] q09_engagement_by_industry Technology active_accounts: dashboard=252 reference=252
+[PASS] q09_engagement_by_industry Technology total_users: dashboard=1438 reference=1438
+[PASS] q09_engagement_by_industry Technology active_users: dashboard=841.0 reference=841
+[PASS] q09_engagement_by_industry Technology events: dashboard=19089.0 reference=19089
+[PASS] q09_engagement_by_industry Technology pct_accounts_active: dashboard=88.42105263157895 reference=88.4
+[PASS] q09_engagement_by_industry Technology pct_users_active: dashboard=58.48400556328234 reference=58.5
+[PASS] q09_engagement_by_industry Technology events_per_account_30d: dashboard=25.885729783483253 reference=25.89
+[PASS] q09_engagement_by_industry Technology events_per_active_user: dashboard=22.69797859690844 reference=22.7
+[PASS] q09_engagement_by_industry Retail & E-commerce accounts: dashboard=200 reference=200
+[PASS] q09_engagement_by_industry Retail & E-commerce active_accounts: dashboard=184 reference=184
+[PASS] q09_engagement_by_industry Retail & E-commerce total_users: dashboard=1116 reference=1116
+[PASS] q09_engagement_by_industry Retail & E-commerce active_users: dashboard=641.0 reference=641
+[PASS] q09_engagement_by_industry Retail & E-commerce events: dashboard=15368.0 reference=15368
+[PASS] q09_engagement_by_industry Retail & E-commerce pct_accounts_active: dashboard=92.0 reference=92.0
+[PASS] q09_engagement_by_industry Retail & E-commerce pct_users_active: dashboard=57.437275985663085 reference=57.4
+[PASS] q09_engagement_by_industry Retail & E-commerce events_per_account_30d: dashboard=29.144699412099374 reference=29.14
+[PASS] q09_engagement_by_industry Retail & E-commerce events_per_active_user: dashboard=23.975039001560063 reference=24.0
+[PASS] q09_engagement_by_industry Real Estate accounts: dashboard=112 reference=112
+[PASS] q09_engagement_by_industry Real Estate active_accounts: dashboard=103 reference=103
+[PASS] q09_engagement_by_industry Real Estate total_users: dashboard=587 reference=587
+[PASS] q09_engagement_by_industry Real Estate active_users: dashboard=363.0 reference=363
+[PASS] q09_engagement_by_industry Real Estate events: dashboard=8485.0 reference=8485
+[PASS] q09_engagement_by_industry Real Estate pct_accounts_active: dashboard=91.96428571428571 reference=92.0
+[PASS] q09_engagement_by_industry Real Estate pct_users_active: dashboard=61.83986371379898 reference=61.8
+[PASS] q09_engagement_by_industry Real Estate events_per_account_30d: dashboard=29.188166494668042 reference=29.19
+[PASS] q09_engagement_by_industry Real Estate events_per_active_user: dashboard=23.37465564738292 reference=23.4
+[PASS] q09_engagement_by_industry Professional Services accounts: dashboard=70 reference=70
+[PASS] q09_engagement_by_industry Professional Services active_accounts: dashboard=63 reference=63
+[PASS] q09_engagement_by_industry Professional Services total_users: dashboard=371 reference=371
+[PASS] q09_engagement_by_industry Professional Services active_users: dashboard=221.0 reference=221
+[PASS] q09_engagement_by_industry Professional Services events: dashboard=5912.0 reference=5912
+[PASS] q09_engagement_by_industry Professional Services pct_accounts_active: dashboard=90.0 reference=90.0
+[PASS] q09_engagement_by_industry Professional Services pct_users_active: dashboard=59.56873315363882 reference=59.6
+[PASS] q09_engagement_by_industry Professional Services events_per_account_30d: dashboard=33.81506196377502 reference=33.82
+[PASS] q09_engagement_by_industry Professional Services events_per_active_user: dashboard=26.751131221719458 reference=26.8
+[PASS] q09b_engagement_by_company_size 1-10 accounts: dashboard=464 reference=464
+[PASS] q09b_engagement_by_company_size 1-10 active_accounts: dashboard=370 reference=370
+[PASS] q09b_engagement_by_company_size 1-10 total_users: dashboard=1392 reference=1392
+[PASS] q09b_engagement_by_company_size 1-10 active_users: dashboard=693.0 reference=693
+[PASS] q09b_engagement_by_company_size 1-10 events: dashboard=11286.0 reference=11286
+[PASS] q09b_engagement_by_company_size 1-10 pct_accounts_active: dashboard=79.74137931034483 reference=79.7
+[PASS] q09b_engagement_by_company_size 1-10 pct_users_active: dashboard=49.78448275862069 reference=49.8
+[PASS] q09b_engagement_by_company_size 1-10 events_per_account_30d: dashboard=9.20504594638682 reference=9.21
+[PASS] q09b_engagement_by_company_size 1-10 events_per_active_user: dashboard=16.285714285714285 reference=16.3
+[PASS] q09b_engagement_by_company_size 11-50 accounts: dashboard=379 reference=379
+[PASS] q09b_engagement_by_company_size 11-50 active_accounts: dashboard=346 reference=346
+[PASS] q09b_engagement_by_company_size 11-50 total_users: dashboard=1886 reference=1886
+[PASS] q09b_engagement_by_company_size 11-50 active_users: dashboard=1055.0 reference=1055
+[PASS] q09b_engagement_by_company_size 11-50 events: dashboard=20293.0 reference=20293
+[PASS] q09b_engagement_by_company_size 11-50 pct_accounts_active: dashboard=91.2928759894459 reference=91.3
+[PASS] q09b_engagement_by_company_size 11-50 pct_users_active: dashboard=55.938494167550374 reference=55.9
+[PASS] q09b_engagement_by_company_size 11-50 events_per_account_30d: dashboard=21.053741873011482 reference=21.05
+[PASS] q09b_engagement_by_company_size 11-50 events_per_active_user: dashboard=19.235071090047395 reference=19.2
+[PASS] q09b_engagement_by_company_size 51-200 accounts: dashboard=240 reference=240
+[PASS] q09b_engagement_by_company_size 51-200 active_accounts: dashboard=227 reference=227
+[PASS] q09b_engagement_by_company_size 51-200 total_users: dashboard=1798 reference=1798
+[PASS] q09b_engagement_by_company_size 51-200 active_users: dashboard=1031.0 reference=1031
+[PASS] q09b_engagement_by_company_size 51-200 events: dashboard=24252.0 reference=24252
+[PASS] q09b_engagement_by_company_size 51-200 pct_accounts_active: dashboard=94.58333333333333 reference=94.6
+[PASS] q09b_engagement_by_company_size 51-200 pct_users_active: dashboard=57.34149054505006 reference=57.3
+[PASS] q09b_engagement_by_company_size 51-200 events_per_account_30d: dashboard=40.19890601690701 reference=40.2
+[PASS] q09b_engagement_by_company_size 51-200 events_per_active_user: dashboard=23.522793404461687 reference=23.5
+[PASS] q09b_engagement_by_company_size 201+ accounts: dashboard=117 reference=117
+[PASS] q09b_engagement_by_company_size 201+ active_accounts: dashboard=116 reference=116
+[PASS] q09b_engagement_by_company_size 201+ total_users: dashboard=1255 reference=1255
+[PASS] q09b_engagement_by_company_size 201+ active_users: dashboard=796.0 reference=796
+[PASS] q09b_engagement_by_company_size 201+ events: dashboard=20376.0 reference=20376
+[PASS] q09b_engagement_by_company_size 201+ pct_accounts_active: dashboard=99.14529914529915 reference=99.1
+[PASS] q09b_engagement_by_company_size 201+ pct_users_active: dashboard=63.42629482071713 reference=63.4
+[PASS] q09b_engagement_by_company_size 201+ events_per_account_30d: dashboard=63.456867019620056 reference=63.46
+[PASS] q09b_engagement_by_company_size 201+ events_per_active_user: dashboard=25.597989949748744 reference=25.6
+[PASS] Inactive list length equals q10
+[PASS] Inactive account IDs equal q10
+[PASS] Inactive All/All eligible accounts eligible (q10b): dashboard=1083 reference=1083
+[PASS] Inactive All/All eligible accounts inactive (q10b): dashboard=285 reference=285
+[PASS] Inactive All/All eligible accounts never active (q10b): dashboard=113 reference=113
+[PASS] Inactive All/All eligible accounts % (q10b): dashboard=26.3 reference=26.3
+[PASS] Inactive Plan/Enterprise eligible (q10b): dashboard=206.0 reference=206
+[PASS] Inactive Plan/Enterprise inactive (q10b): dashboard=27.0 reference=27
+[PASS] Inactive Plan/Enterprise never active (q10b): dashboard=4.0 reference=4
+[PASS] Inactive Plan/Enterprise % (q10b): dashboard=13.1 reference=13.1
+[PASS] Inactive Plan/Professional eligible (q10b): dashboard=365.0 reference=365
+[PASS] Inactive Plan/Professional inactive (q10b): dashboard=73.0 reference=73
+[PASS] Inactive Plan/Professional never active (q10b): dashboard=23.0 reference=23
+[PASS] Inactive Plan/Professional % (q10b): dashboard=20.0 reference=20.0
+[PASS] Inactive Plan/Starter eligible (q10b): dashboard=512.0 reference=512
+[PASS] Inactive Plan/Starter inactive (q10b): dashboard=185.0 reference=185
+[PASS] Inactive Plan/Starter never active (q10b): dashboard=86.0 reference=86
+[PASS] Inactive Plan/Starter % (q10b): dashboard=36.1 reference=36.1
+[PASS] Inactive Company size/1-10 eligible (q10b): dashboard=431.0 reference=431
+[PASS] Inactive Company size/1-10 inactive (q10b): dashboard=179.0 reference=179
+[PASS] Inactive Company size/1-10 never active (q10b): dashboard=83.0 reference=83
+[PASS] Inactive Company size/1-10 % (q10b): dashboard=41.5 reference=41.5
+[PASS] Inactive Company size/11-50 eligible (q10b): dashboard=334.0 reference=334
+[PASS] Inactive Company size/11-50 inactive (q10b): dashboard=67.0 reference=67
+[PASS] Inactive Company size/11-50 never active (q10b): dashboard=23.0 reference=23
+[PASS] Inactive Company size/11-50 % (q10b): dashboard=20.1 reference=20.1
+[PASS] Inactive Company size/201+ eligible (q10b): dashboard=109.0 reference=109
+[PASS] Inactive Company size/201+ inactive (q10b): dashboard=10.0 reference=10
+[PASS] Inactive Company size/201+ never active (q10b): dashboard=1.0 reference=1
+[PASS] Inactive Company size/201+ % (q10b): dashboard=9.2 reference=9.2
+[PASS] Inactive Company size/51-200 eligible (q10b): dashboard=209.0 reference=209
+[PASS] Inactive Company size/51-200 inactive (q10b): dashboard=29.0 reference=29
+[PASS] Inactive Company size/51-200 never active (q10b): dashboard=6.0 reference=6
+[PASS] Inactive Company size/51-200 % (q10b): dashboard=13.9 reference=13.9
+[PASS] Inactive Industry/Education eligible (q10b): dashboard=93.0 reference=93
+[PASS] Inactive Industry/Education inactive (q10b): dashboard=28.0 reference=28
+[PASS] Inactive Industry/Education never active (q10b): dashboard=11.0 reference=11
+[PASS] Inactive Industry/Education % (q10b): dashboard=30.1 reference=30.1
+[PASS] Inactive Industry/Financial Services eligible (q10b): dashboard=150.0 reference=150
+[PASS] Inactive Industry/Financial Services inactive (q10b): dashboard=38.0 reference=38
+[PASS] Inactive Industry/Financial Services never active (q10b): dashboard=18.0 reference=18
+[PASS] Inactive Industry/Financial Services % (q10b): dashboard=25.3 reference=25.3
+[PASS] Inactive Industry/Healthcare eligible (q10b): dashboard=125.0 reference=125
+[PASS] Inactive Industry/Healthcare inactive (q10b): dashboard=29.0 reference=29
+[PASS] Inactive Industry/Healthcare never active (q10b): dashboard=12.0 reference=12
+[PASS] Inactive Industry/Healthcare % (q10b): dashboard=23.2 reference=23.2
+[PASS] Inactive Industry/Manufacturing eligible (q10b): dashboard=114.0 reference=114
+[PASS] Inactive Industry/Manufacturing inactive (q10b): dashboard=39.0 reference=39
+[PASS] Inactive Industry/Manufacturing never active (q10b): dashboard=15.0 reference=15
+[PASS] Inactive Industry/Manufacturing % (q10b): dashboard=34.2 reference=34.2
+[PASS] Inactive Industry/Professional Services eligible (q10b): dashboard=61.0 reference=61
+[PASS] Inactive Industry/Professional Services inactive (q10b): dashboard=16.0 reference=16
+[PASS] Inactive Industry/Professional Services never active (q10b): dashboard=5.0 reference=5
+[PASS] Inactive Industry/Professional Services % (q10b): dashboard=26.2 reference=26.2
+[PASS] Inactive Industry/Real Estate eligible (q10b): dashboard=103.0 reference=103
+[PASS] Inactive Industry/Real Estate inactive (q10b): dashboard=23.0 reference=23
+[PASS] Inactive Industry/Real Estate never active (q10b): dashboard=6.0 reference=6
+[PASS] Inactive Industry/Real Estate % (q10b): dashboard=22.3 reference=22.3
+[PASS] Inactive Industry/Retail & E-commerce eligible (q10b): dashboard=183.0 reference=183
+[PASS] Inactive Industry/Retail & E-commerce inactive (q10b): dashboard=45.0 reference=45
+[PASS] Inactive Industry/Retail & E-commerce never active (q10b): dashboard=15.0 reference=15
+[PASS] Inactive Industry/Retail & E-commerce % (q10b): dashboard=24.6 reference=24.6
+[PASS] Inactive Industry/Technology eligible (q10b): dashboard=254.0 reference=254
+[PASS] Inactive Industry/Technology inactive (q10b): dashboard=67.0 reference=67
+[PASS] Inactive Industry/Technology never active (q10b): dashboard=31.0 reference=31
+[PASS] Inactive Industry/Technology % (q10b): dashboard=26.4 reference=26.4
+
+-- Task reference values (supplied by the user; compared, not hardcoded in the app)
+[PASS] Ref total accounts: dashboard=1200 reference=1200
+[PASS] Ref total users: dashboard=6331 reference=6331
+[PASS] Ref active users: dashboard=3575 reference=3575
+[PASS] Ref average DAU: dashboard=169.0 reference=169.0
+[PASS] Ref March MAU: dashboard=2470 reference=2470
+[PASS] Ref activation rate: dashboard=37.7 reference=37.7
+[PASS] Ref activation numerator/denominator: dashboard=103/273 reference=103/273
+[PASS] Ref WA new accounts: dashboard=8.0 reference=8.0
+[PASS] Ref WA established: dashboard=25.9 reference=25.9
+[PASS] Ref Starter inactivity: dashboard=36.1 reference=36.1
+[PASS] Ref Enterprise inactivity: dashboard=13.1 reference=13.1
+
+== B. Filtered scopes vs direct SQL on SQLite
+[PASS] {'plans': ['Starter']} active users: dashboard=1114 reference=1114
+[PASS] {'plans': ['Starter']} active accounts: dashboard=455 reference=455
+[PASS] {'plans': ['Starter']} total accounts: dashboard=554 reference=554
+[PASS] {'plans': ['Starter']} total users: dashboard=2180 reference=2180
+[PASS] {'plans': ['Starter']} average DAU: dashboard=40.7444 reference=40.7444
+[PASS] {'plans': ['Starter']} MAU (last month in range): dashboard=733 reference=733
+[PASS] {'plans': ['Starter']} events in range: dashboard=18190 reference=18190
+[PASS] {'plans': ['Starter']} inactive accounts (fixed definition): dashboard=185 reference=185
+[PASS] {'plans': ['Starter']} activated accounts (fixed definition): dashboard=27 reference=27
+[PASS] {'plans': ['Professional', 'Enterprise'], 'inds': ['Technology', 'Healthcare']} active users: dashboard=839 reference=839
+[PASS] {'plans': ['Professional', 'Enterprise'], 'inds': ['Technology', 'Healthcare']} active accounts: dashboard=212 reference=212
+[PASS] {'plans': ['Professional', 'Enterprise'], 'inds': ['Technology', 'Healthcare']} total accounts: dashboard=228 reference=228
+[PASS] {'plans': ['Professional', 'Enterprise'], 'inds': ['Technology', 'Healthcare']} total users: dashboard=1441 reference=1441
+[PASS] {'plans': ['Professional', 'Enterprise'], 'inds': ['Technology', 'Healthcare']} average DAU: dashboard=39.9556 reference=39.9556
+[PASS] {'plans': ['Professional', 'Enterprise'], 'inds': ['Technology', 'Healthcare']} MAU (last month in range): dashboard=610 reference=610
+[PASS] {'plans': ['Professional', 'Enterprise'], 'inds': ['Technology', 'Healthcare']} events in range: dashboard=18154 reference=18154
+[PASS] {'plans': ['Professional', 'Enterprise'], 'inds': ['Technology', 'Healthcare']} inactive accounts (fixed definition): dashboard=31 reference=31
+[PASS] {'plans': ['Professional', 'Enterprise'], 'inds': ['Technology', 'Healthcare']} activated accounts (fixed definition): dashboard=22 reference=22
+[PASS] {'plans': ['Starter'], 'inds': ['Manufacturing'], 'sizes': ['1-10', '11-50'], 'start': '2026-02-01', 'end': '2026-03-15'} active users: dashboard=50 reference=50
+[PASS] {'plans': ['Starter'], 'inds': ['Manufacturing'], 'sizes': ['1-10', '11-50'], 'start': '2026-02-01', 'end': '2026-03-15'} active accounts: dashboard=28 reference=28
+[PASS] {'plans': ['Starter'], 'inds': ['Manufacturing'], 'sizes': ['1-10', '11-50'], 'start': '2026-02-01', 'end': '2026-03-15'} total accounts: dashboard=54 reference=54
+[PASS] {'plans': ['Starter'], 'inds': ['Manufacturing'], 'sizes': ['1-10', '11-50'], 'start': '2026-02-01', 'end': '2026-03-15'} total users: dashboard=181 reference=181
+[PASS] {'plans': ['Starter'], 'inds': ['Manufacturing'], 'sizes': ['1-10', '11-50'], 'start': '2026-02-01', 'end': '2026-03-15'} average DAU: dashboard=2.093 reference=2.093
+[PASS] {'plans': ['Starter'], 'inds': ['Manufacturing'], 'sizes': ['1-10', '11-50'], 'start': '2026-02-01', 'end': '2026-03-15'} MAU (last month in range): dashboard=25 reference=25
+[PASS] {'plans': ['Starter'], 'inds': ['Manufacturing'], 'sizes': ['1-10', '11-50'], 'start': '2026-02-01', 'end': '2026-03-15'} events in range: dashboard=436 reference=436
+[PASS] {'plans': ['Starter'], 'inds': ['Manufacturing'], 'sizes': ['1-10', '11-50'], 'start': '2026-02-01', 'end': '2026-03-15'} inactive accounts (fixed definition): dashboard=24 reference=24
+[PASS] {'plans': ['Starter'], 'inds': ['Manufacturing'], 'sizes': ['1-10', '11-50'], 'start': '2026-02-01', 'end': '2026-03-15'} activated accounts (fixed definition): dashboard=2 reference=2
+[PASS] {'sizes': ['201+'], 'start': '2026-01-15', 'end': '2026-02-14'} active users: dashboard=466 reference=466
+[PASS] {'sizes': ['201+'], 'start': '2026-01-15', 'end': '2026-02-14'} active accounts: dashboard=100 reference=100
+[PASS] {'sizes': ['201+'], 'start': '2026-01-15', 'end': '2026-02-14'} total accounts: dashboard=107 reference=107
+[PASS] {'sizes': ['201+'], 'start': '2026-01-15', 'end': '2026-02-14'} total users: dashboard=972 reference=972
+[PASS] {'sizes': ['201+'], 'start': '2026-01-15', 'end': '2026-02-14'} average DAU: dashboard=42.5484 reference=42.5484
+[PASS] {'sizes': ['201+'], 'start': '2026-01-15', 'end': '2026-02-14'} MAU (last month in range): dashboard=309 reference=309
+[PASS] {'sizes': ['201+'], 'start': '2026-01-15', 'end': '2026-02-14'} events in range: dashboard=6740 reference=6740
+[PASS] {'sizes': ['201+'], 'start': '2026-01-15', 'end': '2026-02-14'} inactive accounts (fixed definition): dashboard=10 reference=10
+[PASS] {'sizes': ['201+'], 'start': '2026-01-15', 'end': '2026-02-14'} activated accounts (fixed definition): dashboard=15 reference=15
+
+== C. Single-segment filters reproduce the SQL segment rows
+[PASS] Starter: accounts = q08: dashboard=554 reference=554
+[PASS] Starter: active accounts = q08: dashboard=455 reference=455
+[PASS] Starter: active users = q08: dashboard=1114 reference=1114
+[PASS] Starter: activation = q04: dashboard=23.9 reference=23.9
+[PASS] Professional: accounts = q08: dashboard=423 reference=423
+[PASS] Professional: active accounts = q08: dashboard=386 reference=386
+[PASS] Professional: active users = q08: dashboard=1305 reference=1305
+[PASS] Professional: activation = q04: dashboard=42.6 reference=42.6
+[PASS] Enterprise: accounts = q08: dashboard=223 reference=223
+[PASS] Enterprise: active accounts = q08: dashboard=218 reference=218
+[PASS] Enterprise: active users = q08: dashboard=1156 reference=1156
+[PASS] Enterprise: activation = q04: dashboard=60.0 reference=60.0
+[PASS] Manufacturing: events/account/30d = q09: dashboard=17.21 reference=17.21
+[PASS] Healthcare: events/account/30d = q09: dashboard=17.64 reference=17.64
+[PASS] Education: events/account/30d = q09: dashboard=18.24 reference=18.24
+[PASS] Financial Services: events/account/30d = q09: dashboard=24.42 reference=24.42
+[PASS] Technology: events/account/30d = q09: dashboard=25.89 reference=25.89
+[PASS] Retail & E-commerce: events/account/30d = q09: dashboard=29.14 reference=29.14
+[PASS] Real Estate: events/account/30d = q09: dashboard=29.19 reference=29.19
+[PASS] Professional Services: events/account/30d = q09: dashboard=33.82 reference=33.82
+[PASS] 1-10: active accounts = q09b: dashboard=370 reference=370
+[PASS] 11-50: active accounts = q09b: dashboard=346 reference=346
+[PASS] 51-200: active accounts = q09b: dashboard=227 reference=227
+[PASS] 201+: active accounts = q09b: dashboard=116 reference=116
+[PASS] Active users partition sum over subscription_plan = total: dashboard=3575 reference=3575
+[PASS] Active users partition sum over industry = total: dashboard=3575 reference=3575
+[PASS] Active users partition sum over company_size = total: dashboard=3575 reference=3575
+
+== D. Date range vs SQL q01/q02/q03 (January only)
+[PASS] Jan average DAU = mean of q01 January DAU: dashboard=138.806 reference=138.806
+[PASS] Jan MAU = q02: dashboard=1849 reference=1849
+[PASS] Jan DAU/MAU = q03: dashboard=0.0751 reference=0.0751
+[PASS] Partial month is flagged
+[PASS] Full month is not flagged
+[PASS] Fixed-definition activation ignores date range: dashboard=103 reference=103
+[PASS] Fixed-definition inactivity ignores date range: dashboard=285 reference=285
+[PASS] 7-day average inside range uses earlier days (Jan 3 = q01): dashboard=120.3 reference=120.3
+
+== E. Headless app run (streamlit.testing AppTest)
+[PASS] App starts without exception
+[PASS] UI card Total CRM accounts: dashboard=1200 reference=1200
+[PASS] UI card Total users: dashboard=6331 reference=6331
+[PASS] UI card Active users: dashboard=3575 reference=3575
+[PASS] UI card Average DAU: dashboard=169.0 reference=169.0
+[PASS] UI card MAU: dashboard=2470 reference=2470
+[PASS] UI card Activation: dashboard=37.7% reference=37.7%
+[PASS] UI card DAU/MAU: dashboard=0.080 reference=0.080
+[PASS] default filters: views/product_overview.py has no exceptions
+[PASS] default filters: views/product_overview.py renders 4 charts (found 4)
+[PASS] default filters: views/feature_adoption.py has no exceptions
+[PASS] default filters: views/feature_adoption.py renders 5 charts (found 5)
+[PASS] default filters: views/customer_engagement.py has no exceptions
+[PASS] default filters: views/customer_engagement.py renders 5 charts (found 5)
+[PASS] UI after Plan=Starter: Total accounts: dashboard=554 reference=554
+[PASS] UI after Plan=Starter: Active users: dashboard=1114 reference=1114
+[PASS] Plan=Starter: views/product_overview.py has no exceptions
+[PASS] Plan=Starter: views/product_overview.py renders 4 charts (found 4)
+[PASS] Plan=Starter: views/feature_adoption.py has no exceptions
+[PASS] Plan=Starter: views/feature_adoption.py renders 5 charts (found 5)
+[PASS] Plan=Starter: views/customer_engagement.py has no exceptions
+[PASS] Plan=Starter: views/customer_engagement.py renders 5 charts (found 5)
+[PASS] UI Customer Engagement: Starter inactivity: dashboard=36.1% reference=36.1%
+[PASS] UI Customer Engagement: Enterprise inactivity shows n/a when plan filtered out
+[PASS] Combined plan+industry+size+date filter: no exception
+[PASS] UI combined filters: Active users: dashboard=308 reference=308
+[PASS] combined filters: views/product_overview.py has no exceptions
+[PASS] combined filters: views/product_overview.py renders 4 charts (found 4)
+[PASS] combined filters: views/feature_adoption.py has no exceptions
+[PASS] combined filters: views/feature_adoption.py renders 5 charts (found 5)
+[PASS] combined filters: views/customer_engagement.py has no exceptions
+[PASS] combined filters: views/customer_engagement.py renders 5 charts (found 5)
+[PASS] Empty filter selection shows a warning (no crash)
+[PASS] Filters restored to defaults: no exception
+[PASS] UI restored: Active users: dashboard=3575 reference=3575
+
+410 checks run
+ALL DASHBOARD VALIDATION CHECKS PASSED

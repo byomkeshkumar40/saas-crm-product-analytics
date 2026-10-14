@@ -1,0 +1,9 @@
+segment,accounts,active_accounts,pct_accounts_active,total_users,active_users,pct_users_active,events,events_per_account,events_per_account_30d,events_per_active_user,avg_features_per_active_account
+Manufacturing,126,105,83.3,628,342,54.5,5635,44.7,17.21,16.5,3.64
+Healthcare,142,124,87.3,781,399,51.1,6384,45.0,17.64,16.0,3.93
+Education,101,88,87.1,548,286,52.2,4828,47.8,18.24,16.9,3.75
+Financial Services,164,140,85.4,862,482,55.9,10506,64.1,24.42,21.8,3.99
+Technology,285,252,88.4,1438,841,58.5,19089,67.0,25.89,22.7,3.93
+Retail & E-commerce,200,184,92.0,1116,641,57.4,15368,76.8,29.14,24.0,3.84
+Real Estate,112,103,92.0,587,363,61.8,8485,75.8,29.19,23.4,4.0
+Professional Services,70,63,90.0,371,221,59.6,5912,84.5,33.82,26.8,3.89

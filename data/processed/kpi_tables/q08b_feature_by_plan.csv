@@ -1,0 +1,19 @@
+plan,feature_name,active_accounts,adopting_accounts,adoption_pct_of_active_accounts,events,pct_of_plan_events
+Starter,Contact Management,455,415,91.2,6364,35.0
+Starter,Deal Pipeline,455,323,71.0,3733,20.5
+Starter,Email Integration,455,196,43.1,2109,11.6
+Starter,Lead Management,455,398,87.5,5259,28.9
+Starter,Reporting,455,99,21.8,582,3.2
+Starter,Workflow Automation,455,31,6.8,143,0.8
+Professional,Contact Management,386,369,95.6,7328,27.7
+Professional,Deal Pipeline,386,312,80.8,5804,22.0
+Professional,Email Integration,386,232,60.1,3215,12.2
+Professional,Lead Management,386,351,90.9,6824,25.8
+Professional,Reporting,386,205,53.1,2274,8.6
+Professional,Workflow Automation,386,122,31.6,964,3.7
+Enterprise,Contact Management,218,205,94.0,7445,23.6
+Enterprise,Deal Pipeline,218,191,87.6,6090,19.3
+Enterprise,Email Integration,218,159,72.9,4346,13.7
+Enterprise,Lead Management,218,202,92.7,7372,23.3
+Enterprise,Reporting,218,170,78.0,3898,12.3
+Enterprise,Workflow Automation,218,131,60.1,2457,7.8

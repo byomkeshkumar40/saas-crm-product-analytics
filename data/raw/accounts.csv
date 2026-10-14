@@ -1,0 +1,1201 @@
+account_id,signup_date,industry,company_size,subscription_plan,region
+A0001,2024-01-26,Financial Services,51-200,Professional,North America
+A0002,2024-07-15,Technology,11-50,Starter,North America
+A0003,2026-03-13,Manufacturing,11-50,Professional,LATAM
+A0004,2025-06-27,Retail & E-commerce,51-200,Professional,LATAM
+A0005,2024-01-08,Retail & E-commerce,1-10,Starter,APAC
+A0006,2024-04-05,Real Estate,201+,Professional,North America
+A0007,2025-08-15,Retail & E-commerce,11-50,Professional,Middle East & Africa
+A0008,2026-03-04,Education,1-10,Starter,North America
+A0009,2026-02-22,Manufacturing,1-10,Starter,LATAM
+A0010,2024-01-02,Real Estate,11-50,Professional,North America
+A0011,2025-11-05,Retail & E-commerce,1-10,Starter,APAC
+A0012,2025-07-26,Professional Services,11-50,Professional,North America
+A0013,2025-08-12,Technology,11-50,Starter,North America
+A0014,2025-03-07,Technology,1-10,Starter,APAC
+A0015,2025-12-01,Technology,11-50,Enterprise,North America
+A0016,2026-02-03,Education,1-10,Starter,Europe
+A0017,2025-06-21,Professional Services,11-50,Professional,North America
+A0018,2025-03-15,Retail & E-commerce,1-10,Starter,Europe
+A0019,2024-10-05,Healthcare,11-50,Starter,North America
+A0020,2024-10-22,Healthcare,11-50,Professional,North America
+A0021,2025-04-28,Retail & E-commerce,1-10,Starter,Europe
+A0022,2025-11-10,Retail & E-commerce,51-200,Professional,North America
+A0023,2024-04-12,Manufacturing,11-50,Enterprise,North America
+A0024,2025-11-05,Technology,11-50,Professional,North America
+A0025,2026-03-28,Professional Services,51-200,Enterprise,North America
+A0026,2025-09-22,Professional Services,11-50,Starter,Europe
+A0027,2026-03-26,Technology,51-200,Professional,LATAM
+A0028,2025-06-01,Technology,11-50,Professional,North America
+A0029,2026-01-14,Retail & E-commerce,1-10,Starter,LATAM
+A0030,2024-02-20,Financial Services,11-50,Professional,North America
+A0031,2025-09-24,Manufacturing,11-50,Starter,APAC
+A0032,2024-12-26,Financial Services,11-50,Professional,North America
+A0033,2026-01-13,Healthcare,11-50,Starter,North America
+A0034,2025-11-08,Real Estate,1-10,Starter,Europe
+A0035,2024-04-15,Retail & E-commerce,11-50,Starter,North America
+A0036,2026-03-23,Healthcare,51-200,Starter,Europe
+A0037,2025-04-20,Healthcare,201+,Professional,APAC
+A0038,2025-07-12,Technology,1-10,Starter,North America
+A0039,2026-02-16,Retail & E-commerce,11-50,Starter,APAC
+A0040,2024-01-27,Retail & E-commerce,1-10,Starter,Europe
+A0041,2025-08-29,Technology,201+,Enterprise,LATAM
+A0042,2026-02-17,Technology,11-50,Starter,Europe
+A0043,2026-01-14,Education,11-50,Professional,North America
+A0044,2024-12-10,Retail & E-commerce,11-50,Professional,North America
+A0045,2025-09-18,Education,201+,Enterprise,Europe
+A0046,2025-03-28,Manufacturing,11-50,Starter,Europe
+A0047,2025-03-03,Technology,51-200,Enterprise,LATAM
+A0048,2025-06-11,Healthcare,1-10,Starter,North America
+A0049,2025-11-11,Real Estate,51-200,Enterprise,Europe
+A0050,2025-04-28,Healthcare,1-10,Professional,APAC
+A0051,2024-02-19,Technology,1-10,Starter,APAC
+A0052,2025-12-14,Technology,11-50,Starter,Europe
+A0053,2024-01-16,Technology,1-10,Starter,Europe
+A0054,2025-12-02,Real Estate,1-10,Starter,APAC
+A0055,2024-07-02,Technology,1-10,Starter,APAC
+A0056,2026-02-05,Retail & E-commerce,51-200,Starter,APAC
+A0057,2026-03-21,Financial Services,1-10,Starter,North America
+A0058,2026-02-05,Healthcare,11-50,Starter,APAC
+A0059,2025-07-12,Real Estate,1-10,Starter,Europe
+A0060,2025-10-24,Manufacturing,11-50,Enterprise,LATAM
+A0061,2026-01-23,Financial Services,11-50,Professional,Europe
+A0062,2025-08-27,Technology,1-10,Starter,Europe
+A0063,2024-06-21,Retail & E-commerce,51-200,Enterprise,North America
+A0064,2025-08-09,Real Estate,1-10,Enterprise,North America
+A0065,2025-03-15,Healthcare,51-200,Professional,Europe
+A0066,2025-03-31,Manufacturing,1-10,Professional,Europe
+A0067,2026-03-24,Retail & E-commerce,1-10,Starter,North America
+A0068,2024-03-25,Retail & E-commerce,11-50,Starter,North America
+A0069,2025-05-23,Financial Services,11-50,Professional,APAC
+A0070,2024-01-09,Financial Services,1-10,Professional,APAC
+A0071,2025-04-14,Technology,201+,Professional,Europe
+A0072,2026-02-01,Healthcare,201+,Professional,Europe
+A0073,2026-02-27,Technology,51-200,Professional,North America
+A0074,2024-01-29,Financial Services,11-50,Professional,North America
+A0075,2026-01-01,Professional Services,201+,Enterprise,North America
+A0076,2026-01-22,Technology,51-200,Starter,Europe
+A0077,2024-07-10,Financial Services,11-50,Professional,North America
+A0078,2024-09-21,Manufacturing,1-10,Professional,North America
+A0079,2024-02-20,Education,51-200,Enterprise,APAC
+A0080,2026-03-04,Technology,11-50,Professional,Europe
+A0081,2025-02-10,Technology,11-50,Enterprise,North America
+A0082,2025-01-02,Real Estate,11-50,Professional,North America
+A0083,2025-04-13,Education,1-10,Starter,Europe
+A0084,2024-05-17,Education,1-10,Starter,Europe
+A0085,2024-04-17,Retail & E-commerce,11-50,Starter,North America
+A0086,2024-02-16,Technology,1-10,Starter,Europe
+A0087,2024-05-13,Healthcare,11-50,Professional,Europe
+A0088,2025-04-02,Professional Services,1-10,Starter,North America
+A0089,2024-04-18,Technology,1-10,Starter,Europe
+A0090,2024-11-25,Healthcare,11-50,Enterprise,North America
+A0091,2025-06-19,Healthcare,1-10,Starter,Europe
+A0092,2025-12-27,Manufacturing,11-50,Professional,APAC
+A0093,2025-11-10,Financial Services,1-10,Starter,Europe
+A0094,2024-04-16,Real Estate,1-10,Professional,North America
+A0095,2025-07-12,Retail & E-commerce,1-10,Starter,LATAM
+A0096,2024-12-04,Manufacturing,1-10,Starter,APAC
+A0097,2024-07-20,Education,1-10,Starter,APAC
+A0098,2024-05-29,Healthcare,51-200,Professional,APAC
+A0099,2025-09-10,Education,1-10,Starter,Europe
+A0100,2024-03-28,Retail & E-commerce,1-10,Starter,North America
+A0101,2025-07-06,Education,51-200,Enterprise,APAC
+A0102,2025-11-27,Technology,11-50,Professional,LATAM
+A0103,2025-02-14,Retail & E-commerce,11-50,Professional,North America
+A0104,2024-12-14,Real Estate,201+,Enterprise,Europe
+A0105,2026-01-14,Technology,1-10,Professional,North America
+A0106,2026-03-20,Technology,1-10,Starter,North America
+A0107,2024-09-23,Retail & E-commerce,1-10,Professional,North America
+A0108,2026-01-03,Technology,1-10,Starter,North America
+A0109,2025-10-13,Healthcare,51-200,Enterprise,APAC
+A0110,2025-09-19,Manufacturing,51-200,Professional,North America
+A0111,2025-01-25,Technology,51-200,Enterprise,LATAM
+A0112,2025-12-03,Professional Services,11-50,Enterprise,North America
+A0113,2025-07-08,Technology,1-10,Starter,North America
+A0114,2026-01-27,Education,11-50,Professional,Europe
+A0115,2026-01-24,Retail & E-commerce,11-50,Professional,APAC
+A0116,2024-08-10,Manufacturing,51-200,Enterprise,North America
+A0117,2026-02-07,Technology,51-200,Professional,North America
+A0118,2025-03-27,Real Estate,1-10,Starter,Europe
+A0119,2024-01-09,Manufacturing,1-10,Starter,Europe
+A0120,2025-06-17,Retail & E-commerce,201+,Enterprise,North America
+A0121,2026-03-20,Retail & E-commerce,11-50,Professional,North America
+A0122,2024-02-09,Healthcare,11-50,Professional,North America
+A0123,2024-05-06,Manufacturing,1-10,Starter,Europe
+A0124,2026-03-12,Retail & E-commerce,1-10,Professional,APAC
+A0125,2026-01-08,Manufacturing,1-10,Starter,Europe
+A0126,2026-03-29,Healthcare,1-10,Starter,APAC
+A0127,2024-11-11,Financial Services,11-50,Starter,Europe
+A0128,2025-11-05,Technology,51-200,Enterprise,North America
+A0129,2024-12-06,Manufacturing,51-200,Enterprise,Europe
+A0130,2024-11-29,Technology,11-50,Starter,APAC
+A0131,2025-01-23,Retail & E-commerce,1-10,Starter,APAC
+A0132,2026-03-13,Education,11-50,Professional,LATAM
+A0133,2024-03-22,Manufacturing,1-10,Enterprise,Europe
+A0134,2026-02-05,Retail & E-commerce,1-10,Starter,Europe
+A0135,2025-06-29,Manufacturing,1-10,Starter,Europe
+A0136,2024-10-17,Technology,1-10,Starter,North America
+A0137,2024-09-21,Financial Services,201+,Enterprise,APAC
+A0138,2025-08-03,Professional Services,11-50,Starter,North America
+A0139,2025-06-19,Manufacturing,11-50,Professional,North America
+A0140,2024-08-06,Retail & E-commerce,51-200,Professional,North America
+A0141,2025-10-04,Financial Services,51-200,Professional,LATAM
+A0142,2025-03-05,Manufacturing,1-10,Starter,North America
+A0143,2024-08-23,Real Estate,1-10,Starter,APAC
+A0144,2025-08-20,Healthcare,1-10,Professional,APAC
+A0145,2024-08-02,Real Estate,51-200,Professional,APAC
+A0146,2025-10-22,Technology,1-10,Starter,APAC
+A0147,2025-03-27,Technology,1-10,Starter,Middle East & Africa
+A0148,2026-01-08,Technology,11-50,Professional,Europe
+A0149,2025-06-21,Technology,201+,Enterprise,North America
+A0150,2025-12-11,Financial Services,51-200,Enterprise,APAC
+A0151,2024-06-15,Technology,1-10,Starter,North America
+A0152,2025-03-17,Technology,1-10,Professional,LATAM
+A0153,2025-12-25,Manufacturing,11-50,Starter,North America
+A0154,2024-05-02,Healthcare,1-10,Starter,Europe
+A0155,2026-03-08,Real Estate,51-200,Professional,APAC
+A0156,2025-01-21,Financial Services,11-50,Enterprise,Europe
+A0157,2024-04-12,Technology,11-50,Professional,Europe
+A0158,2025-11-18,Technology,51-200,Starter,Europe
+A0159,2026-01-25,Real Estate,1-10,Starter,North America
+A0160,2025-05-23,Technology,51-200,Professional,North America
+A0161,2025-02-06,Education,201+,Enterprise,LATAM
+A0162,2024-11-17,Technology,11-50,Starter,North America
+A0163,2025-04-09,Healthcare,51-200,Professional,North America
+A0164,2024-12-28,Professional Services,201+,Enterprise,APAC
+A0165,2026-03-02,Manufacturing,1-10,Starter,APAC
+A0166,2025-08-31,Financial Services,11-50,Starter,Europe
+A0167,2024-07-23,Education,11-50,Professional,Europe
+A0168,2026-01-11,Technology,51-200,Enterprise,Europe
+A0169,2024-05-08,Technology,1-10,Professional,APAC
+A0170,2026-02-21,Retail & E-commerce,11-50,Professional,North America
+A0171,2025-01-03,Real Estate,51-200,Enterprise,North America
+A0172,2025-03-24,Professional Services,51-200,Enterprise,APAC
+A0173,2025-04-14,Retail & E-commerce,201+,Enterprise,Middle East & Africa
+A0174,2025-09-25,Manufacturing,11-50,Professional,North America
+A0175,2025-08-18,Education,11-50,Professional,APAC
+A0176,2024-06-15,Technology,1-10,Starter,North America
+A0177,2025-01-21,Manufacturing,11-50,Professional,APAC
+A0178,2024-01-20,Professional Services,1-10,Starter,North America
+A0179,2025-01-19,Education,201+,Professional,Europe
+A0180,2024-02-12,Healthcare,1-10,Professional,North America
+A0181,2025-11-19,Retail & E-commerce,1-10,Starter,APAC
+A0182,2024-01-08,Real Estate,1-10,Starter,Europe
+A0183,2026-02-05,Retail & E-commerce,51-200,Professional,North America
+A0184,2024-03-04,Healthcare,51-200,Professional,Europe
+A0185,2026-01-06,Financial Services,1-10,Starter,Europe
+A0186,2024-12-05,Financial Services,51-200,Professional,North America
+A0187,2025-12-29,Technology,1-10,Professional,APAC
+A0188,2025-05-21,Retail & E-commerce,11-50,Professional,North America
+A0189,2026-02-16,Technology,1-10,Starter,North America
+A0190,2025-04-24,Healthcare,51-200,Enterprise,North America
+A0191,2026-03-14,Retail & E-commerce,201+,Enterprise,LATAM
+A0192,2025-04-01,Healthcare,1-10,Professional,North America
+A0193,2024-03-19,Retail & E-commerce,51-200,Enterprise,Europe
+A0194,2025-10-18,Manufacturing,11-50,Starter,North America
+A0195,2024-06-26,Retail & E-commerce,1-10,Starter,LATAM
+A0196,2025-04-04,Retail & E-commerce,11-50,Starter,LATAM
+A0197,2026-03-29,Technology,11-50,Professional,APAC
+A0198,2025-03-19,Real Estate,51-200,Enterprise,North America
+A0199,2025-06-05,Retail & E-commerce,11-50,Starter,North America
+A0200,2024-04-01,Retail & E-commerce,1-10,Professional,North America
+A0201,2026-02-13,Technology,1-10,Starter,Europe
+A0202,2024-01-04,Professional Services,201+,Enterprise,APAC
+A0203,2026-03-26,Financial Services,11-50,Starter,North America
+A0204,2026-01-15,Technology,11-50,Starter,APAC
+A0205,2026-02-07,Financial Services,11-50,Enterprise,Europe
+A0206,2025-05-09,Technology,1-10,Starter,North America
+A0207,2026-03-04,Education,11-50,Starter,North America
+A0208,2025-10-30,Retail & E-commerce,1-10,Professional,Middle East & Africa
+A0209,2024-03-26,Manufacturing,201+,Enterprise,North America
+A0210,2026-02-14,Education,11-50,Professional,North America
+A0211,2024-04-02,Technology,11-50,Starter,Europe
+A0212,2026-01-15,Manufacturing,1-10,Professional,North America
+A0213,2025-03-14,Retail & E-commerce,51-200,Professional,North America
+A0214,2025-05-12,Healthcare,1-10,Starter,APAC
+A0215,2026-01-15,Financial Services,1-10,Starter,Europe
+A0216,2024-02-12,Education,11-50,Professional,APAC
+A0217,2026-02-26,Healthcare,51-200,Enterprise,North America
+A0218,2024-12-30,Professional Services,1-10,Starter,North America
+A0219,2024-01-22,Education,1-10,Professional,LATAM
+A0220,2026-02-07,Education,1-10,Starter,North America
+A0221,2026-01-10,Education,51-200,Enterprise,Europe
+A0222,2026-01-12,Technology,1-10,Enterprise,LATAM
+A0223,2025-12-16,Healthcare,201+,Enterprise,North America
+A0224,2024-10-03,Technology,1-10,Starter,APAC
+A0225,2024-02-08,Technology,1-10,Starter,Europe
+A0226,2026-01-23,Healthcare,11-50,Enterprise,Europe
+A0227,2025-02-10,Technology,51-200,Professional,Europe
+A0228,2024-10-31,Financial Services,1-10,Starter,Middle East & Africa
+A0229,2025-08-15,Technology,1-10,Enterprise,Europe
+A0230,2025-09-27,Education,201+,Professional,North America
+A0231,2024-09-04,Healthcare,11-50,Professional,North America
+A0232,2025-01-22,Retail & E-commerce,51-200,Professional,LATAM
+A0233,2024-08-09,Technology,51-200,Professional,North America
+A0234,2025-01-17,Real Estate,51-200,Professional,North America
+A0235,2025-03-21,Financial Services,1-10,Starter,LATAM
+A0236,2024-05-04,Professional Services,51-200,Starter,North America
+A0237,2025-05-16,Financial Services,201+,Enterprise,North America
+A0238,2025-02-13,Financial Services,1-10,Starter,LATAM
+A0239,2025-05-20,Technology,11-50,Starter,APAC
+A0240,2024-01-14,Healthcare,11-50,Starter,APAC
+A0241,2025-05-10,Manufacturing,1-10,Starter,APAC
+A0242,2025-04-10,Real Estate,11-50,Starter,APAC
+A0243,2024-09-24,Retail & E-commerce,201+,Professional,APAC
+A0244,2024-02-24,Healthcare,51-200,Professional,Europe
+A0245,2026-01-31,Retail & E-commerce,51-200,Enterprise,Europe
+A0246,2025-04-14,Professional Services,1-10,Starter,APAC
+A0247,2025-09-24,Technology,51-200,Starter,North America
+A0248,2025-03-20,Real Estate,51-200,Professional,Europe
+A0249,2024-08-17,Financial Services,51-200,Enterprise,Middle East & Africa
+A0250,2026-02-23,Retail & E-commerce,11-50,Starter,Europe
+A0251,2026-01-02,Manufacturing,1-10,Professional,Europe
+A0252,2025-05-12,Technology,1-10,Starter,North America
+A0253,2025-03-20,Real Estate,51-200,Enterprise,North America
+A0254,2024-01-18,Healthcare,11-50,Enterprise,North America
+A0255,2026-02-11,Real Estate,11-50,Professional,North America
+A0256,2025-06-24,Retail & E-commerce,51-200,Enterprise,North America
+A0257,2026-03-05,Real Estate,11-50,Professional,North America
+A0258,2025-06-05,Education,1-10,Starter,APAC
+A0259,2024-06-22,Education,1-10,Enterprise,Europe
+A0260,2025-06-09,Technology,11-50,Professional,North America
+A0261,2024-08-25,Manufacturing,51-200,Professional,North America
+A0262,2026-03-23,Financial Services,51-200,Professional,APAC
+A0263,2026-02-01,Manufacturing,1-10,Professional,North America
+A0264,2025-02-07,Real Estate,201+,Enterprise,North America
+A0265,2025-10-29,Healthcare,1-10,Starter,Europe
+A0266,2024-08-03,Education,201+,Enterprise,Europe
+A0267,2026-01-28,Financial Services,1-10,Starter,North America
+A0268,2024-11-15,Financial Services,51-200,Starter,APAC
+A0269,2026-03-24,Healthcare,1-10,Starter,North America
+A0270,2025-06-12,Manufacturing,1-10,Starter,North America
+A0271,2024-05-15,Financial Services,1-10,Starter,APAC
+A0272,2025-06-13,Technology,11-50,Starter,Europe
+A0273,2025-02-14,Technology,11-50,Starter,Europe
+A0274,2026-03-02,Real Estate,11-50,Professional,North America
+A0275,2024-10-18,Manufacturing,1-10,Starter,North America
+A0276,2024-03-22,Financial Services,1-10,Professional,APAC
+A0277,2025-12-06,Education,11-50,Enterprise,North America
+A0278,2024-07-09,Manufacturing,1-10,Starter,APAC
+A0279,2026-01-05,Retail & E-commerce,11-50,Starter,North America
+A0280,2026-02-16,Manufacturing,11-50,Professional,APAC
+A0281,2024-04-03,Technology,201+,Enterprise,Europe
+A0282,2025-09-13,Retail & E-commerce,11-50,Starter,APAC
+A0283,2025-08-31,Technology,1-10,Starter,North America
+A0284,2025-10-25,Retail & E-commerce,1-10,Starter,APAC
+A0285,2025-12-07,Real Estate,201+,Professional,APAC
+A0286,2025-04-12,Financial Services,201+,Enterprise,APAC
+A0287,2025-09-16,Manufacturing,1-10,Starter,APAC
+A0288,2024-09-19,Financial Services,1-10,Starter,North America
+A0289,2024-07-23,Healthcare,11-50,Starter,North America
+A0290,2026-01-12,Real Estate,201+,Enterprise,Europe
+A0291,2026-01-24,Retail & E-commerce,1-10,Professional,North America
+A0292,2025-09-11,Professional Services,1-10,Starter,Europe
+A0293,2026-03-08,Manufacturing,201+,Enterprise,North America
+A0294,2025-09-20,Technology,11-50,Professional,Europe
+A0295,2026-03-15,Professional Services,11-50,Professional,APAC
+A0296,2024-07-22,Financial Services,51-200,Professional,Europe
+A0297,2026-01-21,Healthcare,11-50,Starter,Europe
+A0298,2024-10-25,Technology,1-10,Enterprise,APAC
+A0299,2025-08-27,Retail & E-commerce,51-200,Starter,APAC
+A0300,2024-10-10,Technology,11-50,Professional,North America
+A0301,2025-07-05,Retail & E-commerce,1-10,Starter,North America
+A0302,2025-08-12,Professional Services,51-200,Enterprise,APAC
+A0303,2024-06-24,Healthcare,1-10,Starter,North America
+A0304,2024-07-18,Retail & E-commerce,1-10,Professional,North America
+A0305,2026-03-14,Real Estate,11-50,Enterprise,North America
+A0306,2024-12-12,Technology,1-10,Professional,North America
+A0307,2024-02-12,Technology,1-10,Professional,APAC
+A0308,2026-02-07,Financial Services,1-10,Professional,North America
+A0309,2024-07-06,Technology,11-50,Professional,North America
+A0310,2026-01-02,Financial Services,201+,Enterprise,Europe
+A0311,2025-07-31,Technology,11-50,Professional,North America
+A0312,2025-04-19,Financial Services,1-10,Starter,North America
+A0313,2024-10-06,Manufacturing,201+,Enterprise,North America
+A0314,2025-09-25,Retail & E-commerce,11-50,Professional,North America
+A0315,2024-11-24,Real Estate,1-10,Professional,North America
+A0316,2024-05-15,Manufacturing,201+,Enterprise,APAC
+A0317,2026-03-05,Technology,11-50,Starter,North America
+A0318,2026-02-14,Technology,51-200,Enterprise,APAC
+A0319,2024-01-26,Real Estate,51-200,Professional,APAC
+A0320,2024-11-11,Financial Services,11-50,Starter,LATAM
+A0321,2024-11-16,Technology,11-50,Professional,Europe
+A0322,2024-01-12,Technology,1-10,Starter,Europe
+A0323,2025-12-31,Technology,1-10,Starter,North America
+A0324,2025-05-19,Manufacturing,1-10,Starter,North America
+A0325,2024-07-29,Retail & E-commerce,1-10,Starter,North America
+A0326,2024-10-31,Education,51-200,Professional,North America
+A0327,2024-01-02,Technology,201+,Enterprise,Europe
+A0328,2025-10-02,Financial Services,1-10,Starter,Europe
+A0329,2024-07-11,Education,11-50,Enterprise,Europe
+A0330,2025-01-27,Real Estate,51-200,Professional,North America
+A0331,2026-03-14,Education,11-50,Professional,APAC
+A0332,2026-03-13,Technology,11-50,Starter,Europe
+A0333,2026-03-03,Technology,51-200,Professional,North America
+A0334,2025-10-23,Retail & E-commerce,51-200,Professional,Europe
+A0335,2025-09-23,Financial Services,11-50,Starter,APAC
+A0336,2026-03-03,Professional Services,11-50,Professional,Europe
+A0337,2025-07-19,Technology,1-10,Starter,North America
+A0338,2025-06-20,Technology,1-10,Starter,North America
+A0339,2026-03-16,Retail & E-commerce,11-50,Professional,North America
+A0340,2024-07-02,Professional Services,1-10,Starter,North America
+A0341,2024-12-28,Retail & E-commerce,51-200,Enterprise,North America
+A0342,2024-07-28,Healthcare,11-50,Starter,North America
+A0343,2025-06-10,Real Estate,1-10,Starter,North America
+A0344,2025-09-23,Financial Services,51-200,Professional,Europe
+A0345,2025-11-09,Financial Services,1-10,Professional,North America
+A0346,2025-08-08,Technology,1-10,Starter,North America
+A0347,2025-12-21,Technology,1-10,Starter,LATAM
+A0348,2025-12-25,Financial Services,11-50,Enterprise,APAC
+A0349,2025-09-19,Technology,201+,Enterprise,APAC
+A0350,2025-07-19,Technology,1-10,Starter,LATAM
+A0351,2024-10-11,Financial Services,51-200,Starter,LATAM
+A0352,2025-01-12,Technology,1-10,Starter,North America
+A0353,2024-05-20,Real Estate,11-50,Enterprise,North America
+A0354,2026-02-21,Technology,51-200,Enterprise,North America
+A0355,2024-07-11,Technology,11-50,Professional,North America
+A0356,2026-01-01,Manufacturing,11-50,Professional,APAC
+A0357,2025-06-26,Healthcare,1-10,Starter,Europe
+A0358,2025-10-04,Retail & E-commerce,11-50,Starter,Europe
+A0359,2026-03-12,Technology,11-50,Professional,APAC
+A0360,2025-08-08,Financial Services,1-10,Starter,North America
+A0361,2025-07-22,Retail & E-commerce,51-200,Enterprise,APAC
+A0362,2026-01-24,Technology,11-50,Starter,APAC
+A0363,2024-02-01,Technology,1-10,Starter,North America
+A0364,2025-06-03,Technology,11-50,Professional,APAC
+A0365,2026-03-09,Retail & E-commerce,1-10,Starter,North America
+A0366,2026-01-06,Financial Services,51-200,Enterprise,North America
+A0367,2024-05-17,Real Estate,11-50,Starter,North America
+A0368,2024-08-19,Healthcare,1-10,Starter,North America
+A0369,2025-09-02,Manufacturing,1-10,Starter,APAC
+A0370,2024-10-28,Retail & E-commerce,1-10,Professional,LATAM
+A0371,2025-03-22,Healthcare,11-50,Professional,APAC
+A0372,2025-04-08,Retail & E-commerce,201+,Professional,Europe
+A0373,2026-01-25,Real Estate,1-10,Professional,Europe
+A0374,2026-02-14,Education,201+,Professional,North America
+A0375,2024-11-14,Financial Services,51-200,Enterprise,Europe
+A0376,2026-02-05,Education,1-10,Starter,Europe
+A0377,2026-01-17,Financial Services,201+,Enterprise,Europe
+A0378,2026-02-05,Technology,1-10,Starter,APAC
+A0379,2024-04-27,Technology,51-200,Enterprise,North America
+A0380,2024-02-10,Retail & E-commerce,11-50,Professional,Europe
+A0381,2026-03-25,Financial Services,11-50,Starter,Europe
+A0382,2025-11-29,Technology,11-50,Starter,LATAM
+A0383,2024-07-18,Education,11-50,Professional,North America
+A0384,2026-01-25,Retail & E-commerce,1-10,Professional,North America
+A0385,2025-05-04,Financial Services,1-10,Starter,North America
+A0386,2024-10-21,Technology,1-10,Professional,APAC
+A0387,2025-12-07,Technology,201+,Enterprise,North America
+A0388,2025-12-24,Healthcare,1-10,Professional,Europe
+A0389,2025-02-25,Professional Services,51-200,Enterprise,North America
+A0390,2026-02-27,Real Estate,11-50,Professional,Europe
+A0391,2025-11-14,Technology,11-50,Professional,Europe
+A0392,2024-07-20,Retail & E-commerce,51-200,Enterprise,APAC
+A0393,2024-11-04,Technology,51-200,Enterprise,Europe
+A0394,2024-11-10,Technology,51-200,Enterprise,North America
+A0395,2024-11-11,Financial Services,11-50,Professional,North America
+A0396,2024-04-20,Manufacturing,201+,Enterprise,North America
+A0397,2024-06-01,Retail & E-commerce,1-10,Starter,North America
+A0398,2025-10-16,Technology,1-10,Starter,North America
+A0399,2025-11-07,Technology,1-10,Starter,Middle East & Africa
+A0400,2025-11-08,Real Estate,11-50,Professional,North America
+A0401,2024-06-03,Manufacturing,11-50,Professional,APAC
+A0402,2024-09-28,Healthcare,201+,Professional,LATAM
+A0403,2024-08-26,Manufacturing,1-10,Professional,North America
+A0404,2025-07-18,Financial Services,1-10,Starter,APAC
+A0405,2025-01-04,Education,1-10,Professional,North America
+A0406,2024-01-30,Real Estate,11-50,Starter,North America
+A0407,2025-02-14,Financial Services,1-10,Starter,North America
+A0408,2025-05-05,Healthcare,1-10,Starter,APAC
+A0409,2024-07-30,Financial Services,1-10,Starter,North America
+A0410,2024-01-13,Education,1-10,Starter,North America
+A0411,2025-10-21,Technology,11-50,Professional,North America
+A0412,2025-08-29,Retail & E-commerce,11-50,Starter,APAC
+A0413,2024-07-12,Real Estate,1-10,Starter,North America
+A0414,2026-01-12,Education,11-50,Enterprise,APAC
+A0415,2024-07-03,Real Estate,1-10,Starter,Europe
+A0416,2024-03-17,Manufacturing,1-10,Professional,LATAM
+A0417,2025-02-23,Technology,1-10,Starter,LATAM
+A0418,2024-02-14,Technology,51-200,Enterprise,North America
+A0419,2024-03-13,Financial Services,1-10,Starter,LATAM
+A0420,2025-01-26,Real Estate,201+,Enterprise,APAC
+A0421,2024-08-27,Education,1-10,Starter,APAC
+A0422,2026-01-17,Retail & E-commerce,11-50,Enterprise,North America
+A0423,2025-12-03,Technology,11-50,Starter,Europe
+A0424,2024-07-07,Healthcare,1-10,Starter,APAC
+A0425,2024-11-27,Education,51-200,Starter,North America
+A0426,2026-03-19,Technology,51-200,Professional,APAC
+A0427,2025-06-05,Professional Services,1-10,Starter,Europe
+A0428,2026-01-07,Manufacturing,1-10,Starter,APAC
+A0429,2026-03-29,Manufacturing,51-200,Enterprise,North America
+A0430,2025-01-05,Retail & E-commerce,1-10,Professional,North America
+A0431,2025-08-31,Retail & E-commerce,201+,Enterprise,Middle East & Africa
+A0432,2025-12-07,Financial Services,11-50,Starter,North America
+A0433,2025-02-12,Financial Services,11-50,Enterprise,North America
+A0434,2026-03-10,Manufacturing,11-50,Professional,Europe
+A0435,2024-07-18,Technology,11-50,Enterprise,North America
+A0436,2026-03-24,Manufacturing,1-10,Professional,Europe
+A0437,2025-01-25,Technology,1-10,Starter,APAC
+A0438,2024-06-06,Manufacturing,11-50,Professional,Europe
+A0439,2026-02-06,Technology,11-50,Professional,LATAM
+A0440,2025-05-23,Manufacturing,1-10,Starter,North America
+A0441,2025-08-15,Technology,11-50,Starter,Europe
+A0442,2024-05-20,Healthcare,11-50,Starter,LATAM
+A0443,2026-01-10,Financial Services,51-200,Professional,APAC
+A0444,2026-01-02,Real Estate,201+,Enterprise,North America
+A0445,2026-03-15,Professional Services,11-50,Starter,Europe
+A0446,2024-02-03,Education,11-50,Enterprise,North America
+A0447,2024-06-12,Technology,1-10,Enterprise,Europe
+A0448,2024-05-14,Retail & E-commerce,1-10,Starter,North America
+A0449,2024-03-06,Financial Services,1-10,Starter,North America
+A0450,2024-10-25,Real Estate,11-50,Enterprise,Europe
+A0451,2026-03-06,Healthcare,51-200,Professional,North America
+A0452,2026-02-17,Education,11-50,Starter,North America
+A0453,2024-02-11,Retail & E-commerce,1-10,Professional,North America
+A0454,2024-12-01,Professional Services,51-200,Enterprise,Europe
+A0455,2026-03-12,Technology,1-10,Starter,North America
+A0456,2026-01-30,Retail & E-commerce,1-10,Professional,APAC
+A0457,2026-03-18,Technology,51-200,Professional,APAC
+A0458,2025-12-19,Financial Services,11-50,Enterprise,Europe
+A0459,2026-02-15,Real Estate,11-50,Starter,Middle East & Africa
+A0460,2024-04-16,Technology,51-200,Enterprise,APAC
+A0461,2025-03-24,Manufacturing,201+,Enterprise,Europe
+A0462,2024-05-09,Education,1-10,Starter,North America
+A0463,2026-01-22,Education,11-50,Professional,Europe
+A0464,2025-10-14,Financial Services,1-10,Starter,North America
+A0465,2025-12-05,Real Estate,1-10,Starter,Europe
+A0466,2026-02-18,Manufacturing,11-50,Professional,North America
+A0467,2024-10-21,Financial Services,1-10,Starter,Europe
+A0468,2025-08-17,Education,11-50,Starter,North America
+A0469,2025-07-27,Education,51-200,Professional,North America
+A0470,2024-04-13,Manufacturing,51-200,Starter,Europe
+A0471,2025-01-30,Technology,51-200,Professional,Europe
+A0472,2026-03-27,Technology,11-50,Professional,North America
+A0473,2025-12-24,Real Estate,1-10,Starter,APAC
+A0474,2026-02-02,Manufacturing,1-10,Starter,North America
+A0475,2024-09-02,Retail & E-commerce,51-200,Starter,Europe
+A0476,2024-06-01,Healthcare,11-50,Professional,LATAM
+A0477,2026-01-16,Real Estate,1-10,Starter,APAC
+A0478,2024-12-27,Technology,1-10,Starter,North America
+A0479,2026-03-09,Healthcare,1-10,Starter,APAC
+A0480,2024-10-07,Technology,11-50,Professional,Middle East & Africa
+A0481,2026-02-28,Retail & E-commerce,51-200,Professional,Europe
+A0482,2024-01-19,Financial Services,1-10,Professional,North America
+A0483,2026-01-30,Financial Services,51-200,Enterprise,North America
+A0484,2024-06-28,Education,1-10,Starter,North America
+A0485,2026-03-28,Healthcare,1-10,Professional,APAC
+A0486,2026-01-31,Financial Services,1-10,Starter,APAC
+A0487,2024-01-24,Healthcare,201+,Enterprise,Europe
+A0488,2026-03-22,Education,51-200,Professional,LATAM
+A0489,2026-01-15,Technology,201+,Starter,North America
+A0490,2026-02-20,Technology,201+,Enterprise,North America
+A0491,2025-05-30,Technology,1-10,Starter,North America
+A0492,2024-11-23,Retail & E-commerce,11-50,Starter,APAC
+A0493,2025-06-28,Manufacturing,201+,Enterprise,North America
+A0494,2025-07-15,Healthcare,201+,Enterprise,APAC
+A0495,2026-01-02,Manufacturing,1-10,Starter,APAC
+A0496,2024-02-28,Technology,51-200,Enterprise,LATAM
+A0497,2024-02-03,Technology,1-10,Starter,Europe
+A0498,2024-04-30,Technology,51-200,Enterprise,North America
+A0499,2026-01-06,Real Estate,1-10,Professional,LATAM
+A0500,2026-01-21,Financial Services,1-10,Professional,APAC
+A0501,2025-10-18,Technology,1-10,Starter,APAC
+A0502,2024-11-02,Real Estate,1-10,Starter,APAC
+A0503,2025-07-25,Technology,11-50,Professional,APAC
+A0504,2026-02-14,Technology,1-10,Starter,North America
+A0505,2024-02-21,Technology,51-200,Professional,North America
+A0506,2024-08-16,Technology,11-50,Professional,North America
+A0507,2024-04-12,Healthcare,11-50,Enterprise,APAC
+A0508,2024-06-27,Manufacturing,1-10,Starter,North America
+A0509,2024-06-01,Education,11-50,Starter,Europe
+A0510,2025-06-08,Retail & E-commerce,11-50,Professional,Europe
+A0511,2026-01-08,Healthcare,51-200,Professional,North America
+A0512,2025-07-02,Manufacturing,11-50,Enterprise,North America
+A0513,2026-03-25,Education,51-200,Professional,North America
+A0514,2025-08-01,Retail & E-commerce,1-10,Starter,APAC
+A0515,2025-05-11,Technology,51-200,Starter,North America
+A0516,2024-10-12,Professional Services,11-50,Professional,North America
+A0517,2024-01-12,Healthcare,11-50,Enterprise,Europe
+A0518,2025-09-05,Professional Services,1-10,Starter,APAC
+A0519,2025-01-27,Manufacturing,1-10,Starter,LATAM
+A0520,2025-02-22,Retail & E-commerce,1-10,Starter,APAC
+A0521,2025-08-20,Technology,11-50,Starter,LATAM
+A0522,2024-09-18,Real Estate,1-10,Starter,Europe
+A0523,2024-10-12,Manufacturing,11-50,Starter,North America
+A0524,2025-12-10,Professional Services,11-50,Professional,North America
+A0525,2024-07-20,Manufacturing,1-10,Starter,LATAM
+A0526,2026-02-20,Real Estate,1-10,Starter,North America
+A0527,2025-11-08,Real Estate,1-10,Enterprise,North America
+A0528,2025-04-03,Healthcare,1-10,Starter,APAC
+A0529,2024-08-06,Real Estate,1-10,Starter,North America
+A0530,2024-03-31,Financial Services,11-50,Starter,North America
+A0531,2026-03-15,Manufacturing,1-10,Starter,APAC
+A0532,2024-07-07,Healthcare,51-200,Enterprise,North America
+A0533,2025-06-02,Healthcare,1-10,Starter,Europe
+A0534,2024-05-10,Technology,1-10,Starter,Europe
+A0535,2025-10-20,Healthcare,11-50,Starter,Middle East & Africa
+A0536,2024-02-21,Technology,51-200,Enterprise,North America
+A0537,2024-09-23,Retail & E-commerce,1-10,Starter,LATAM
+A0538,2026-03-19,Healthcare,11-50,Professional,North America
+A0539,2024-02-15,Professional Services,51-200,Professional,North America
+A0540,2026-03-24,Technology,51-200,Enterprise,LATAM
+A0541,2026-01-22,Manufacturing,1-10,Starter,North America
+A0542,2026-03-16,Retail & E-commerce,1-10,Starter,North America
+A0543,2026-03-17,Healthcare,1-10,Starter,Europe
+A0544,2024-02-03,Retail & E-commerce,1-10,Starter,North America
+A0545,2025-04-06,Retail & E-commerce,11-50,Professional,Europe
+A0546,2024-05-30,Technology,11-50,Professional,Europe
+A0547,2025-09-16,Technology,1-10,Starter,APAC
+A0548,2025-03-10,Retail & E-commerce,201+,Enterprise,APAC
+A0549,2024-12-01,Financial Services,1-10,Professional,North America
+A0550,2026-01-12,Technology,1-10,Starter,North America
+A0551,2026-02-03,Retail & E-commerce,11-50,Professional,North America
+A0552,2025-03-09,Financial Services,1-10,Starter,LATAM
+A0553,2026-02-21,Financial Services,11-50,Professional,APAC
+A0554,2025-02-25,Financial Services,11-50,Starter,North America
+A0555,2026-03-04,Healthcare,51-200,Professional,North America
+A0556,2026-03-02,Retail & E-commerce,1-10,Professional,APAC
+A0557,2026-02-01,Real Estate,1-10,Starter,APAC
+A0558,2024-07-14,Healthcare,11-50,Professional,Europe
+A0559,2026-01-30,Financial Services,1-10,Starter,Europe
+A0560,2026-03-13,Healthcare,51-200,Professional,Europe
+A0561,2026-03-29,Real Estate,1-10,Starter,LATAM
+A0562,2024-10-20,Retail & E-commerce,1-10,Starter,North America
+A0563,2024-08-14,Technology,201+,Professional,North America
+A0564,2024-04-12,Retail & E-commerce,11-50,Starter,North America
+A0565,2025-06-27,Education,11-50,Starter,Europe
+A0566,2025-10-05,Technology,1-10,Starter,Europe
+A0567,2025-08-08,Real Estate,1-10,Starter,North America
+A0568,2026-01-03,Technology,11-50,Professional,North America
+A0569,2025-07-30,Technology,51-200,Professional,Europe
+A0570,2024-01-06,Professional Services,11-50,Professional,Europe
+A0571,2024-05-26,Financial Services,1-10,Professional,North America
+A0572,2025-10-25,Retail & E-commerce,1-10,Starter,Europe
+A0573,2024-09-06,Technology,11-50,Starter,North America
+A0574,2024-08-13,Education,201+,Enterprise,North America
+A0575,2024-01-23,Retail & E-commerce,11-50,Starter,Europe
+A0576,2026-03-20,Technology,11-50,Professional,Europe
+A0577,2024-01-24,Retail & E-commerce,201+,Enterprise,North America
+A0578,2025-07-07,Technology,51-200,Professional,Europe
+A0579,2026-03-19,Education,1-10,Professional,APAC
+A0580,2024-09-02,Retail & E-commerce,201+,Enterprise,North America
+A0581,2024-06-17,Education,1-10,Starter,APAC
+A0582,2024-10-12,Financial Services,1-10,Starter,North America
+A0583,2026-02-16,Professional Services,1-10,Professional,Europe
+A0584,2025-04-11,Education,51-200,Professional,North America
+A0585,2025-05-25,Financial Services,11-50,Starter,North America
+A0586,2026-03-12,Technology,11-50,Starter,North America
+A0587,2024-12-23,Education,51-200,Professional,Middle East & Africa
+A0588,2024-05-08,Retail & E-commerce,11-50,Enterprise,APAC
+A0589,2025-07-02,Financial Services,1-10,Starter,LATAM
+A0590,2025-06-22,Technology,11-50,Professional,APAC
+A0591,2024-01-14,Healthcare,51-200,Professional,North America
+A0592,2025-07-16,Manufacturing,201+,Enterprise,North America
+A0593,2025-03-16,Manufacturing,201+,Enterprise,North America
+A0594,2024-12-17,Technology,1-10,Starter,APAC
+A0595,2024-08-16,Retail & E-commerce,11-50,Professional,North America
+A0596,2024-06-19,Financial Services,51-200,Starter,Europe
+A0597,2025-11-04,Technology,1-10,Starter,Europe
+A0598,2025-05-10,Retail & E-commerce,1-10,Starter,North America
+A0599,2026-01-18,Manufacturing,11-50,Professional,APAC
+A0600,2024-05-29,Healthcare,1-10,Starter,North America
+A0601,2026-02-18,Healthcare,11-50,Professional,APAC
+A0602,2025-09-23,Financial Services,11-50,Professional,APAC
+A0603,2025-01-24,Financial Services,201+,Enterprise,North America
+A0604,2025-05-13,Education,11-50,Starter,North America
+A0605,2026-01-15,Retail & E-commerce,11-50,Enterprise,APAC
+A0606,2024-09-06,Healthcare,1-10,Professional,APAC
+A0607,2024-09-04,Retail & E-commerce,1-10,Starter,Europe
+A0608,2024-09-17,Education,51-200,Enterprise,North America
+A0609,2025-09-17,Technology,11-50,Starter,North America
+A0610,2024-01-15,Retail & E-commerce,1-10,Starter,Europe
+A0611,2026-02-11,Manufacturing,201+,Enterprise,North America
+A0612,2026-01-01,Manufacturing,1-10,Starter,Europe
+A0613,2025-01-17,Education,11-50,Enterprise,APAC
+A0614,2025-03-19,Technology,11-50,Starter,APAC
+A0615,2025-10-17,Retail & E-commerce,201+,Enterprise,Europe
+A0616,2024-09-12,Financial Services,11-50,Starter,North America
+A0617,2026-02-24,Financial Services,1-10,Starter,LATAM
+A0618,2026-03-20,Retail & E-commerce,51-200,Enterprise,APAC
+A0619,2024-07-31,Technology,11-50,Professional,Europe
+A0620,2024-03-21,Real Estate,11-50,Professional,Europe
+A0621,2024-12-17,Retail & E-commerce,201+,Starter,Europe
+A0622,2024-11-05,Technology,51-200,Professional,APAC
+A0623,2025-06-23,Financial Services,51-200,Professional,North America
+A0624,2026-02-03,Technology,51-200,Professional,North America
+A0625,2025-09-20,Manufacturing,11-50,Starter,LATAM
+A0626,2025-03-03,Education,51-200,Professional,North America
+A0627,2024-07-09,Real Estate,51-200,Professional,Europe
+A0628,2025-06-06,Education,11-50,Starter,North America
+A0629,2024-09-08,Professional Services,11-50,Professional,North America
+A0630,2025-11-10,Retail & E-commerce,201+,Professional,Europe
+A0631,2026-03-03,Financial Services,1-10,Professional,LATAM
+A0632,2025-09-18,Retail & E-commerce,11-50,Professional,North America
+A0633,2024-02-04,Real Estate,1-10,Starter,Europe
+A0634,2026-03-09,Financial Services,51-200,Professional,Europe
+A0635,2024-01-23,Real Estate,51-200,Starter,North America
+A0636,2025-05-07,Financial Services,1-10,Starter,APAC
+A0637,2024-09-03,Real Estate,11-50,Professional,APAC
+A0638,2024-06-08,Education,51-200,Enterprise,Europe
+A0639,2024-05-05,Technology,11-50,Professional,North America
+A0640,2024-05-16,Technology,11-50,Professional,North America
+A0641,2024-12-16,Professional Services,1-10,Starter,North America
+A0642,2024-07-04,Real Estate,1-10,Starter,Europe
+A0643,2026-02-19,Technology,1-10,Starter,Europe
+A0644,2026-03-27,Real Estate,1-10,Starter,Europe
+A0645,2026-02-05,Professional Services,1-10,Professional,Europe
+A0646,2024-09-16,Technology,1-10,Starter,Europe
+A0647,2024-05-12,Professional Services,1-10,Starter,APAC
+A0648,2025-05-26,Financial Services,51-200,Enterprise,APAC
+A0649,2024-06-19,Retail & E-commerce,11-50,Starter,LATAM
+A0650,2026-03-14,Healthcare,51-200,Professional,North America
+A0651,2024-07-14,Retail & E-commerce,1-10,Starter,North America
+A0652,2026-03-17,Technology,201+,Professional,Europe
+A0653,2025-04-27,Financial Services,1-10,Starter,Europe
+A0654,2026-01-22,Technology,51-200,Enterprise,Europe
+A0655,2026-03-21,Technology,1-10,Starter,Europe
+A0656,2026-03-13,Real Estate,51-200,Professional,North America
+A0657,2025-05-02,Education,1-10,Professional,North America
+A0658,2024-08-14,Retail & E-commerce,11-50,Starter,North America
+A0659,2024-11-26,Manufacturing,11-50,Enterprise,Europe
+A0660,2025-10-18,Healthcare,1-10,Starter,APAC
+A0661,2025-11-26,Technology,1-10,Starter,North America
+A0662,2024-11-08,Retail & E-commerce,1-10,Starter,North America
+A0663,2026-03-07,Technology,11-50,Starter,North America
+A0664,2025-08-30,Technology,1-10,Professional,North America
+A0665,2025-07-03,Healthcare,51-200,Professional,North America
+A0666,2025-06-11,Healthcare,51-200,Starter,LATAM
+A0667,2026-02-23,Financial Services,1-10,Starter,Europe
+A0668,2026-01-11,Financial Services,1-10,Starter,Europe
+A0669,2024-02-14,Technology,51-200,Professional,North America
+A0670,2026-01-10,Technology,1-10,Professional,APAC
+A0671,2026-01-12,Technology,1-10,Starter,North America
+A0672,2024-11-18,Professional Services,11-50,Starter,North America
+A0673,2026-01-04,Retail & E-commerce,201+,Enterprise,Europe
+A0674,2026-01-14,Manufacturing,11-50,Professional,North America
+A0675,2025-04-12,Professional Services,1-10,Starter,LATAM
+A0676,2025-07-26,Healthcare,11-50,Starter,North America
+A0677,2025-02-08,Manufacturing,11-50,Enterprise,Europe
+A0678,2025-12-26,Real Estate,51-200,Professional,North America
+A0679,2026-03-01,Technology,11-50,Starter,Europe
+A0680,2025-10-06,Manufacturing,11-50,Professional,APAC
+A0681,2026-03-07,Retail & E-commerce,1-10,Starter,North America
+A0682,2025-07-22,Real Estate,1-10,Starter,LATAM
+A0683,2024-09-16,Technology,51-200,Enterprise,North America
+A0684,2024-07-21,Financial Services,201+,Professional,Europe
+A0685,2025-06-12,Technology,1-10,Starter,APAC
+A0686,2024-06-11,Financial Services,51-200,Enterprise,Europe
+A0687,2026-02-11,Financial Services,51-200,Professional,North America
+A0688,2026-03-27,Retail & E-commerce,11-50,Professional,North America
+A0689,2024-09-21,Professional Services,51-200,Professional,North America
+A0690,2025-08-04,Healthcare,1-10,Professional,North America
+A0691,2026-03-07,Healthcare,11-50,Starter,North America
+A0692,2026-03-03,Financial Services,11-50,Professional,LATAM
+A0693,2025-03-24,Technology,51-200,Professional,APAC
+A0694,2026-02-01,Financial Services,11-50,Professional,LATAM
+A0695,2025-12-03,Retail & E-commerce,51-200,Enterprise,Europe
+A0696,2025-08-13,Education,11-50,Starter,Europe
+A0697,2025-04-14,Technology,51-200,Professional,APAC
+A0698,2025-01-11,Technology,11-50,Professional,Middle East & Africa
+A0699,2026-03-12,Manufacturing,11-50,Professional,North America
+A0700,2025-12-10,Education,11-50,Starter,Europe
+A0701,2025-12-04,Financial Services,11-50,Starter,North America
+A0702,2025-08-28,Education,1-10,Starter,Europe
+A0703,2025-11-09,Technology,201+,Enterprise,North America
+A0704,2025-05-30,Retail & E-commerce,11-50,Professional,Europe
+A0705,2026-01-09,Healthcare,201+,Enterprise,Europe
+A0706,2026-03-11,Healthcare,11-50,Professional,North America
+A0707,2025-07-03,Technology,11-50,Professional,North America
+A0708,2026-02-01,Retail & E-commerce,1-10,Professional,North America
+A0709,2025-04-03,Technology,201+,Enterprise,North America
+A0710,2024-08-21,Manufacturing,1-10,Starter,North America
+A0711,2026-03-12,Technology,51-200,Professional,Europe
+A0712,2024-03-17,Retail & E-commerce,11-50,Enterprise,Europe
+A0713,2026-01-08,Manufacturing,1-10,Starter,North America
+A0714,2026-03-25,Technology,1-10,Starter,APAC
+A0715,2025-02-26,Financial Services,1-10,Starter,North America
+A0716,2024-09-11,Real Estate,1-10,Starter,North America
+A0717,2026-02-24,Healthcare,11-50,Starter,Europe
+A0718,2025-12-11,Technology,11-50,Professional,North America
+A0719,2024-02-03,Technology,1-10,Starter,North America
+A0720,2024-03-11,Retail & E-commerce,1-10,Starter,Europe
+A0721,2024-04-04,Healthcare,11-50,Enterprise,LATAM
+A0722,2026-02-23,Healthcare,1-10,Starter,APAC
+A0723,2026-02-10,Real Estate,11-50,Professional,Europe
+A0724,2025-10-17,Technology,1-10,Starter,North America
+A0725,2026-03-16,Financial Services,51-200,Enterprise,APAC
+A0726,2024-06-16,Healthcare,51-200,Professional,APAC
+A0727,2026-01-05,Real Estate,11-50,Professional,Europe
+A0728,2026-02-09,Technology,1-10,Starter,Middle East & Africa
+A0729,2024-07-23,Retail & E-commerce,11-50,Professional,North America
+A0730,2026-03-16,Retail & E-commerce,1-10,Starter,North America
+A0731,2025-10-30,Financial Services,11-50,Professional,Middle East & Africa
+A0732,2025-08-18,Healthcare,51-200,Professional,Europe
+A0733,2024-09-04,Healthcare,51-200,Professional,Europe
+A0734,2026-03-06,Retail & E-commerce,11-50,Professional,APAC
+A0735,2024-10-26,Real Estate,51-200,Enterprise,APAC
+A0736,2026-02-21,Retail & E-commerce,11-50,Professional,North America
+A0737,2024-03-01,Healthcare,1-10,Starter,Middle East & Africa
+A0738,2025-06-11,Manufacturing,1-10,Professional,APAC
+A0739,2025-09-16,Retail & E-commerce,201+,Professional,North America
+A0740,2025-01-14,Healthcare,201+,Enterprise,APAC
+A0741,2025-08-19,Retail & E-commerce,11-50,Professional,Europe
+A0742,2024-12-26,Healthcare,1-10,Starter,LATAM
+A0743,2025-02-19,Retail & E-commerce,51-200,Enterprise,LATAM
+A0744,2025-11-22,Retail & E-commerce,11-50,Starter,North America
+A0745,2024-02-27,Technology,1-10,Starter,North America
+A0746,2025-05-08,Retail & E-commerce,11-50,Professional,Europe
+A0747,2026-01-28,Financial Services,51-200,Professional,APAC
+A0748,2025-11-12,Retail & E-commerce,1-10,Starter,North America
+A0749,2025-04-06,Healthcare,1-10,Starter,Europe
+A0750,2024-09-27,Education,11-50,Professional,North America
+A0751,2024-09-24,Technology,51-200,Professional,Europe
+A0752,2024-11-10,Manufacturing,11-50,Starter,LATAM
+A0753,2024-08-01,Financial Services,51-200,Professional,North America
+A0754,2024-09-13,Manufacturing,51-200,Starter,Europe
+A0755,2025-11-29,Technology,11-50,Professional,Europe
+A0756,2025-08-28,Technology,1-10,Starter,Europe
+A0757,2025-02-11,Technology,1-10,Starter,Europe
+A0758,2026-03-10,Retail & E-commerce,11-50,Starter,APAC
+A0759,2025-04-17,Retail & E-commerce,11-50,Starter,North America
+A0760,2025-02-12,Education,201+,Enterprise,APAC
+A0761,2024-01-11,Retail & E-commerce,1-10,Professional,Europe
+A0762,2024-11-19,Retail & E-commerce,201+,Starter,North America
+A0763,2026-03-22,Technology,11-50,Professional,LATAM
+A0764,2024-03-27,Healthcare,11-50,Professional,APAC
+A0765,2024-10-28,Financial Services,11-50,Professional,LATAM
+A0766,2025-01-13,Manufacturing,1-10,Starter,North America
+A0767,2024-01-31,Real Estate,201+,Enterprise,North America
+A0768,2025-07-27,Retail & E-commerce,51-200,Enterprise,North America
+A0769,2026-01-06,Financial Services,1-10,Starter,Europe
+A0770,2026-02-21,Healthcare,11-50,Starter,North America
+A0771,2024-12-08,Real Estate,1-10,Starter,LATAM
+A0772,2024-10-03,Healthcare,1-10,Starter,APAC
+A0773,2026-02-23,Technology,51-200,Starter,North America
+A0774,2025-10-02,Technology,1-10,Starter,Middle East & Africa
+A0775,2026-01-03,Financial Services,11-50,Professional,APAC
+A0776,2026-01-12,Professional Services,51-200,Professional,LATAM
+A0777,2024-08-24,Education,1-10,Starter,North America
+A0778,2026-01-29,Healthcare,1-10,Starter,Europe
+A0779,2025-07-06,Retail & E-commerce,1-10,Starter,APAC
+A0780,2025-10-06,Professional Services,1-10,Starter,APAC
+A0781,2025-10-31,Technology,11-50,Starter,Europe
+A0782,2024-06-20,Financial Services,1-10,Professional,APAC
+A0783,2026-01-19,Real Estate,51-200,Professional,North America
+A0784,2025-05-06,Technology,11-50,Professional,APAC
+A0785,2026-03-24,Financial Services,1-10,Starter,Europe
+A0786,2024-01-17,Real Estate,1-10,Professional,North America
+A0787,2024-11-05,Financial Services,51-200,Professional,Europe
+A0788,2024-03-28,Technology,51-200,Professional,Europe
+A0789,2024-06-23,Retail & E-commerce,1-10,Starter,Europe
+A0790,2025-07-10,Retail & E-commerce,1-10,Starter,LATAM
+A0791,2026-01-17,Manufacturing,1-10,Starter,Europe
+A0792,2026-01-31,Manufacturing,51-200,Enterprise,Europe
+A0793,2024-07-15,Retail & E-commerce,201+,Enterprise,North America
+A0794,2025-07-18,Education,51-200,Professional,North America
+A0795,2024-04-11,Healthcare,1-10,Starter,North America
+A0796,2025-03-29,Real Estate,51-200,Professional,North America
+A0797,2026-01-12,Technology,11-50,Starter,North America
+A0798,2024-11-06,Manufacturing,1-10,Professional,APAC
+A0799,2026-02-28,Real Estate,11-50,Starter,North America
+A0800,2024-07-14,Retail & E-commerce,51-200,Professional,Europe
+A0801,2025-08-24,Technology,201+,Enterprise,North America
+A0802,2025-12-13,Retail & E-commerce,1-10,Starter,Europe
+A0803,2025-08-10,Healthcare,1-10,Starter,North America
+A0804,2024-11-18,Retail & E-commerce,1-10,Starter,North America
+A0805,2025-09-28,Retail & E-commerce,11-50,Starter,APAC
+A0806,2024-01-31,Education,1-10,Starter,North America
+A0807,2026-03-27,Real Estate,11-50,Professional,North America
+A0808,2024-07-25,Healthcare,1-10,Starter,North America
+A0809,2026-02-06,Education,11-50,Professional,North America
+A0810,2025-06-22,Professional Services,201+,Enterprise,LATAM
+A0811,2025-05-23,Education,1-10,Starter,Middle East & Africa
+A0812,2025-04-28,Technology,1-10,Starter,Europe
+A0813,2025-10-02,Healthcare,11-50,Starter,North America
+A0814,2026-03-04,Financial Services,51-200,Professional,APAC
+A0815,2026-03-16,Retail & E-commerce,11-50,Starter,North America
+A0816,2024-08-13,Professional Services,11-50,Starter,Europe
+A0817,2025-10-14,Retail & E-commerce,11-50,Starter,LATAM
+A0818,2025-05-30,Healthcare,51-200,Professional,Europe
+A0819,2024-06-12,Retail & E-commerce,1-10,Starter,APAC
+A0820,2025-11-14,Manufacturing,201+,Enterprise,North America
+A0821,2025-12-09,Education,1-10,Starter,APAC
+A0822,2025-01-15,Financial Services,1-10,Starter,Europe
+A0823,2024-05-24,Manufacturing,1-10,Professional,North America
+A0824,2025-09-27,Manufacturing,1-10,Starter,North America
+A0825,2026-03-05,Professional Services,1-10,Starter,APAC
+A0826,2024-09-20,Technology,11-50,Starter,APAC
+A0827,2026-03-14,Technology,1-10,Professional,North America
+A0828,2026-01-21,Retail & E-commerce,51-200,Enterprise,Europe
+A0829,2025-04-01,Financial Services,51-200,Professional,APAC
+A0830,2025-01-04,Healthcare,51-200,Enterprise,North America
+A0831,2024-08-13,Technology,51-200,Professional,APAC
+A0832,2025-02-12,Healthcare,11-50,Professional,Europe
+A0833,2026-01-23,Manufacturing,1-10,Starter,Europe
+A0834,2026-03-13,Technology,201+,Enterprise,Europe
+A0835,2024-10-25,Retail & E-commerce,51-200,Professional,APAC
+A0836,2025-06-06,Healthcare,51-200,Professional,APAC
+A0837,2026-02-17,Education,51-200,Professional,APAC
+A0838,2026-02-10,Technology,1-10,Starter,North America
+A0839,2026-03-25,Professional Services,51-200,Enterprise,Europe
+A0840,2026-03-02,Manufacturing,51-200,Professional,North America
+A0841,2024-01-30,Technology,1-10,Starter,Middle East & Africa
+A0842,2026-03-06,Professional Services,11-50,Enterprise,APAC
+A0843,2025-11-08,Technology,11-50,Enterprise,North America
+A0844,2026-01-10,Financial Services,1-10,Professional,North America
+A0845,2024-03-03,Real Estate,11-50,Starter,North America
+A0846,2025-09-01,Financial Services,11-50,Professional,North America
+A0847,2025-01-24,Real Estate,11-50,Professional,Europe
+A0848,2024-01-30,Healthcare,1-10,Starter,North America
+A0849,2024-03-24,Technology,51-200,Starter,Europe
+A0850,2024-08-16,Real Estate,11-50,Professional,APAC
+A0851,2024-05-25,Technology,1-10,Starter,APAC
+A0852,2026-03-18,Healthcare,11-50,Professional,North America
+A0853,2025-05-12,Manufacturing,51-200,Professional,North America
+A0854,2025-11-01,Financial Services,11-50,Professional,LATAM
+A0855,2025-01-04,Technology,11-50,Professional,LATAM
+A0856,2026-01-20,Education,201+,Enterprise,Europe
+A0857,2026-03-04,Technology,11-50,Professional,LATAM
+A0858,2024-02-14,Healthcare,11-50,Professional,North America
+A0859,2024-07-21,Healthcare,1-10,Starter,North America
+A0860,2026-01-25,Technology,1-10,Starter,North America
+A0861,2025-07-07,Real Estate,1-10,Professional,Europe
+A0862,2026-01-02,Professional Services,1-10,Starter,Europe
+A0863,2024-06-04,Real Estate,1-10,Starter,Europe
+A0864,2025-12-26,Manufacturing,201+,Starter,North America
+A0865,2025-01-08,Manufacturing,201+,Enterprise,Europe
+A0866,2025-03-06,Healthcare,11-50,Starter,Europe
+A0867,2024-11-19,Healthcare,1-10,Starter,LATAM
+A0868,2026-03-19,Technology,1-10,Starter,Europe
+A0869,2025-02-02,Technology,51-200,Enterprise,Europe
+A0870,2024-12-22,Retail & E-commerce,201+,Enterprise,APAC
+A0871,2025-11-09,Financial Services,201+,Enterprise,Europe
+A0872,2025-05-21,Retail & E-commerce,201+,Professional,North America
+A0873,2025-06-27,Retail & E-commerce,201+,Enterprise,Europe
+A0874,2025-12-12,Retail & E-commerce,1-10,Starter,North America
+A0875,2024-11-06,Technology,51-200,Enterprise,LATAM
+A0876,2024-10-23,Professional Services,11-50,Professional,North America
+A0877,2025-06-20,Real Estate,1-10,Starter,North America
+A0878,2026-01-04,Retail & E-commerce,11-50,Professional,Europe
+A0879,2026-01-26,Healthcare,51-200,Starter,LATAM
+A0880,2024-05-19,Education,1-10,Starter,North America
+A0881,2026-01-04,Retail & E-commerce,11-50,Professional,APAC
+A0882,2024-01-31,Financial Services,1-10,Starter,APAC
+A0883,2024-11-09,Financial Services,1-10,Starter,Europe
+A0884,2026-02-20,Retail & E-commerce,1-10,Enterprise,Europe
+A0885,2025-02-15,Real Estate,11-50,Professional,Europe
+A0886,2025-07-23,Healthcare,51-200,Enterprise,Europe
+A0887,2025-01-12,Professional Services,11-50,Starter,North America
+A0888,2025-09-05,Education,1-10,Starter,LATAM
+A0889,2026-01-21,Professional Services,1-10,Starter,Europe
+A0890,2024-02-05,Financial Services,1-10,Starter,North America
+A0891,2025-03-21,Financial Services,11-50,Professional,Europe
+A0892,2025-01-29,Financial Services,1-10,Starter,North America
+A0893,2026-03-24,Manufacturing,1-10,Starter,North America
+A0894,2024-09-24,Real Estate,51-200,Starter,North America
+A0895,2025-09-14,Financial Services,51-200,Enterprise,Europe
+A0896,2026-03-29,Financial Services,51-200,Professional,North America
+A0897,2026-03-06,Manufacturing,11-50,Starter,North America
+A0898,2025-08-13,Education,1-10,Starter,Europe
+A0899,2024-12-18,Retail & E-commerce,201+,Enterprise,North America
+A0900,2025-11-09,Professional Services,51-200,Enterprise,Europe
+A0901,2025-04-11,Financial Services,11-50,Professional,Europe
+A0902,2026-02-19,Professional Services,11-50,Professional,North America
+A0903,2025-08-22,Professional Services,1-10,Starter,APAC
+A0904,2025-02-21,Retail & E-commerce,11-50,Starter,North America
+A0905,2025-04-12,Healthcare,1-10,Starter,APAC
+A0906,2025-11-15,Technology,1-10,Professional,APAC
+A0907,2026-02-23,Professional Services,51-200,Starter,APAC
+A0908,2024-03-20,Technology,11-50,Professional,Europe
+A0909,2025-09-07,Financial Services,201+,Enterprise,APAC
+A0910,2024-06-09,Manufacturing,1-10,Starter,North America
+A0911,2024-02-04,Technology,11-50,Professional,Europe
+A0912,2024-12-04,Technology,1-10,Starter,North America
+A0913,2025-03-13,Technology,1-10,Starter,Europe
+A0914,2026-03-18,Technology,201+,Enterprise,LATAM
+A0915,2024-11-23,Manufacturing,1-10,Starter,Europe
+A0916,2024-11-29,Retail & E-commerce,11-50,Professional,North America
+A0917,2026-03-08,Financial Services,1-10,Starter,APAC
+A0918,2025-03-23,Education,11-50,Enterprise,APAC
+A0919,2024-07-15,Real Estate,11-50,Professional,Europe
+A0920,2026-03-10,Manufacturing,11-50,Professional,APAC
+A0921,2025-03-27,Financial Services,11-50,Starter,Europe
+A0922,2024-04-09,Retail & E-commerce,11-50,Starter,North America
+A0923,2025-05-29,Technology,201+,Enterprise,North America
+A0924,2025-10-25,Real Estate,11-50,Starter,APAC
+A0925,2024-04-27,Professional Services,51-200,Enterprise,North America
+A0926,2024-07-31,Professional Services,11-50,Professional,North America
+A0927,2026-02-22,Healthcare,1-10,Starter,North America
+A0928,2024-01-05,Financial Services,51-200,Professional,Europe
+A0929,2026-02-15,Education,1-10,Professional,North America
+A0930,2026-03-14,Healthcare,201+,Enterprise,North America
+A0931,2025-06-09,Education,51-200,Professional,LATAM
+A0932,2025-04-10,Technology,11-50,Professional,North America
+A0933,2024-01-19,Technology,1-10,Starter,Middle East & Africa
+A0934,2026-02-12,Retail & E-commerce,51-200,Enterprise,APAC
+A0935,2024-03-28,Technology,11-50,Starter,LATAM
+A0936,2025-03-02,Technology,11-50,Professional,North America
+A0937,2026-01-21,Financial Services,1-10,Starter,North America
+A0938,2026-03-09,Technology,1-10,Professional,North America
+A0939,2024-10-21,Manufacturing,1-10,Starter,Europe
+A0940,2026-03-25,Real Estate,51-200,Professional,APAC
+A0941,2026-01-20,Retail & E-commerce,11-50,Starter,North America
+A0942,2025-07-21,Real Estate,1-10,Starter,APAC
+A0943,2025-06-04,Retail & E-commerce,11-50,Professional,Europe
+A0944,2026-01-20,Financial Services,1-10,Starter,APAC
+A0945,2024-04-17,Technology,1-10,Starter,Europe
+A0946,2025-07-10,Technology,1-10,Starter,Europe
+A0947,2025-05-12,Technology,51-200,Starter,Europe
+A0948,2026-03-01,Professional Services,1-10,Starter,North America
+A0949,2025-03-27,Technology,11-50,Starter,North America
+A0950,2024-03-27,Education,201+,Enterprise,APAC
+A0951,2026-02-15,Healthcare,1-10,Starter,North America
+A0952,2026-01-03,Real Estate,11-50,Professional,LATAM
+A0953,2025-06-01,Manufacturing,11-50,Starter,Europe
+A0954,2024-06-07,Financial Services,11-50,Professional,North America
+A0955,2025-01-08,Real Estate,1-10,Starter,APAC
+A0956,2024-02-26,Financial Services,1-10,Professional,North America
+A0957,2025-05-24,Manufacturing,1-10,Starter,Middle East & Africa
+A0958,2025-07-31,Retail & E-commerce,201+,Enterprise,North America
+A0959,2024-04-30,Manufacturing,1-10,Starter,APAC
+A0960,2024-10-20,Retail & E-commerce,51-200,Professional,North America
+A0961,2025-12-25,Education,11-50,Professional,North America
+A0962,2024-09-12,Financial Services,51-200,Starter,Europe
+A0963,2026-01-24,Manufacturing,201+,Enterprise,Europe
+A0964,2026-02-13,Technology,11-50,Starter,Europe
+A0965,2026-02-04,Financial Services,1-10,Professional,North America
+A0966,2024-10-12,Retail & E-commerce,51-200,Enterprise,APAC
+A0967,2024-09-28,Financial Services,1-10,Starter,North America
+A0968,2025-05-14,Technology,1-10,Starter,Europe
+A0969,2025-06-30,Retail & E-commerce,201+,Professional,APAC
+A0970,2024-07-16,Professional Services,11-50,Starter,Europe
+A0971,2026-01-08,Real Estate,1-10,Professional,Europe
+A0972,2025-10-07,Education,51-200,Starter,APAC
+A0973,2025-01-05,Professional Services,1-10,Starter,North America
+A0974,2025-09-18,Retail & E-commerce,1-10,Starter,North America
+A0975,2025-09-02,Financial Services,201+,Enterprise,Middle East & Africa
+A0976,2026-03-11,Education,51-200,Professional,APAC
+A0977,2025-02-27,Healthcare,51-200,Professional,APAC
+A0978,2026-01-01,Education,11-50,Starter,North America
+A0979,2025-08-14,Manufacturing,11-50,Starter,Europe
+A0980,2024-09-15,Real Estate,1-10,Starter,North America
+A0981,2025-11-10,Technology,51-200,Professional,North America
+A0982,2024-03-29,Financial Services,1-10,Starter,APAC
+A0983,2024-11-14,Financial Services,201+,Professional,North America
+A0984,2024-03-08,Real Estate,51-200,Starter,North America
+A0985,2025-05-20,Retail & E-commerce,201+,Enterprise,Middle East & Africa
+A0986,2025-05-07,Education,1-10,Starter,North America
+A0987,2026-02-13,Healthcare,11-50,Professional,APAC
+A0988,2024-07-05,Retail & E-commerce,11-50,Starter,Europe
+A0989,2025-06-21,Manufacturing,1-10,Starter,North America
+A0990,2024-11-19,Retail & E-commerce,11-50,Starter,APAC
+A0991,2024-02-14,Retail & E-commerce,1-10,Starter,APAC
+A0992,2024-07-10,Education,1-10,Starter,North America
+A0993,2025-11-12,Retail & E-commerce,11-50,Starter,APAC
+A0994,2025-02-08,Healthcare,1-10,Starter,APAC
+A0995,2026-01-26,Retail & E-commerce,1-10,Starter,APAC
+A0996,2026-03-19,Retail & E-commerce,51-200,Starter,Europe
+A0997,2024-08-09,Real Estate,11-50,Professional,Europe
+A0998,2024-02-19,Manufacturing,1-10,Starter,Middle East & Africa
+A0999,2025-02-02,Healthcare,1-10,Starter,Europe
+A1000,2026-02-09,Retail & E-commerce,11-50,Professional,Europe
+A1001,2024-04-03,Retail & E-commerce,1-10,Starter,North America
+A1002,2024-04-08,Retail & E-commerce,51-200,Enterprise,APAC
+A1003,2024-08-10,Retail & E-commerce,11-50,Starter,Europe
+A1004,2025-07-17,Technology,51-200,Professional,LATAM
+A1005,2024-02-07,Retail & E-commerce,201+,Enterprise,Europe
+A1006,2024-01-02,Professional Services,11-50,Professional,Europe
+A1007,2024-11-07,Education,1-10,Starter,North America
+A1008,2026-01-23,Education,11-50,Professional,North America
+A1009,2026-03-18,Technology,1-10,Professional,Europe
+A1010,2024-12-12,Technology,1-10,Starter,North America
+A1011,2024-02-14,Financial Services,1-10,Starter,LATAM
+A1012,2024-12-23,Professional Services,1-10,Starter,Europe
+A1013,2024-09-15,Technology,1-10,Professional,North America
+A1014,2024-09-24,Retail & E-commerce,1-10,Starter,North America
+A1015,2026-03-20,Retail & E-commerce,51-200,Enterprise,Europe
+A1016,2024-04-19,Retail & E-commerce,1-10,Professional,Europe
+A1017,2025-05-16,Retail & E-commerce,51-200,Starter,Europe
+A1018,2026-02-22,Manufacturing,1-10,Starter,Europe
+A1019,2025-10-04,Technology,1-10,Professional,APAC
+A1020,2024-12-23,Healthcare,51-200,Professional,Europe
+A1021,2026-02-18,Professional Services,1-10,Starter,North America
+A1022,2025-07-22,Technology,51-200,Professional,North America
+A1023,2025-06-27,Technology,11-50,Professional,North America
+A1024,2025-11-26,Healthcare,1-10,Professional,Middle East & Africa
+A1025,2025-04-07,Healthcare,11-50,Professional,North America
+A1026,2025-12-15,Financial Services,1-10,Starter,North America
+A1027,2026-03-20,Retail & E-commerce,51-200,Starter,North America
+A1028,2025-10-11,Technology,1-10,Starter,North America
+A1029,2024-08-23,Education,51-200,Enterprise,LATAM
+A1030,2025-06-23,Financial Services,11-50,Starter,North America
+A1031,2025-04-02,Professional Services,51-200,Professional,Europe
+A1032,2024-10-12,Technology,201+,Enterprise,North America
+A1033,2026-03-02,Technology,1-10,Starter,North America
+A1034,2024-04-04,Healthcare,51-200,Professional,North America
+A1035,2025-07-30,Financial Services,11-50,Starter,Europe
+A1036,2024-05-05,Retail & E-commerce,201+,Enterprise,North America
+A1037,2026-03-25,Professional Services,201+,Enterprise,Middle East & Africa
+A1038,2024-07-03,Manufacturing,1-10,Professional,APAC
+A1039,2024-03-20,Healthcare,1-10,Starter,North America
+A1040,2025-05-23,Education,1-10,Starter,APAC
+A1041,2025-05-31,Real Estate,11-50,Professional,Europe
+A1042,2025-04-03,Retail & E-commerce,1-10,Starter,Europe
+A1043,2025-07-08,Manufacturing,11-50,Starter,North America
+A1044,2025-05-19,Real Estate,1-10,Starter,North America
+A1045,2026-03-21,Real Estate,51-200,Enterprise,North America
+A1046,2024-07-17,Technology,1-10,Starter,APAC
+A1047,2026-01-07,Manufacturing,51-200,Professional,APAC
+A1048,2026-03-25,Technology,11-50,Professional,North America
+A1049,2025-10-28,Healthcare,1-10,Professional,APAC
+A1050,2025-11-30,Manufacturing,51-200,Enterprise,Europe
+A1051,2024-04-06,Healthcare,51-200,Professional,North America
+A1052,2025-02-06,Technology,201+,Starter,APAC
+A1053,2024-02-14,Healthcare,11-50,Professional,North America
+A1054,2026-03-25,Manufacturing,1-10,Starter,Europe
+A1055,2025-07-04,Technology,11-50,Professional,Europe
+A1056,2025-04-12,Retail & E-commerce,11-50,Starter,Europe
+A1057,2024-05-09,Technology,11-50,Professional,APAC
+A1058,2024-04-09,Technology,51-200,Professional,North America
+A1059,2026-02-02,Technology,1-10,Professional,North America
+A1060,2025-03-10,Manufacturing,51-200,Starter,North America
+A1061,2025-12-03,Financial Services,11-50,Starter,APAC
+A1062,2024-12-18,Financial Services,201+,Enterprise,Europe
+A1063,2024-11-14,Financial Services,1-10,Starter,North America
+A1064,2024-07-17,Real Estate,1-10,Starter,LATAM
+A1065,2025-12-11,Retail & E-commerce,11-50,Starter,North America
+A1066,2026-01-31,Professional Services,51-200,Professional,Europe
+A1067,2024-01-03,Professional Services,1-10,Professional,LATAM
+A1068,2024-06-21,Education,1-10,Professional,North America
+A1069,2024-02-14,Manufacturing,51-200,Professional,Europe
+A1070,2025-04-25,Technology,51-200,Enterprise,APAC
+A1071,2026-01-08,Real Estate,11-50,Professional,APAC
+A1072,2024-05-04,Financial Services,51-200,Professional,North America
+A1073,2024-01-29,Healthcare,11-50,Starter,North America
+A1074,2024-07-31,Healthcare,11-50,Professional,North America
+A1075,2025-09-26,Retail & E-commerce,1-10,Starter,North America
+A1076,2024-09-28,Manufacturing,201+,Enterprise,Europe
+A1077,2025-03-21,Retail & E-commerce,11-50,Starter,Europe
+A1078,2024-02-27,Technology,51-200,Starter,Europe
+A1079,2024-08-23,Technology,11-50,Enterprise,APAC
+A1080,2024-02-05,Healthcare,51-200,Professional,Europe
+A1081,2026-02-15,Technology,1-10,Starter,North America
+A1082,2024-01-12,Retail & E-commerce,11-50,Professional,North America
+A1083,2026-03-25,Professional Services,11-50,Starter,North America
+A1084,2024-03-10,Financial Services,51-200,Professional,North America
+A1085,2025-10-22,Real Estate,201+,Enterprise,APAC
+A1086,2024-01-06,Real Estate,11-50,Starter,Europe
+A1087,2026-02-18,Real Estate,1-10,Starter,APAC
+A1088,2026-01-29,Real Estate,11-50,Enterprise,North America
+A1089,2024-11-20,Retail & E-commerce,11-50,Professional,Europe
+A1090,2026-01-10,Professional Services,1-10,Starter,North America
+A1091,2026-02-09,Real Estate,1-10,Starter,LATAM
+A1092,2025-12-26,Financial Services,1-10,Professional,North America
+A1093,2025-05-05,Financial Services,11-50,Starter,North America
+A1094,2024-07-04,Real Estate,11-50,Starter,Europe
+A1095,2025-12-06,Education,11-50,Starter,APAC
+A1096,2024-05-05,Healthcare,51-200,Starter,North America
+A1097,2026-01-18,Healthcare,1-10,Enterprise,Europe
+A1098,2025-09-10,Healthcare,201+,Starter,North America
+A1099,2025-04-04,Technology,11-50,Professional,Europe
+A1100,2024-01-24,Education,1-10,Starter,North America
+A1101,2025-09-28,Financial Services,1-10,Enterprise,Europe
+A1102,2026-01-11,Healthcare,51-200,Enterprise,North America
+A1103,2025-11-01,Retail & E-commerce,1-10,Starter,Europe
+A1104,2025-11-19,Financial Services,201+,Professional,Europe
+A1105,2025-10-11,Retail & E-commerce,1-10,Starter,North America
+A1106,2026-02-05,Financial Services,11-50,Professional,LATAM
+A1107,2024-05-18,Healthcare,201+,Professional,Middle East & Africa
+A1108,2026-01-26,Professional Services,11-50,Professional,North America
+A1109,2026-02-10,Technology,1-10,Starter,APAC
+A1110,2026-01-27,Healthcare,1-10,Professional,North America
+A1111,2024-10-23,Healthcare,11-50,Starter,APAC
+A1112,2025-02-27,Technology,11-50,Starter,Europe
+A1113,2025-10-24,Financial Services,11-50,Starter,Europe
+A1114,2024-10-29,Healthcare,51-200,Professional,North America
+A1115,2024-12-11,Technology,201+,Starter,APAC
+A1116,2026-01-07,Technology,1-10,Starter,North America
+A1117,2026-02-12,Retail & E-commerce,51-200,Professional,North America
+A1118,2024-08-04,Technology,1-10,Starter,APAC
+A1119,2024-07-31,Financial Services,11-50,Enterprise,LATAM
+A1120,2024-11-15,Healthcare,11-50,Starter,North America
+A1121,2026-01-24,Healthcare,11-50,Starter,North America
+A1122,2024-08-28,Financial Services,201+,Enterprise,North America
+A1123,2025-12-21,Financial Services,11-50,Professional,North America
+A1124,2024-12-03,Technology,51-200,Professional,Europe
+A1125,2024-01-05,Professional Services,201+,Enterprise,Europe
+A1126,2025-09-03,Real Estate,1-10,Starter,North America
+A1127,2025-10-23,Manufacturing,1-10,Starter,North America
+A1128,2024-03-20,Professional Services,11-50,Enterprise,APAC
+A1129,2025-12-04,Manufacturing,201+,Enterprise,North America
+A1130,2026-01-14,Retail & E-commerce,11-50,Professional,APAC
+A1131,2025-03-20,Manufacturing,1-10,Starter,North America
+A1132,2025-09-24,Education,11-50,Professional,North America
+A1133,2024-03-03,Manufacturing,11-50,Professional,Middle East & Africa
+A1134,2024-08-25,Healthcare,1-10,Professional,LATAM
+A1135,2026-03-28,Healthcare,51-200,Professional,North America
+A1136,2026-01-12,Technology,1-10,Professional,APAC
+A1137,2025-03-20,Retail & E-commerce,11-50,Enterprise,North America
+A1138,2026-03-14,Technology,11-50,Professional,APAC
+A1139,2024-02-23,Manufacturing,51-200,Professional,LATAM
+A1140,2026-03-25,Financial Services,11-50,Professional,APAC
+A1141,2025-06-29,Technology,11-50,Enterprise,LATAM
+A1142,2026-02-23,Real Estate,201+,Enterprise,North America
+A1143,2024-11-02,Healthcare,11-50,Starter,Europe
+A1144,2024-04-08,Financial Services,51-200,Professional,APAC
+A1145,2025-10-29,Technology,11-50,Enterprise,APAC
+A1146,2024-10-06,Technology,1-10,Starter,North America
+A1147,2024-09-25,Retail & E-commerce,51-200,Professional,Europe
+A1148,2025-07-29,Retail & E-commerce,1-10,Starter,Europe
+A1149,2025-09-08,Financial Services,11-50,Professional,North America
+A1150,2024-07-09,Technology,11-50,Starter,North America
+A1151,2025-04-07,Technology,1-10,Starter,APAC
+A1152,2025-11-15,Retail & E-commerce,51-200,Enterprise,APAC
+A1153,2025-01-23,Technology,1-10,Starter,APAC
+A1154,2024-05-29,Financial Services,1-10,Starter,LATAM
+A1155,2025-01-13,Manufacturing,51-200,Professional,North America
+A1156,2024-02-02,Retail & E-commerce,51-200,Starter,APAC
+A1157,2025-08-19,Technology,11-50,Starter,North America
+A1158,2026-02-16,Education,11-50,Starter,APAC
+A1159,2025-02-06,Real Estate,1-10,Starter,North America
+A1160,2024-10-28,Technology,51-200,Starter,APAC
+A1161,2025-11-29,Real Estate,1-10,Starter,LATAM
+A1162,2024-11-06,Retail & E-commerce,1-10,Professional,North America
+A1163,2026-01-02,Manufacturing,51-200,Enterprise,North America
+A1164,2024-09-29,Professional Services,1-10,Starter,North America
+A1165,2024-03-14,Financial Services,11-50,Starter,APAC
+A1166,2025-03-11,Technology,1-10,Starter,APAC
+A1167,2024-12-02,Education,1-10,Starter,North America
+A1168,2025-09-21,Education,1-10,Professional,APAC
+A1169,2026-03-23,Financial Services,11-50,Starter,APAC
+A1170,2025-07-30,Education,1-10,Starter,APAC
+A1171,2026-02-09,Technology,51-200,Starter,North America
+A1172,2024-08-18,Technology,1-10,Starter,North America
+A1173,2025-01-25,Financial Services,51-200,Professional,North America
+A1174,2025-12-09,Manufacturing,1-10,Professional,North America
+A1175,2026-03-04,Technology,11-50,Starter,North America
+A1176,2026-02-14,Financial Services,51-200,Enterprise,Europe
+A1177,2025-12-01,Technology,201+,Enterprise,North America
+A1178,2024-09-03,Retail & E-commerce,51-200,Professional,Europe
+A1179,2026-02-25,Financial Services,1-10,Starter,Europe
+A1180,2026-03-28,Manufacturing,1-10,Professional,Europe
+A1181,2026-03-09,Healthcare,201+,Enterprise,LATAM
+A1182,2024-09-09,Healthcare,201+,Enterprise,APAC
+A1183,2024-09-16,Technology,11-50,Professional,North America
+A1184,2026-01-12,Manufacturing,1-10,Starter,LATAM
+A1185,2024-09-19,Technology,1-10,Professional,North America
+A1186,2025-07-16,Financial Services,11-50,Professional,Europe
+A1187,2025-06-21,Technology,1-10,Starter,North America
+A1188,2025-03-30,Technology,11-50,Professional,LATAM
+A1189,2026-02-02,Financial Services,1-10,Starter,APAC
+A1190,2025-08-23,Technology,11-50,Enterprise,Europe
+A1191,2024-10-24,Technology,201+,Enterprise,APAC
+A1192,2025-05-17,Real Estate,11-50,Starter,North America
+A1193,2024-09-16,Healthcare,11-50,Starter,Europe
+A1194,2025-06-08,Manufacturing,1-10,Starter,Europe
+A1195,2024-06-06,Technology,201+,Enterprise,Middle East & Africa
+A1196,2024-10-07,Technology,51-200,Professional,North America
+A1197,2026-02-10,Education,11-50,Starter,APAC
+A1198,2024-01-11,Technology,1-10,Starter,North America
+A1199,2024-06-09,Education,51-200,Professional,North America
+A1200,2025-12-22,Retail & E-commerce,51-200,Starter,North America

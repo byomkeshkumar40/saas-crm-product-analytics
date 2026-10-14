@@ -1,0 +1,17 @@
+dimension,segment,cohort_accounts,activated_accounts,activation_rate_pct
+All,All cohort accounts,273,103,37.7
+Plan,Enterprise,45,27,60.0
+Plan,Professional,115,49,42.6
+Plan,Starter,113,27,23.9
+Company size,1-10,104,22,21.2
+Company size,11-50,97,39,40.2
+Company size,201+,22,15,68.2
+Company size,51-200,50,27,54.0
+Industry,Education,24,7,29.2
+Industry,Financial Services,37,14,37.8
+Industry,Healthcare,32,12,37.5
+Industry,Manufacturing,34,13,38.2
+Industry,Professional Services,18,8,44.4
+Industry,Real Estate,27,11,40.7
+Industry,Retail & E-commerce,41,14,34.1
+Industry,Technology,60,24,40.0

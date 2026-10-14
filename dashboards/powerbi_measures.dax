@@ -1,0 +1,109 @@
+// =====================================================================
+// SaaS CRM Product Usage & Feature Adoption - Power BI DAX measures
+// Model tables (data/processed/powerbi/):
+//   dim_accounts, dim_users, dim_date, dim_feature, fact_events
+// Relationships (all many-to-one, single direction, dim -> fact):
+//   dim_date[date]            1 -> * fact_events[event_date]
+//   dim_accounts[account_id]  1 -> * fact_events[account_id]
+//   dim_users[user_id]        1 -> * fact_events[user_id]
+//   dim_feature[feature_name] 1 -> * fact_events[feature_name]
+// Do NOT relate dim_users to dim_accounts (creates an ambiguous path to fact_events).
+// Mark dim_date as the date table. Put these measures in a table named "_Measures".
+//
+// STATUS: written to mirror the SQL in sql/product_analysis.sql, but NOT executed in Power BI
+// Desktop (not available when the project was built). Reconcile every card against
+// data/processed/kpi_tables/*.csv after import (expected values are in dashboards/dashboard_guide.md).
+// =====================================================================
+
+// ---------- Volume ----------
+Total Accounts = DISTINCTCOUNT ( dim_accounts[account_id] )
+Total Users    = DISTINCTCOUNT ( dim_users[user_id] )
+Total Events   = COUNTROWS ( fact_events )
+
+// Accounts / users with >= 1 event in the current filter context
+Active Accounts = DISTINCTCOUNT ( fact_events[account_id] )
+Active Users    = DISTINCTCOUNT ( fact_events[user_id] )
+
+Active Users % of Total Users =
+    DIVIDE ( [Active Users], CALCULATE ( [Total Users], REMOVEFILTERS ( dim_date ), REMOVEFILTERS ( dim_feature ) ) )
+
+// ---------- DAU / MAU ----------
+// [DAU] is only meaningful with dim_date[date] on the axis (one day per row).
+DAU = COALESCE ( DISTINCTCOUNT ( fact_events[user_id] ), 0 )
+
+// Mean daily active users over every calendar day in context; zero-activity days count as 0.
+Avg DAU = AVERAGEX ( VALUES ( dim_date[date] ), [DAU] )
+
+DAU 7D Avg =
+    AVERAGEX ( DATESINPERIOD ( dim_date[date], MAX ( dim_date[date] ), -7, DAY ), [DAU] )
+
+// MAU: distinct users with >= 1 event in the month(s) in context. Put dim_date[year_month] on the axis.
+MAU = DISTINCTCOUNT ( fact_events[user_id] )
+
+// Month number of the last month in the window (MAX does not accept text columns, so use month_number).
+Latest Month = CALCULATE ( MAX ( dim_date[month_number] ), REMOVEFILTERS ( dim_date ) )
+
+MAU (Latest Month) =
+    CALCULATE ( DISTINCTCOUNT ( fact_events[user_id] ), dim_date[month_number] = [Latest Month] )
+
+// Stickiness for the month(s) in context. With year_month on the axis it equals SQL q03_dau_mau_ratio.
+// (At grand-total level it divides the 90-day mean DAU by 90-day active users - do not compare it to q03.)
+DAU/MAU Ratio = DIVIDE ( [Avg DAU], [MAU] )
+
+DAU/MAU (Latest Month) =
+    CALCULATE ( [Avg DAU], dim_date[month_number] = [Latest Month] ) / [MAU (Latest Month)]
+
+// ---------- Activation (account level) ----------
+// Cohort = accounts signed up in the window with >= 14 observed days; activated = >= 2 users AND >= 3
+// features inside the first 14 days. Flags are precomputed in dim_accounts by SQL (q04 definition).
+Activation Cohort Accounts =
+    CALCULATE ( COUNTROWS ( dim_accounts ), dim_accounts[is_activation_cohort] = 1 )
+
+Activated Accounts =
+    CALCULATE ( COUNTROWS ( dim_accounts ), dim_accounts[is_activated] = 1 )
+
+Activation Rate = DIVIDE ( [Activated Accounts], [Activation Cohort Accounts] )
+
+// ---------- Feature adoption & usage ----------
+// Use with dim_feature[feature_name] on the axis.
+Accounts Using Feature = DISTINCTCOUNT ( fact_events[account_id] )
+Users Using Feature    = DISTINCTCOUNT ( fact_events[user_id] )
+
+// Account-level adoption: accounts using the feature / ACTIVE accounts (any feature) in the same slicer context.
+Account Adoption % =
+    DIVIDE ( [Accounts Using Feature], CALCULATE ( [Active Accounts], REMOVEFILTERS ( dim_feature ) ) )
+
+// User-level adoption: users using the feature / ACTIVE users in the same slicer context.
+User Adoption % =
+    DIVIDE ( [Users Using Feature], CALCULATE ( [Active Users], REMOVEFILTERS ( dim_feature ) ) )
+
+Feature Event Share % =
+    DIVIDE ( [Total Events], CALCULATE ( [Total Events], REMOVEFILTERS ( dim_feature ) ) )
+
+Events per Active User    = DIVIDE ( [Total Events], [Active Users] )
+Events per Active Account = DIVIDE ( [Total Events], [Active Accounts] )
+
+// Advanced-feature adoption (Workflow Automation or Reporting), account level.
+Advanced Feature Accounts =
+    CALCULATE ( DISTINCTCOUNT ( fact_events[account_id] ), dim_feature[feature_tier] = "Advanced" )
+
+Advanced Adoption % = DIVIDE ( [Advanced Feature Accounts], CALCULATE ( [Active Accounts], REMOVEFILTERS ( dim_feature ) ) )
+
+// ---------- Segments ----------
+// Accounts in a segment (dim_accounts slicers: plan, industry, company_size, account_cohort).
+Accounts = COUNTROWS ( dim_accounts )
+
+Active Account % = DIVIDE ( CALCULATE ( COUNTROWS ( dim_accounts ), dim_accounts[is_active_90d] = 1 ), [Accounts] )
+
+// NOTE: new-vs-established on the dashboard should use the fixed 30-day exposure table
+// kpi_tables/q07_new_vs_established.csv (see dashboard_guide.md). A 90-day measure sliced by
+// dim_accounts[account_cohort] compares accounts with very different time-in-window.
+
+// ---------- Inactive accounts ----------
+Inactive Eligible Accounts =
+    CALCULATE ( COUNTROWS ( dim_accounts ), dim_accounts[is_inactive_eligible] = 1 )
+
+Inactive Accounts =
+    CALCULATE ( COUNTROWS ( dim_accounts ), dim_accounts[is_inactive_last30d] = 1 )
+
+Inactive Account % = DIVIDE ( [Inactive Accounts], [Inactive Eligible Accounts] )

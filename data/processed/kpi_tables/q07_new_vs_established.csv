@@ -1,0 +1,13 @@
+cohort,eligible_accounts,active_accounts,feature_name,adopting_accounts,adoption_pct_of_active_accounts
+Established (signed up before window),877,667,Contact Management,580,87.0
+New (signed up in window),206,176,Contact Management,160,90.9
+Established (signed up before window),877,667,Deal Pipeline,480,72.0
+New (signed up in window),206,176,Deal Pipeline,121,68.8
+Established (signed up before window),877,667,Email Integration,349,52.3
+New (signed up in window),206,176,Email Integration,80,45.5
+Established (signed up before window),877,667,Lead Management,550,82.5
+New (signed up in window),206,176,Lead Management,150,85.2
+Established (signed up before window),877,667,Reporting,271,40.6
+New (signed up in window),206,176,Reporting,33,18.8
+Established (signed up before window),877,667,Workflow Automation,173,25.9
+New (signed up in window),206,176,Workflow Automation,14,8.0
